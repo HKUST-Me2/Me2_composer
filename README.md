@@ -1,5 +1,8 @@
 # Me2
 
+[![hackmd-github-sync-badge](https://hackmd.io/QDqmvKNoRKiq7j4fJOAdZg/badge)](https://hackmd.io/QDqmvKNoRKiq7j4fJOAdZg)
+
+
 > Changelog: 
 > 
 > 2022-02-16: Added Section - Get Started
