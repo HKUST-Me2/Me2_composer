@@ -89,11 +89,12 @@
                     {
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.BeginDialog",
                           "$designer": {
-                            "id": "ZX7RWM"
+                            "id": "1GyH3a"
                           },
-                          "activity": "${SendActivity_ZX7RWM()}"
+                          "activityProcessed": true,
+                          "dialog": "chat"
                         }
                       ],
                       "value": "chat with me"
@@ -101,11 +102,12 @@
                     {
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.BeginDialog",
                           "$designer": {
-                            "id": "gtoPp2"
+                            "id": "HQawQX"
                           },
-                          "activity": "${SendActivity_gtoPp2()}"
+                          "activityProcessed": true,
+                          "dialog": "education"
                         }
                       ],
                       "value": "learn about sexual harassment"
@@ -113,23 +115,25 @@
                     {
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
+                          "$kind": "Microsoft.BeginDialog",
                           "$designer": {
-                            "id": "LqLqAy"
+                            "id": "fOlEWj"
                           },
-                          "activity": "${SendActivity_LqLqAy()}"
+                          "activityProcessed": true,
+                          "dialog": "report"
                         }
                       ],
                       "value": "record case"
                     }
                   ],
-                  "condition": "=user.choice"
+                  "condition": "user.choice"
                 }
               ]
             }
           ]
         }
-      ]
+      ],
+      "priority": 0
     },
     {
       "$kind": "Microsoft.OnUnknownIntent",
@@ -151,20 +155,21 @@
     {
       "$kind": "Microsoft.OnQnAMatch",
       "$designer": {
-        "id": "r5pVxb"
+        "id": "rExLfM",
+        "name": "QnA Intent recognized"
       },
       "actions": [
         {
           "$kind": "Microsoft.IfCondition",
           "$designer": {
-            "id": "p962qS"
+            "id": "Fbom9U"
           },
           "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
           "actions": [
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "4R1Q8U"
+                "id": "zNBa44"
               },
               "property": "dialog.qnaContext",
               "value": "=turn.recognized.answers[0].context.prompts"
@@ -172,18 +177,18 @@
             {
               "$kind": "Microsoft.TextInput",
               "$designer": {
-                "id": "HVzLXf"
+                "id": "qpUr3q"
               },
               "maxTurnCount": 3,
               "alwaysPrompt": true,
               "allowInterruptions": false,
-              "prompt": "${TextInput_Prompt_7mLOi4()}",
+              "prompt": "${TextInput_Prompt_w77aSE()}",
               "property": "turn.qnaMultiTurnResponse"
             },
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "Vyodkb"
+                "id": "uMSl0e"
               },
               "property": "turn.qnaMatchFromContext",
               "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
@@ -191,21 +196,21 @@
             {
               "$kind": "Microsoft.DeleteProperty",
               "$designer": {
-                "id": "1uO3ud"
+                "id": "QbRVYS"
               },
               "property": "dialog.qnaContext"
             },
             {
               "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "TSRD8h"
+                "id": "ZXXe3i"
               },
               "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
               "actions": [
                 {
                   "$kind": "Microsoft.SetProperty",
                   "$designer": {
-                    "id": "4Ibre2"
+                    "id": "6NsJrr"
                   },
                   "property": "turn.qnaIdFromPrompt",
                   "value": "=turn.qnaMatchFromContext[0].qnaId"
@@ -215,7 +220,7 @@
             {
               "$kind": "Microsoft.EmitEvent",
               "$designer": {
-                "id": "iampb8"
+                "id": "7snjnP"
               },
               "eventName": "activityReceived",
               "eventValue": "=turn.activity"
@@ -225,13 +230,14 @@
             {
               "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "USHHMK"
+                "id": "zaCxJ8"
               },
-              "activity": "${SendActivity_gKz7te()}"
+              "activity": "${SendActivity_ZzZSZD()}"
             }
           ]
         }
-      ]
+      ],
+      "priority": 1
     }
   ],
   "generator": "CoreWithQnA.lg",

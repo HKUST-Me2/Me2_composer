@@ -14,15 +14,6 @@
 
 # SendActivity_DidNotUnderstand_text()
 - Sorry, I didn't get that.
-# TextInput_Prompt_7mLOi4()
-[Activity
-    Text = ${expandText(@answer)}
-    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
-]
-
-# SendActivity_gKz7te()
-- ${expandText(@answer)}
-
 # ChoiceInput_Prompt_0TmNPp()
 [Activity
     Text = ${ChoiceInput_Prompt_0TmNPp_text()}
@@ -37,24 +28,11 @@
 
 # SendActivity_W1rGjB_text()
 - you chose ${user.choice}
-# SendActivity_ZX7RWM()
+# TextInput_Prompt_w77aSE()
 [Activity
-    Text = ${SendActivity_ZX7RWM_text()}
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
 ]
 
-# SendActivity_ZX7RWM_text()
-- chatttt
-# SendActivity_gtoPp2()
-[Activity
-    Text = ${SendActivity_gtoPp2_text()}
-]
-
-# SendActivity_gtoPp2_text()
-- educate meee
-# SendActivity_LqLqAy()
-[Activity
-    Text = ${SendActivity_LqLqAy_text()}
-]
-
-# SendActivity_LqLqAy_text()
-- sefssa
+# SendActivity_ZzZSZD()
+- ${expandText(@answer)}

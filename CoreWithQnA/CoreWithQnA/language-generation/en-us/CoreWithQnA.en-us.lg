@@ -28,3 +28,11 @@
 
 # SendActivity_W1rGjB_text()
 - you chose ${user.choice}
+# TextInput_Prompt_w77aSE()
+[Activity
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
+]
+
+# SendActivity_ZzZSZD()
+- ${expandText(@answer)}
