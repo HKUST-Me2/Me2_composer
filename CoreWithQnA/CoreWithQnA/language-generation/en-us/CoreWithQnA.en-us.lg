@@ -6,20 +6,70 @@
 ]
 
 # SendActivity_Greeting_text()
-- Welcome to your bot.
-
+- Hellooooo, This is Me2 Bot!
+- Hello! I'm Me2 Bot!
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
 ]
 
 # SendActivity_DidNotUnderstand_text()
-- Sorry, I didn't get that.
-# TextInput_Prompt_7mLOi4()
+- Sorry... I am not sure about it.
+- Apologize... I don't know...
+# SendActivity_pivwNG()
+[Activity
+    Text = ${SendActivity_pivwNG_text()}
+]
+
+# SendActivity_pivwNG_text()
+- You chose 3
+# SendActivity_VyNOZ7()
+[Activity
+    Text = ${SendActivity_VyNOZ7_text()}
+]
+
+# SendActivity_VyNOZ7_text()
+- U chose 2
+# SendActivity_NADVby()
+[Activity
+    Text = ${SendActivity_NADVby_text()}
+]
+
+# SendActivity_NADVby_text()
+- U chose 1
+# SendActivity_RX07vV()
+[Activity
+    Text = ${SendActivity_RX07vV_text()}
+]
+
+# SendActivity_RX07vV_text()
+- You chose ${user.choice}
+# TextInput_Prompt_Ovdidb()
+[Activity
+    Text = ${TextInput_Prompt_Ovdidb_text()}
+]
+
+# TextInput_Prompt_Ovdidb_text()
+- Wat is youe name
+# SendActivity_uQXggG()
+[Activity
+    Text = ${SendActivity_uQXggG_text()}
+]
+
+# SendActivity_uQXggG_text()
+- Your name is ${user.name}
+# ChoiceInput_Prompt_1Ky2HZ()
+[Activity
+    Text = ${ChoiceInput_Prompt_1Ky2HZ_text()}
+]
+
+# ChoiceInput_Prompt_1Ky2HZ_text()
+- You can:
+# TextInput_Prompt_6g64PB()
 [Activity
     Text = ${expandText(@answer)}
     SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
 ]
 
-# SendActivity_gKz7te()
+# SendActivity_rmDskA()
 - ${expandText(@answer)}

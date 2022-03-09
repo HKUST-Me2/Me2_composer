@@ -40,10 +40,140 @@
                     "name": "Send a response"
                   },
                   "activity": "${SendActivity_Greeting()}"
+                },
+                {
+                  "$kind": "Microsoft.TextInput",
+                  "$designer": {
+                    "id": "Ovdidb"
+                  },
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${TextInput_Prompt_Ovdidb()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "property": "user.name"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "uQXggG"
+                  },
+                  "activity": "${SendActivity_uQXggG()}"
+                },
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "1Ky2HZ"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_1Ky2HZ()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "property": "user.choice",
+                  "outputFormat": "value",
+                  "choices": [
+                    "1",
+                    "2",
+                    "3"
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  }
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "RX07vV"
+                  },
+                  "activity": "${SendActivity_RX07vV()}"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "FVqxxP"
+                  },
+                  "condition": "user.choice",
+                  "cases": [
+                    {
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "NADVby"
+                          },
+                          "activity": "${SendActivity_NADVby()}"
+                        },
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "0zt1qj"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ChatWithMe"
+                        }
+                      ],
+                      "value": 1
+                    },
+                    {
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "VyNOZ7"
+                          },
+                          "activity": "${SendActivity_VyNOZ7()}"
+                        },
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "TcSMVE"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "LearnMore"
+                        }
+                      ],
+                      "value": 2
+                    },
+                    {
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "pivwNG"
+                          },
+                          "activity": "${SendActivity_pivwNG()}"
+                        },
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "9Swo9D"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ReportCase"
+                        }
+                      ],
+                      "value": 3
+                    }
+                  ]
                 }
               ]
             }
-          ]
+          ],
+          "value": "dialog.foreach.value"
         }
       ]
     },
@@ -67,20 +197,21 @@
     {
       "$kind": "Microsoft.OnQnAMatch",
       "$designer": {
-        "id": "r5pVxb"
+        "id": "3D6EOt",
+        "name": "QnA Intent recognized"
       },
       "actions": [
         {
           "$kind": "Microsoft.IfCondition",
           "$designer": {
-            "id": "p962qS"
+            "id": "Llh2Lg"
           },
           "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
           "actions": [
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "4R1Q8U"
+                "id": "Jm9S30"
               },
               "property": "dialog.qnaContext",
               "value": "=turn.recognized.answers[0].context.prompts"
@@ -88,18 +219,18 @@
             {
               "$kind": "Microsoft.TextInput",
               "$designer": {
-                "id": "HVzLXf"
+                "id": "2A1imZ"
               },
               "maxTurnCount": 3,
               "alwaysPrompt": true,
               "allowInterruptions": false,
-              "prompt": "${TextInput_Prompt_7mLOi4()}",
+              "prompt": "${TextInput_Prompt_6g64PB()}",
               "property": "turn.qnaMultiTurnResponse"
             },
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
-                "id": "Vyodkb"
+                "id": "9CdvrP"
               },
               "property": "turn.qnaMatchFromContext",
               "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
@@ -107,21 +238,21 @@
             {
               "$kind": "Microsoft.DeleteProperty",
               "$designer": {
-                "id": "1uO3ud"
+                "id": "SMGcff"
               },
               "property": "dialog.qnaContext"
             },
             {
               "$kind": "Microsoft.IfCondition",
               "$designer": {
-                "id": "TSRD8h"
+                "id": "jMms0U"
               },
               "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
               "actions": [
                 {
                   "$kind": "Microsoft.SetProperty",
                   "$designer": {
-                    "id": "4Ibre2"
+                    "id": "eEZFr0"
                   },
                   "property": "turn.qnaIdFromPrompt",
                   "value": "=turn.qnaMatchFromContext[0].qnaId"
@@ -131,7 +262,7 @@
             {
               "$kind": "Microsoft.EmitEvent",
               "$designer": {
-                "id": "iampb8"
+                "id": "yRO78f"
               },
               "eventName": "activityReceived",
               "eventValue": "=turn.activity"
@@ -141,9 +272,9 @@
             {
               "$kind": "Microsoft.SendActivity",
               "$designer": {
-                "id": "USHHMK"
+                "id": "yim77h"
               },
-              "activity": "${SendActivity_gKz7te()}"
+              "activity": "${SendActivity_rmDskA()}"
             }
           ]
         }

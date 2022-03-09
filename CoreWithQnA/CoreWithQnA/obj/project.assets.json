@@ -11013,20 +11013,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\samso\\.nuget\\packages\\": {}
+    "C:\\Users\\yoyom\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
+      "projectUniqueName": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
       "projectName": "CoreWithQnA",
-      "projectPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
-      "packagesPath": "C:\\Users\\samso\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\obj\\",
+      "projectPath": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
+      "packagesPath": "C:\\Users\\yoyom\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\NuGet.Config",
-        "C:\\Users\\samso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\NuGet.Config",
+        "C:\\Users\\yoyom\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -11093,7 +11093,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "已使用 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' 而非專案目標架構 '.NETCoreApp,Version=v3.1' 還原了套件 'Microsoft.Azure.KeyVault.Core 1.0.0'。此套件與您的專案並非完全相容。",
+      "message": "Package 'Microsoft.Azure.KeyVault.Core 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Azure.KeyVault.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
