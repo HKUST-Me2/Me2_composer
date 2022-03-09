@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_nrm7M8()
+[Activity
+    Text = ${SendActivity_nrm7M8_text()}
+]
+
+# SendActivity_nrm7M8_text()
+- report

@@ -1,0 +1,24 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "SJ8IKP",
+    "name": "education",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "Mve0fU"
+      },
+      "actions": []
+    }
+  ],
+  "generator": "education.lg",
+  "recognizer": "education.lu.qna",
+  "id": "education"
+}
