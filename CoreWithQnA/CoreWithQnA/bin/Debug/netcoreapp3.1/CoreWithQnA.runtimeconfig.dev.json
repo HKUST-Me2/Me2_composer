@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Lenovo S540 FSIN\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Lenovo S540 FSIN\\.nuget\\packages"
+      "C:\\Users\\samso\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\samso\\.nuget\\packages"
     ]
   }
 }
