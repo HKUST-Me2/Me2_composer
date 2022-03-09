@@ -6,8 +6,7 @@
 ]
 
 # SendActivity_Greeting_text()
-- Welcome to your bot.
-
+- hi im me2
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
@@ -23,3 +22,39 @@
 
 # SendActivity_gKz7te()
 - ${expandText(@answer)}
+
+# ChoiceInput_Prompt_0TmNPp()
+[Activity
+    Text = ${ChoiceInput_Prompt_0TmNPp_text()}
+]
+
+# ChoiceInput_Prompt_0TmNPp_text()
+- You may:
+# SendActivity_W1rGjB()
+[Activity
+    Text = ${SendActivity_W1rGjB_text()}
+]
+
+# SendActivity_W1rGjB_text()
+- you chose ${user.choice}
+# SendActivity_ZX7RWM()
+[Activity
+    Text = ${SendActivity_ZX7RWM_text()}
+]
+
+# SendActivity_ZX7RWM_text()
+- chatttt
+# SendActivity_gtoPp2()
+[Activity
+    Text = ${SendActivity_gtoPp2_text()}
+]
+
+# SendActivity_gtoPp2_text()
+- educate meee
+# SendActivity_LqLqAy()
+[Activity
+    Text = ${SendActivity_LqLqAy_text()}
+]
+
+# SendActivity_LqLqAy_text()
+- sefssa
