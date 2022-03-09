@@ -37,96 +37,9 @@
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
                     "id": "859266",
-                    "name": "Send a response",
-                    "comment": "  hi im me2"
+                    "name": "Send a response"
                   },
                   "activity": "${SendActivity_Greeting()}"
-                },
-                {
-                  "$kind": "Microsoft.ChoiceInput",
-                  "$designer": {
-                    "id": "0TmNPp"
-                  },
-                  "defaultLocale": "en-us",
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${ChoiceInput_Prompt_0TmNPp()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "choiceOptions": {
-                    "includeNumbers": true,
-                    "inlineOrMore": ", or ",
-                    "inlineOr": " or ",
-                    "inlineSeparator": ", "
-                  },
-                  "recognizerOptions": {
-                    "recognizeOrdinals": true,
-                    "recognizeNumbers": true
-                  },
-                  "choices": [
-                    "chat with me",
-                    "learn about sexual harassment",
-                    "record case"
-                  ],
-                  "property": "user.choice",
-                  "style": "heroCard"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "W1rGjB"
-                  },
-                  "activity": "${SendActivity_W1rGjB()}"
-                },
-                {
-                  "$kind": "Microsoft.SwitchCondition",
-                  "$designer": {
-                    "id": "VBwk77"
-                  },
-                  "cases": [
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "1GyH3a"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "chat"
-                        }
-                      ],
-                      "value": "chat with me"
-                    },
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "HQawQX"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "education"
-                        }
-                      ],
-                      "value": "learn about sexual harassment"
-                    },
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "fOlEWj"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "report"
-                        }
-                      ],
-                      "value": "record case"
-                    }
-                  ],
-                  "condition": "user.choice"
                 }
               ]
             }
@@ -148,6 +61,91 @@
             "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message."
           },
           "activity": "${SendActivity_DidNotUnderstand()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnQnAMatch",
+      "$designer": {
+        "id": "r5pVxb"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.IfCondition",
+          "$designer": {
+            "id": "p962qS"
+          },
+          "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
+          "actions": [
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "4R1Q8U"
+              },
+              "property": "dialog.qnaContext",
+              "value": "=turn.recognized.answers[0].context.prompts"
+            },
+            {
+              "$kind": "Microsoft.TextInput",
+              "$designer": {
+                "id": "HVzLXf"
+              },
+              "maxTurnCount": 3,
+              "alwaysPrompt": true,
+              "allowInterruptions": false,
+              "prompt": "${TextInput_Prompt_7mLOi4()}",
+              "property": "turn.qnaMultiTurnResponse"
+            },
+            {
+              "$kind": "Microsoft.SetProperty",
+              "$designer": {
+                "id": "Vyodkb"
+              },
+              "property": "turn.qnaMatchFromContext",
+              "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
+            },
+            {
+              "$kind": "Microsoft.DeleteProperty",
+              "$designer": {
+                "id": "1uO3ud"
+              },
+              "property": "dialog.qnaContext"
+            },
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "TSRD8h"
+              },
+              "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SetProperty",
+                  "$designer": {
+                    "id": "4Ibre2"
+                  },
+                  "property": "turn.qnaIdFromPrompt",
+                  "value": "=turn.qnaMatchFromContext[0].qnaId"
+                }
+              ]
+            },
+            {
+              "$kind": "Microsoft.EmitEvent",
+              "$designer": {
+                "id": "iampb8"
+              },
+              "eventName": "activityReceived",
+              "eventValue": "=turn.activity"
+            }
+          ],
+          "elseActions": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "USHHMK"
+              },
+              "activity": "${SendActivity_gKz7te()}"
+            }
+          ]
         }
       ]
     }

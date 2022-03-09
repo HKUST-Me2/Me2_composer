@@ -6,7 +6,8 @@
 ]
 
 # SendActivity_Greeting_text()
-- hi im me2
+- Welcome to your bot.
+
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
@@ -14,17 +15,11 @@
 
 # SendActivity_DidNotUnderstand_text()
 - Sorry, I didn't get that.
-# ChoiceInput_Prompt_0TmNPp()
+# TextInput_Prompt_7mLOi4()
 [Activity
-    Text = ${ChoiceInput_Prompt_0TmNPp_text()}
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
 ]
 
-# ChoiceInput_Prompt_0TmNPp_text()
-- You may:
-# SendActivity_W1rGjB()
-[Activity
-    Text = ${SendActivity_W1rGjB_text()}
-]
-
-# SendActivity_W1rGjB_text()
-- you chose ${user.choice}
+# SendActivity_gKz7te()
+- ${expandText(@answer)}

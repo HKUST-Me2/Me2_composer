@@ -37,93 +37,9 @@
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
                     "id": "859266",
-                    "name": "Send a response",
-                    "comment": "  hi im me2"
+                    "name": "Send a response"
                   },
                   "activity": "${SendActivity_Greeting()}"
-                },
-                {
-                  "$kind": "Microsoft.ChoiceInput",
-                  "$designer": {
-                    "id": "0TmNPp"
-                  },
-                  "defaultLocale": "en-us",
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${ChoiceInput_Prompt_0TmNPp()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "choiceOptions": {
-                    "includeNumbers": true,
-                    "inlineOrMore": ", or ",
-                    "inlineOr": " or ",
-                    "inlineSeparator": ", "
-                  },
-                  "recognizerOptions": {
-                    "recognizeOrdinals": true,
-                    "recognizeNumbers": true
-                  },
-                  "choices": [
-                    "chat with me",
-                    "learn about sexual harassment",
-                    "record case"
-                  ],
-                  "property": "user.choice",
-                  "style": "heroCard"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "W1rGjB"
-                  },
-                  "activity": "${SendActivity_W1rGjB()}"
-                },
-                {
-                  "$kind": "Microsoft.SwitchCondition",
-                  "$designer": {
-                    "id": "VBwk77"
-                  },
-                  "cases": [
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "ZX7RWM"
-                          },
-                          "activity": "${SendActivity_ZX7RWM()}"
-                        }
-                      ],
-                      "value": "chat with me"
-                    },
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "gtoPp2"
-                          },
-                          "activity": "${SendActivity_gtoPp2()}"
-                        }
-                      ],
-                      "value": "learn about sexual harassment"
-                    },
-                    {
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "LqLqAy"
-                          },
-                          "activity": "${SendActivity_LqLqAy()}"
-                        }
-                      ],
-                      "value": "record case"
-                    }
-                  ],
-                  "condition": "=user.choice"
                 }
               ]
             }
