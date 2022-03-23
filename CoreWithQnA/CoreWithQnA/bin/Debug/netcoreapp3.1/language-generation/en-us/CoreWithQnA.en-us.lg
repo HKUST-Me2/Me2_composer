@@ -6,14 +6,36 @@
 ]
 
 # SendActivity_Greeting_text()
+<<<<<<< HEAD
+- hi im me2
+=======
 - Hellooooo, This is Me2 Bot!
 - Hello! I'm Me2 Bot!
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
 ]
 
 # SendActivity_DidNotUnderstand_text()
+<<<<<<< HEAD
+- Sorry, I didn't get that.
+# ChoiceInput_Prompt_0TmNPp()
+[Activity
+    Text = ${ChoiceInput_Prompt_0TmNPp_text()}
+]
+
+# ChoiceInput_Prompt_0TmNPp_text()
+- You may:
+# SendActivity_W1rGjB()
+[Activity
+    Text = ${SendActivity_W1rGjB_text()}
+]
+
+# SendActivity_W1rGjB_text()
+- you chose ${user.choice}
+# TextInput_Prompt_w77aSE()
+=======
 - Sorry... I am not sure about it.
 - Apologize... I don't know...
 # SendActivity_pivwNG()
@@ -66,10 +88,15 @@
 # ChoiceInput_Prompt_1Ky2HZ_text()
 - You can:
 # TextInput_Prompt_6g64PB()
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
 [Activity
     Text = ${expandText(@answer)}
     SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
 ]
 
+<<<<<<< HEAD
+# SendActivity_ZzZSZD()
+=======
 # SendActivity_rmDskA()
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
 - ${expandText(@answer)}

@@ -37,11 +37,17 @@
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
                     "id": "859266",
-                    "name": "Send a response"
+                    "name": "Send a response",
+                    "comment": "  hi im me2"
                   },
                   "activity": "${SendActivity_Greeting()}"
                 },
                 {
+<<<<<<< HEAD
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "0TmNPp"
+=======
                   "$kind": "Microsoft.TextInput",
                   "$designer": {
                     "id": "Ovdidb"
@@ -67,22 +73,42 @@
                   "$kind": "Microsoft.ChoiceInput",
                   "$designer": {
                     "id": "1Ky2HZ"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                   },
                   "defaultLocale": "en-us",
                   "disabled": false,
                   "maxTurnCount": 3,
                   "alwaysPrompt": false,
                   "allowInterruptions": false,
+<<<<<<< HEAD
+                  "prompt": "${ChoiceInput_Prompt_0TmNPp()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+=======
                   "prompt": "${ChoiceInput_Prompt_1Ky2HZ()}",
                   "unrecognizedPrompt": "",
                   "invalidPrompt": "",
                   "defaultValueResponse": "",
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                   "choiceOptions": {
                     "includeNumbers": true,
                     "inlineOrMore": ", or ",
                     "inlineOr": " or ",
                     "inlineSeparator": ", "
                   },
+<<<<<<< HEAD
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true,
+                    "recognizeNumbers": true
+                  },
+                  "choices": [
+                    "chat with me",
+                    "learn about sexual harassment",
+                    "record case"
+                  ],
+                  "property": "user.choice",
+                  "style": "heroCard"
+=======
                   "property": "user.choice",
                   "outputFormat": "value",
                   "choices": [
@@ -93,24 +119,47 @@
                   "recognizerOptions": {
                     "recognizeOrdinals": true
                   }
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                 },
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
+<<<<<<< HEAD
+                    "id": "W1rGjB"
+                  },
+                  "activity": "${SendActivity_W1rGjB()}"
+=======
                     "id": "RX07vV"
                   },
                   "activity": "${SendActivity_RX07vV()}"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                 },
                 {
                   "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
+<<<<<<< HEAD
+                    "id": "VBwk77"
+                  },
+=======
                     "id": "FVqxxP"
                   },
                   "condition": "user.choice",
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                   "cases": [
                     {
                       "actions": [
                         {
+<<<<<<< HEAD
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "1GyH3a"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "chat"
+                        }
+                      ],
+                      "value": "chat with me"
+=======
                           "$kind": "Microsoft.SendActivity",
                           "$designer": {
                             "id": "NADVby"
@@ -127,10 +176,22 @@
                         }
                       ],
                       "value": 1
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                     },
                     {
                       "actions": [
                         {
+<<<<<<< HEAD
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "HQawQX"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "education"
+                        }
+                      ],
+                      "value": "learn about sexual harassment"
+=======
                           "$kind": "Microsoft.SendActivity",
                           "$designer": {
                             "id": "VyNOZ7"
@@ -147,10 +208,25 @@
                         }
                       ],
                       "value": 2
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                     },
                     {
                       "actions": [
                         {
+<<<<<<< HEAD
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "fOlEWj"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "report"
+                        }
+                      ],
+                      "value": "record case"
+                    }
+                  ],
+                  "condition": "user.choice"
+=======
                           "$kind": "Microsoft.SendActivity",
                           "$designer": {
                             "id": "pivwNG"
@@ -169,13 +245,15 @@
                       "value": 3
                     }
                   ]
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                 }
               ]
             }
           ],
           "value": "dialog.foreach.value"
         }
-      ]
+      ],
+      "priority": 0
     },
     {
       "$kind": "Microsoft.OnUnknownIntent",
@@ -197,21 +275,33 @@
     {
       "$kind": "Microsoft.OnQnAMatch",
       "$designer": {
+<<<<<<< HEAD
+        "id": "rExLfM",
+=======
         "id": "3D6EOt",
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
         "name": "QnA Intent recognized"
       },
       "actions": [
         {
           "$kind": "Microsoft.IfCondition",
           "$designer": {
+<<<<<<< HEAD
+            "id": "Fbom9U"
+=======
             "id": "Llh2Lg"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
           },
           "condition": "count(turn.recognized.answers[0].context.prompts) > 0",
           "actions": [
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
+<<<<<<< HEAD
+                "id": "zNBa44"
+=======
                 "id": "Jm9S30"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "property": "dialog.qnaContext",
               "value": "=turn.recognized.answers[0].context.prompts"
@@ -219,18 +309,30 @@
             {
               "$kind": "Microsoft.TextInput",
               "$designer": {
+<<<<<<< HEAD
+                "id": "qpUr3q"
+=======
                 "id": "2A1imZ"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "maxTurnCount": 3,
               "alwaysPrompt": true,
               "allowInterruptions": false,
+<<<<<<< HEAD
+              "prompt": "${TextInput_Prompt_w77aSE()}",
+=======
               "prompt": "${TextInput_Prompt_6g64PB()}",
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               "property": "turn.qnaMultiTurnResponse"
             },
             {
               "$kind": "Microsoft.SetProperty",
               "$designer": {
+<<<<<<< HEAD
+                "id": "uMSl0e"
+=======
                 "id": "9CdvrP"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "property": "turn.qnaMatchFromContext",
               "value": "=where(dialog.qnaContext, item, item.displayText == turn.qnaMultiTurnResponse)"
@@ -238,21 +340,33 @@
             {
               "$kind": "Microsoft.DeleteProperty",
               "$designer": {
+<<<<<<< HEAD
+                "id": "QbRVYS"
+=======
                 "id": "SMGcff"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "property": "dialog.qnaContext"
             },
             {
               "$kind": "Microsoft.IfCondition",
               "$designer": {
+<<<<<<< HEAD
+                "id": "ZXXe3i"
+=======
                 "id": "jMms0U"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "condition": "turn.qnaMatchFromContext && count(turn.qnaMatchFromContext) > 0",
               "actions": [
                 {
                   "$kind": "Microsoft.SetProperty",
                   "$designer": {
+<<<<<<< HEAD
+                    "id": "6NsJrr"
+=======
                     "id": "eEZFr0"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
                   },
                   "property": "turn.qnaIdFromPrompt",
                   "value": "=turn.qnaMatchFromContext[0].qnaId"
@@ -262,7 +376,11 @@
             {
               "$kind": "Microsoft.EmitEvent",
               "$designer": {
+<<<<<<< HEAD
+                "id": "7snjnP"
+=======
                 "id": "yRO78f"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
               },
               "eventName": "activityReceived",
               "eventValue": "=turn.activity"
@@ -272,13 +390,20 @@
             {
               "$kind": "Microsoft.SendActivity",
               "$designer": {
+<<<<<<< HEAD
+                "id": "zaCxJ8"
+              },
+              "activity": "${SendActivity_ZzZSZD()}"
+=======
                 "id": "yim77h"
               },
               "activity": "${SendActivity_rmDskA()}"
+>>>>>>> 671a7cd47830db889150bec6554c23112751f474
             }
           ]
         }
-      ]
+      ],
+      "priority": 1
     }
   ],
   "generator": "CoreWithQnA.lg",
