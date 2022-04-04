@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj": {}
+    "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj": {
+    "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
+        "projectUniqueName": "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
         "projectName": "CoreWithQnA",
-        "projectPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
-        "packagesPath": "C:\\Users\\samso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\obj\\",
+        "projectPath": "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\CoreWithQnA.csproj",
+        "packagesPath": "C:\\Users\\wtcha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\samso\\Documents\\GitHub\\Me2\\CoreWithQnA\\CoreWithQnA\\NuGet.Config",
-          "C:\\Users\\samso\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\wtcha\\Documents\\GitHub\\CoreWithQnA\\CoreWithQnA\\NuGet.Config",
+          "C:\\Users\\wtcha\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
