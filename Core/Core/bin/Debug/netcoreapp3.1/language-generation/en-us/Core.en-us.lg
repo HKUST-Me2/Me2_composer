@@ -37,13 +37,6 @@
 
 # SendActivity_rR9Um5_text()
 - 1
-# SendActivity_lGE6X0()
-[Activity
-    Text = ${SendActivity_lGE6X0_text()}
-]
-
-# SendActivity_lGE6X0_text()
-- 2
 # SendActivity_TSYpF6()
 [Activity
     Text = ${SendActivity_TSYpF6_text()}
@@ -72,3 +65,17 @@
 
 # SendActivity_SKinw3_text()
 - 6
+# SendActivity_xVeKrJ()
+[Activity
+    Text = ${SendActivity_xVeKrJ_text()}
+]
+
+# SendActivity_xVeKrJ_text()
+- 2
+# ChoiceInput_Prompt_yN4Q2p()
+[Activity
+    Text = ${ChoiceInput_Prompt_yN4Q2p_text()}
+]
+
+# ChoiceInput_Prompt_yN4Q2p_text()
+- Bystander's Approach or Victim's Approach

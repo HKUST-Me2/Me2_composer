@@ -129,9 +129,58 @@
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "lGE6X0"
+                    "id": "xVeKrJ"
                   },
-                  "activity": "${SendActivity_lGE6X0()}"
+                  "activity": "${SendActivity_xVeKrJ()}"
+                },
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "yN4Q2p"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_yN4Q2p()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true
+                  },
+                  "property": "user.approach",
+                  "style": "heroCard",
+                  "choices": [
+                    "Bystander's Approach",
+                    "Victim's Approach"
+                  ]
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "PPFRs6"
+                  },
+                  "condition": "user.approach",
+                  "cases": [
+                    {
+                      "value": "Bystander's Appraoch"
+                    },
+                    {
+                      "value": "Victim's Approach",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "ZqHGGU"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "Victims_Approach"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },

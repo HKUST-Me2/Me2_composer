@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\wtcha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\obj\\",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\wtcha\\Documents\\GitHub\\Me2\\Core\\Core\\NuGet.Config",
-          "C:\\Users\\wtcha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
