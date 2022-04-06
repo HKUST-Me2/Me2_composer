@@ -3,6 +3,7 @@
 # SendActivity_Greeting()
 [Activity
     Text = ${SendActivity_Greeting_text()}
+    SuggestedActions = Education
 ]
 
 # SendActivity_Greeting_text()

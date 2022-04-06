@@ -206,7 +206,7 @@
     "intents": [
       {
         "intent": "Education",
-        "pattern": "education"
+        "pattern": "Education"
       }
     ]
   }

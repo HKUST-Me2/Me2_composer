@@ -9,12 +9,6 @@ C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\scripts\De
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\scripts\package.json
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\settings\appsettings.json
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\Core.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\Core.en-us.lu.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\Core.lu.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\Core.lu.qna.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\emptyBot.en-us.lu.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\emptyBot.lu.dialog
-C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\recognizers\emptyBot.lu.qna.dialog
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\language-generation\en-us\Core.en-us.lg
 C:\Users\wtcha\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\language-understanding\en-us\Core.en-us.lu
