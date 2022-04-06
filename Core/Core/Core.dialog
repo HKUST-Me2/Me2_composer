@@ -1,0 +1,213 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "name": "Core",
+    "description": "",
+    "id": "A79tBe"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720",
+        "comment": "This trigger runs when a conversation update activity is sent to the bot. This indicates a user or bot being added or removed from a conversation."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item",
+            "comment": "For each member added to the conversation."
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else",
+                "comment": "Checks that that member added ID does not match the bot ID. This prevents the greeting message from being sent when the bot is added to a conversation."
+              },
+              "condition": "=string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "859266",
+                    "name": "Send a response"
+                  },
+                  "activity": "${SendActivity_Greeting()}"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnUnknownIntent",
+      "$designer": {
+        "id": "mb2n1u",
+        "comment": "This trigger fires when an incoming activity is not handled by any other trigger."
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "kMjqz1",
+            "comment": "It is recommended to show a message to the user when the bot does not know how to handle an incoming activity and provide follow up options or a help message."
+          },
+          "activity": "${SendActivity_DidNotUnderstand()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "9VFjBZ",
+        "name": "Education"
+      },
+      "intent": "Education",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "M4QGFV"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "user.choice",
+          "choices": [
+            "1. see other stories ",
+            "2. Bystander's & victim's approach ",
+            "3. definitions",
+            "4. Ocamp specials ",
+            "5. Mini quiz",
+            "6. short examples from different categorie"
+          ],
+          "style": "heroCard",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          },
+          "prompt": "${ChoiceInput_Prompt_M4QGFV()}"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "5ku3av"
+          },
+          "cases": [
+            {
+              "value": "1. see other stories ",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "rR9Um5"
+                  },
+                  "activity": "${SendActivity_rR9Um5()}"
+                }
+              ]
+            },
+            {
+              "value": "2. Bystander's & victim's approach ",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "lGE6X0"
+                  },
+                  "activity": "${SendActivity_lGE6X0()}"
+                }
+              ]
+            },
+            {
+              "value": "3. definition ",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "TSYpF6"
+                  },
+                  "activity": "${SendActivity_TSYpF6()}"
+                }
+              ]
+            },
+            {
+              "value": "4. Ocamp specials ",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "5P1Hf4"
+                  },
+                  "activity": "${SendActivity_5P1Hf4()}"
+                }
+              ]
+            },
+            {
+              "value": "5. Mini quiz ",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "WAJmFY"
+                  },
+                  "activity": "${SendActivity_WAJmFY()}"
+                }
+              ]
+            },
+            {
+              "value": "6. short examples from different categories",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "SKinw3"
+                  },
+                  "activity": "${SendActivity_SKinw3()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "1YIrzU"
+              },
+              "activity": "${SendActivity_1YIrzU()}"
+            }
+          ],
+          "condition": "=user.choice"
+        }
+      ],
+      "runOnce": false
+    }
+  ],
+  "generator": "Core.lg",
+  "id": "CoreWithQnA",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": [
+      {
+        "intent": "Education",
+        "pattern": "Education"
+      }
+    ]
+  }
+}
