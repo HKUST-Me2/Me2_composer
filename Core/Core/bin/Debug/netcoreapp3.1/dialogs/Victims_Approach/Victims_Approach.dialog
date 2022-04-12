@@ -1,0 +1,157 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "NSPEcb",
+    "name": "Victims_Approach",
+    "comment": "Education Choice 2.2: Victim's Approach"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "1HkjEE"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "yUhgtQ"
+          },
+          "activity": "${SendActivity_yUhgtQ()}"
+        },
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "0S9Rq1"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_0S9Rq1()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "user.vicmethod",
+          "style": "heroCard",
+          "choices": [
+            "ing",
+            "ed"
+          ]
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "oq09om"
+          },
+          "condition": "user.vicmethod",
+          "cases": [
+            {
+              "value": "ing",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "vpUci5"
+                  },
+                  "activity": "${SendActivity_vpUci5()}"
+                }
+              ]
+            },
+            {
+              "value": "ed",
+              "actions": [
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "1igLzD"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or "
+                  },
+                  "property": "user.ed_choice",
+                  "style": "heroCard",
+                  "choices": [
+                    "See Other's Stories",
+                    "Polularity",
+                    "Self Care",
+                    "navigate their options",
+                    "Mental Evalutation Assesment"
+                  ],
+                  "prompt": "${ChoiceInput_Prompt_1igLzD()}"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "XrSNvm"
+                  },
+                  "condition": "user.ed_choice",
+                  "cases": [
+                    {
+                      "value": "See Other's Stories",
+                      "actions": []
+                    },
+                    {
+                      "value": "Popularity"
+                    },
+                    {
+                      "value": "Self Care"
+                    },
+                    {
+                      "value": "navigate their options"
+                    },
+                    {
+                      "value": "Mental Evaluation Assesment"
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "Hfe0w8"
+                      },
+                      "activity": "${SendActivity_Hfe0w8()}"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "T3csbc"
+              },
+              "activity": "${SendActivity_T3csbc()}"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generator": "Victims_Approach.lg",
+  "recognizer": "Victims_Approach.lu.qna",
+  "id": "Victims_Approach"
+}
