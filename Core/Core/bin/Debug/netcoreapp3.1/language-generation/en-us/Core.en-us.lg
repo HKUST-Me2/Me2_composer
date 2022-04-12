@@ -79,3 +79,10 @@
 
 # ChoiceInput_Prompt_yN4Q2p_text()
 - Bystander's Approach or Victim's Approach
+# ChoiceInput_Prompt_qqAFqO()
+[Activity
+    Text = ${ChoiceInput_Prompt_qqAFqO_text()}
+]
+
+# ChoiceInput_Prompt_qqAFqO_text()
+- Which kind of examples you would like to check out ?

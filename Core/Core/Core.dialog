@@ -94,14 +94,15 @@
           "choices": [
             "1. see other stories ",
             "2. Bystander's & victim's approach ",
-            "3. definitions",
+            "3. definitions ",
             "4. Ocamp specials ",
-            "5. Mini quiz",
-            "6. short examples from different categorie"
+            "5. Mini quiz ",
+            "6. short examples from different categories "
           ],
           "style": "heroCard",
           "recognizerOptions": {
-            "recognizeOrdinals": true
+            "recognizeOrdinals": true,
+            "recognizeNumbers": true
           },
           "prompt": "${ChoiceInput_Prompt_M4QGFV()}"
         },
@@ -146,16 +147,21 @@
                   "prompt": "${ChoiceInput_Prompt_yN4Q2p()}",
                   "unrecognizedPrompt": "",
                   "invalidPrompt": "",
-                  "defaultValueResponse": "",
                   "choiceOptions": {
-                    "includeNumbers": true
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
                   },
                   "property": "user.approach",
                   "style": "heroCard",
                   "choices": [
                     "Bystander's Approach",
                     "Victim's Approach"
-                  ]
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  }
                 },
                 {
                   "$kind": "Microsoft.SwitchCondition",
@@ -205,6 +211,14 @@
                     "id": "5P1Hf4"
                   },
                   "activity": "${SendActivity_5P1Hf4()}"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "39XuHs"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "OcampTypicalCases"
                 }
               ]
             },
@@ -217,11 +231,19 @@
                     "id": "WAJmFY"
                   },
                   "activity": "${SendActivity_WAJmFY()}"
+                },
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "rHlp7L"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "MiniQuiz"
                 }
               ]
             },
             {
-              "value": "6. short examples from different categories",
+              "value": "6. short examples from different categories ",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
@@ -229,6 +251,70 @@
                     "id": "SKinw3"
                   },
                   "activity": "${SendActivity_SKinw3()}"
+                },
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "qqAFqO"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_qqAFqO()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "choices": [
+                    "1. Situational Examples",
+                    "2. Detailed Description"
+                  ],
+                  "property": "user.exampleschoice",
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  },
+                  "style": "heroCard"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "gACsaa"
+                  },
+                  "condition": "user.exampleschoice",
+                  "cases": [
+                    {
+                      "value": "1. Situational Examples",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "KAnfrx"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ShortExamples_Situational"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2. Detailed Description",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "80DCGQ"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ShortExamples_Detailed"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             }
