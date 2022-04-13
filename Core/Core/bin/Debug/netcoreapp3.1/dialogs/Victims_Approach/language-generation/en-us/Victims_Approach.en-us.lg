@@ -1,0 +1,280 @@
+[import](common.lg)
+
+# SendActivity_yUhgtQ()
+[Activity
+    Text = ${SendActivity_yUhgtQ_text()}
+]
+
+# SendActivity_yUhgtQ_text()
+- Victim's Approach
+# ChoiceInput_Prompt_0S9Rq1()
+[Activity
+    Text = ${ChoiceInput_Prompt_0S9Rq1_text()}
+]
+
+# ChoiceInput_Prompt_0S9Rq1_text()
+- Do you want to know what to do when you are experiencing sexual harrasment or what to do after experienced it?
+# SendActivity_vpUci5()
+[Activity
+    Text = ${SendActivity_vpUci5_text()}
+]
+
+# SendActivity_vpUci5_text()
+- Say NO:
+# SendActivity_T3csbc()
+[Activity
+    Text = ${SendActivity_T3csbc_text()}
+]
+
+# SendActivity_T3csbc_text()
+- default
+# ChoiceInput_Prompt_1igLzD()
+[Activity
+    Text = ${ChoiceInput_Prompt_1igLzD_text()}
+]
+
+# ChoiceInput_Prompt_1igLzD_text()
+- Please select from below:
+# SendActivity_Hfe0w8()
+[Activity
+    Text = ${SendActivity_Hfe0w8_text()}
+]
+
+# SendActivity_Hfe0w8_text()
+- default
+# SendActivity_bLvMMX()
+[Activity
+    Text = ${SendActivity_bLvMMX_text()}
+]
+
+# SendActivity_bLvMMX_text()
+- ```Make it clear to the harasser that you do not welcome the behaviour and it must stop. 
+```
+# SendActivity_srsbgt()
+[Activity
+    Text = ${SendActivity_srsbgt_text()}
+]
+
+# SendActivity_srsbgt_text()
+- For example, by yelling at him/her to stop, pushing him/her away, or sending a text message to voice your objection to such behaviour. 
+# ChoiceInput_Prompt_vtgore()
+[Activity
+    Text = ${ChoiceInput_Prompt_vtgore_text()}
+]
+
+# ChoiceInput_Prompt_vtgore_text()
+- Which suits you more?
+# SendActivity_z1OjcQ()
+[Activity
+    Text = ${SendActivity_z1OjcQ_text()}
+]
+
+# SendActivity_z1OjcQ_text()
+- default
+# ChoiceInput_Prompt_v9Fvgj()
+[Activity
+    Text = ${ChoiceInput_Prompt_v9Fvgj_text()}
+]
+
+# ChoiceInput_Prompt_v9Fvgj_text()
+- ```Actions:
+Click to see more details```
+# SendActivity_d5pRYK()
+[Activity
+    Text = ${SendActivity_d5pRYK_text()}
+]
+
+# SendActivity_d5pRYK_text()
+- default
+# SendActivity_yPfCzc()
+[Activity
+    Text = ${SendActivity_yPfCzc_text()}
+]
+
+# SendActivity_yPfCzc_text()
+- King Chow
+# SendActivity_WPzoul()
+[Activity
+    Text = ${SendActivity_WPzoul_text()}
+]
+
+# SendActivity_WPzoul_text()
+- ```https://counsel.hkust.edu.hk/
+https://counsel.hkust.edu.hk/make_an_appointment.php
+Psychological Assessment:
+https://counsel.hkust.edu.hk/page.php?section=Resources&subsection=20&anchor=selfassessment
+"```
+# ChoiceInput_Prompt_ltdZtm()
+[Activity
+    Text = ${ChoiceInput_Prompt_ltdZtm_text()}
+]
+
+# ChoiceInput_Prompt_ltdZtm_text()
+- ```Actions:
+Click to see more details```
+# SendActivity_ZsQfXi()
+[Activity
+    Text = ${SendActivity_ZsQfXi_text()}
+]
+
+# SendActivity_ZsQfXi_text()
+- default
+# SendActivity_hjH4b2()
+[Activity
+    Text = ${SendActivity_hjH4b2_text()}
+]
+
+# SendActivity_hjH4b2_text()
+- Record the details of the incident as soon as you can, including the date, time and place, the events that took place and whether there were other people around.
+# SendActivity_VHQbO2()
+[Activity
+    Text = ${SendActivity_VHQbO2_text()}
+]
+
+# SendActivity_VHQbO2_text()
+- These notes may come in handy when you lodge a complaint, locate witnesses or decide to take legal action. 
+# SendActivity_ggo7kK()
+[Activity
+    Text = ${SendActivity_ggo7kK_text()}
+]
+
+# SendActivity_ggo7kK_text()
+- ```Make a complaint to your employer, school or the relevant organisation (e.g. a service provider) 
+and ask that they handle it in a fair and impartial manner.```
+# SendActivity_iJ6tiC()
+[Activity
+    Text = ${SendActivity_iJ6tiC_text()}
+]
+
+# SendActivity_iJ6tiC_text()
+- If needed, seek assistance from the EOC, social workers, trade unions, NGOs, your friends or family. 
+# SendActivity_gilylV()
+[Activity
+    Text = ${SendActivity_gilylV_text()}
+]
+
+# SendActivity_gilylV_text()
+- Contact the EOC within 12 months of the incident and lodge a complaint in writing by post or fax, or by using the online form on the EOC website.
+# SendActivity_R0qMXV()
+[Activity
+    Text = ${SendActivity_R0qMXV_text()}
+]
+
+# SendActivity_R0qMXV_text()
+- ```Issue civil proceedings at the District Court within 24 months of the incident.
+```
+# SendActivity_LHd15z()
+[Activity
+    Text = ${SendActivity_LHd15z_text()}
+]
+
+# SendActivity_LHd15z_text()
+- If you previously lodged a complaint with the EOC and were unable to settle the dispute through conciliation, then the period that elapsed between the date you lodged your complaint and the date the relevant conciliation failed would be disregarded in the calculation of the 24-month limitation period.
+# SendActivity_k9Zebj()
+[Activity
+    Text = ${SendActivity_k9Zebj_text()}
+]
+
+# SendActivity_k9Zebj_text()
+- Some acts of sexual harassment may amount to criminal offences. 
+# SendActivity_X9dBpP()
+[Activity
+    Text = ${SendActivity_X9dBpP_text()}
+]
+
+# SendActivity_X9dBpP_text()
+- You may report the incident to the police and lodge a complaint with the EOC concurrently. 
+# SendActivity_dalcKc()
+[Activity
+    Text = ${SendActivity_dalcKc_text()}
+]
+
+# SendActivity_dalcKc_text()
+- Don't take actions allows you to process trauma in your own time and gives time to figure out what you want to do.
+# SendActivity_XvQ0z5()
+[Activity
+    Text = ${SendActivity_XvQ0z5_text()}
+]
+
+# SendActivity_XvQ0z5_text()
+- ```However, you may be risking your own safety, especially if this person is still a threat to you.
+```
+# SendActivity_MCN4x0()
+[Activity
+    Text = ${SendActivity_MCN4x0_text()}
+]
+
+# SendActivity_MCN4x0_text()
+- ```You could coordinate a plan of action together. It could be meaningful to learn you are not the only one.
+```
+# SendActivity_TUzCcG()
+[Activity
+    Text = ${SendActivity_TUzCcG_text()}
+]
+
+# SendActivity_TUzCcG_text()
+- ```However, you may be putting yourself at risk by sharing intimate details or by relying on someone who may have different motivations than you.
+```
+# SendActivity_CJ2g1n()
+[Activity
+    Text = ${SendActivity_CJ2g1n_text()}
+]
+
+# SendActivity_CJ2g1n_text()
+- ```You can get out what you want to say, which potentially can provide emotional relief.
+```
+# SendActivity_5aZQf7()
+[Activity
+    Text = ${SendActivity_5aZQf7_text()}
+]
+
+# SendActivity_5aZQf7_text()
+- ```Yet, there will be emotional risk. You may have no idea what the person will say or what they will do with the information.
+```
+# SendActivity_u2xGys()
+[Activity
+    Text = ${SendActivity_u2xGys_text()}
+]
+
+# SendActivity_u2xGys_text()
+- ```Social media is an accessible platform, making it an easy option.
+It can allow you to get things off your chest and it might potentially protect your community.
+```
+# SendActivity_r55LqM()
+[Activity
+    Text = ${SendActivity_r55LqM_text()}
+]
+
+# SendActivity_r55LqM_text()
+- However, You could be sued for defamation, which could cost you a lot of money and time to defend. 
+# SendActivity_Xo2tOz()
+[Activity
+    Text = ${SendActivity_Xo2tOz_text()}
+]
+
+# SendActivity_Xo2tOz_text()
+- ```Attorneys have a duty of confidentiality. They can help you think through your legal options and figure out what you want to do next.
+```
+# SendActivity_kB3zH3()
+[Activity
+    Text = ${SendActivity_kB3zH3_text()}
+]
+
+# SendActivity_kB3zH3_text()
+- Also, they can help you think through your legal options and figure out what you want to do next.
+# SendActivity_Gv2esu()
+[Activity
+    Text = ${SendActivity_Gv2esu_text()}
+]
+
+# SendActivity_Gv2esu_text()
+- ```Warning your friends or community may help keep them safe. By sharing the information with others, you may learn that you are not the first person harmed by your offender.
+
+```
+# SendActivity_pXLLMx()
+[Activity
+    Text = ${SendActivity_pXLLMx_text()}
+]
+
+# SendActivity_pXLLMx_text()
+- Yet, You don’t have control over what whispers are shared, who is believed, or how what you say is interpreted.
