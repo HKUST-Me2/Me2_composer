@@ -1,0 +1,22 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "4BE8v8",
+    "name": "MiniQuiz",
+    "comment": "A MiniQuiz regarding myths and reality"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "id": "rABbV1",
+        "name": "Dialog started (Begin dialog event)"
+      }
+    }
+  ],
+  "generator": "MiniQuiz.lg",
+  "recognizer": "MiniQuiz.lu.qna",
+  "id": "MiniQuiz"
+}

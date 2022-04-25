@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# ChoiceInput_Prompt_6TmsTB()
+[Activity
+    Text = ${ChoiceInput_Prompt_6TmsTB_text()}
+]
+
+# ChoiceInput_Prompt_6TmsTB_text()
+- Bot: short examples of sexual harassment, you can

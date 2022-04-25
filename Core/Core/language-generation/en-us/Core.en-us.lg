@@ -1,0 +1,88 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+    SuggestedActions = Education
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_DidNotUnderstand()
+[Activity
+    Text = ${SendActivity_DidNotUnderstand_text()}
+]
+
+# SendActivity_DidNotUnderstand_text()
+- Sorry, I didn't get that.
+# ChoiceInput_Prompt_M4QGFV()
+[Activity
+    Text = ${ChoiceInput_Prompt_M4QGFV_text()}
+]
+
+# ChoiceInput_Prompt_M4QGFV_text()
+- hi
+# SendActivity_1YIrzU()
+[Activity
+    Text = ${SendActivity_1YIrzU_text()}
+]
+
+# SendActivity_1YIrzU_text()
+- default 
+# SendActivity_rR9Um5()
+[Activity
+    Text = ${SendActivity_rR9Um5_text()}
+]
+
+# SendActivity_rR9Um5_text()
+- 1
+# SendActivity_TSYpF6()
+[Activity
+    Text = ${SendActivity_TSYpF6_text()}
+]
+
+# SendActivity_TSYpF6_text()
+- 3
+# SendActivity_5P1Hf4()
+[Activity
+    Text = ${SendActivity_5P1Hf4_text()}
+]
+
+# SendActivity_5P1Hf4_text()
+- 4
+# SendActivity_WAJmFY()
+[Activity
+    Text = ${SendActivity_WAJmFY_text()}
+]
+
+# SendActivity_WAJmFY_text()
+- 5
+# SendActivity_SKinw3()
+[Activity
+    Text = ${SendActivity_SKinw3_text()}
+]
+
+# SendActivity_SKinw3_text()
+- 6
+# SendActivity_xVeKrJ()
+[Activity
+    Text = ${SendActivity_xVeKrJ_text()}
+]
+
+# SendActivity_xVeKrJ_text()
+- 2
+# ChoiceInput_Prompt_yN4Q2p()
+[Activity
+    Text = ${ChoiceInput_Prompt_yN4Q2p_text()}
+]
+
+# ChoiceInput_Prompt_yN4Q2p_text()
+- Bystander's Approach or Victim's Approach
+# ChoiceInput_Prompt_cLtVzZ()
+[Activity
+    Text = ${ChoiceInput_Prompt_cLtVzZ_text()}
+]
+
+# ChoiceInput_Prompt_cLtVzZ_text()
+- Which kind of examples you want to check out?

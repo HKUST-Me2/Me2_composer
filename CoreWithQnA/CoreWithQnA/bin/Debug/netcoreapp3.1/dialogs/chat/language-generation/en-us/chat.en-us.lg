@@ -1,0 +1,18 @@
+[import](common.lg)
+
+# TextInput_Prompt_z3bzYo()
+[Activity
+    Text = ${expandText(@answer)}
+    SuggestedActions = ${foreach(turn.recognized.answers[0].context.prompts, x, x.displayText)}
+]
+
+# SendActivity_HYb8UR()
+- ${expandText(@answer)}
+
+# SendActivity_rCEPJU()
+[Activity
+    Text = ${SendActivity_rCEPJU_text()}
+]
+
+# SendActivity_rCEPJU_text()
+- lets chat
