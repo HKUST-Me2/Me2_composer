@@ -1,0 +1,39 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "9kOfXQ",
+    "name": "BystanderApproach",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "Bystander",
+        "description": "",
+        "id": "4cQbl2"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "0rWsqs"
+          },
+          "activity": "${SendActivity_0rWsqs()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "wub4Qv"
+          },
+          "activity": "${SendActivity_wub4Qv()}"
+        }
+      ]
+    }
+  ],
+  "generator": "BystanderApproach.lg",
+  "recognizer": "BystanderApproach.lu.qna",
+  "id": "BystanderApproach"
+}

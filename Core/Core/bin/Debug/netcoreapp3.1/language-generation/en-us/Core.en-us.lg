@@ -22,7 +22,7 @@
 ]
 
 # ChoiceInput_Prompt_M4QGFV_text()
-- hi
+- Any person of any sex, gender, age, and race can be a victim of sexual harassment. Sexual harassment creates a hostile environment and is illegal. It includes any unwanted verbal or physical sexual behaviour. This can range from sexual comments about a person’s clothing, anatomy, or looks, to very serious acts that qualify as assault or rape. Sexual harassment is about the impact of the behaviour on you, and the severity and frequency of the incidents. It is not about the intent of the person who is engaging in the behaviour.
 # SendActivity_1YIrzU()
 [Activity
     Text = ${SendActivity_1YIrzU_text()}
@@ -50,21 +50,21 @@
 ]
 
 # SendActivity_5P1Hf4_text()
-- 4
+- 3
 # SendActivity_WAJmFY()
 [Activity
     Text = ${SendActivity_WAJmFY_text()}
 ]
 
 # SendActivity_WAJmFY_text()
-- 5
+- 4
 # SendActivity_SKinw3()
 [Activity
     Text = ${SendActivity_SKinw3_text()}
 ]
 
 # SendActivity_SKinw3_text()
-- 6
+- 5
 # SendActivity_xVeKrJ()
 [Activity
     Text = ${SendActivity_xVeKrJ_text()}
@@ -86,3 +86,9 @@
 
 # ChoiceInput_Prompt_cLtVzZ_text()
 - Which kind of examples you want to check out?
+# ChoiceInput_Prompt_2cq8wG_text()
+- Sometimes it’s difficult to know what to say when a survivor discloses their assault to you. As much as we’d like to have the perfect thing to say to make it right, the truth is that there is no single correct thing we can say (or do) to repair their trauma. You can, however, respond in ways that are supportive and empowering to help in their healing process.
+# ChoiceInput_Prompt_2cq8wG()
+[Activity
+    Text = ${ChoiceInput_Prompt_2cq8wG_text()}
+]

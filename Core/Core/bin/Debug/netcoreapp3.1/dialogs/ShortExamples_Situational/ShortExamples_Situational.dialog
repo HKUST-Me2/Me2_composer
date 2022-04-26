@@ -2,7 +2,7 @@
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
     "id": "OCwsNF",
-    "name": "ShortExamples_Situational",
+    "name": "See_OthersStories",
     "comment": "Situational examples / case analysis (King Chow Vid + EOC Report)"
   },
   "autoEndDialog": true,
@@ -15,7 +15,16 @@
         "description": "",
         "id": "DjgN7b"
       },
-      "actions": []
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "sdC7sv",
+            "comment": "test1"
+          },
+          "activity": "${SendActivity_sdC7sv()}"
+        }
+      ]
     }
   ],
   "generator": "ShortExamples_Situational.lg",
