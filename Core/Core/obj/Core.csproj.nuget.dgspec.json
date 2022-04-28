@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\Core.csproj": {}
+    "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\Core.csproj": {
+    "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\yoyom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\obj\\",
+        "outputPath": "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\NuGet.Config",
+          "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\NuGet.Config",
           "C:\\Users\\yoyom\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
               "version": "[3.1.8, )"
             },
             "Microsoft.Bot.Builder.AI.Luis": {
+              "target": "Package",
+              "version": "[4.15.2, )"
+            },
+            "Microsoft.Bot.Builder.AI.Orchestrator": {
               "target": "Package",
               "version": "[4.15.2, )"
             },

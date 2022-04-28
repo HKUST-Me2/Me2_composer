@@ -1,8 +1,8 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "2sKVcX",
-    "name": "ShortExamples_Detailed",
+    "id": "jpEPnt",
+    "name": "ShortExamples_catagories",
     "comment": "Detailed description of actions that are sexual harassment (EOC Report)"
   },
   "autoEndDialog": true,
@@ -13,7 +13,7 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "i1SKXh"
+        "id": "KTbrWr"
       },
       "actions": []
     }

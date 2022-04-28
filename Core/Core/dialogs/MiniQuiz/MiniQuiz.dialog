@@ -11,234 +11,779 @@
     {
       "$kind": "Microsoft.OnBeginDialog",
       "$designer": {
-        "name": "BeginDialog",
-        "description": "",
-        "id": "PY6EGo"
+        "id": "rABbV1",
+        "name": "Dialog started (Begin dialog event)"
       },
       "actions": [
         {
-          "$kind": "Microsoft.TextInput",
+          "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "kbeDFe"
+            "id": "kzPbFO"
           },
+          "activity": "${SendActivity_kzPbFO()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "3iIZRW"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "FirstQuestion"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "p11kdm"
+          },
+          "activity": "${SendActivity_p11kdm()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "LdP2Jh"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "SecondQuestion"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "zNERfM"
+          },
+          "activity": "${SendActivity_zNERfM()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "lItTbv"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "ThirdQuestion"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "RfItNb"
+          },
+          "activity": "${SendActivity_RfItNb()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "LrvUH0"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "4Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "78dewY"
+          },
+          "activity": "${SendActivity_78dewY()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "ITFwbN"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "5Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "BsJacn"
+          },
+          "activity": "${SendActivity_BsJacn()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "uzD8kX"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "6Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "6dAHTg"
+          },
+          "activity": "${SendActivity_6dAHTg()}"
+        },
+        {
+          "$kind": "Microsoft.EmitEvent",
+          "$designer": {
+            "id": "EoL7M3"
+          },
+          "handledProperty": "turn.eventHandled",
+          "bubbleEvent": true,
+          "eventName": "7Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "L0vPzV"
+          },
+          "activity": "${SendActivity_L0vPzV()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "86YLfQ",
+        "name": "FirstQuestion"
+      },
+      "event": "FirstQuestion",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "yyQx8i"
+          },
+          "defaultLocale": "en-us",
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
           "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_kbeDFe()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": ""
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "1bGyrU"
-          },
-          "activity": "${SendActivity_1bGyrU()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "fY1Oac"
-          },
-          "activity": "${SendActivity_fY1Oac()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "tvJjOw"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_tvJjOw()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": ""
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "CVJrYL"
-          },
-          "activity": "${SendActivity_CVJrYL()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "6LtlQj"
-          },
-          "activity": "${SendActivity_6LtlQj()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "mJjaAv"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_mJjaAv()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": ""
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "B4M5X3"
-          },
-          "activity": "${SendActivity_B4M5X3()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "FK23nr"
-          },
-          "activity": "${SendActivity_FK23nr()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "hDtfQM"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_hDtfQM()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": ""
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "vm8Ybj"
-          },
-          "activity": "${SendActivity_vm8Ybj()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "sUq0K5"
-          },
-          "activity": "${SendActivity_sUq0K5()}"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "7H22I1"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_yyQx8i()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
           "defaultValueResponse": "",
-          "prompt": "${TextInput_Prompt_7H22I1()}"
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "7KLiJ2"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "7QG27B"
+                  },
+                  "activity": "${SendActivity_7QG27B()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "PHOh1l"
+                  },
+                  "activity": "${SendActivity_PHOh1l()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "YW5SlN"
+              },
+              "activity": "${SendActivity_YW5SlN()}"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "muWZBs"
+            "id": "syTIMn"
           },
-          "activity": "${SendActivity_muWZBs()}"
+          "activity": "${SendActivity_syTIMn()}"
         },
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.DeleteProperty",
           "$designer": {
-            "id": "SfFOEM"
+            "id": "ns7X0T"
           },
-          "activity": "${SendActivity_SfFOEM()}"
-        },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "CI5AV2",
+        "name": "SecondQuestion"
+      },
+      "event": "SecondQuestion",
+      "actions": [
         {
-          "$kind": "Microsoft.TextInput",
+          "$kind": "Microsoft.ChoiceInput",
           "$designer": {
-            "id": "ozORlE"
+            "id": "KY0ugb"
           },
+          "defaultLocale": "en-us",
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
           "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_ozORlE()}",
+          "prompt": "${ChoiceInput_Prompt_KY0ugb()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
-          "defaultValueResponse": ""
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "sOqwhs"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "0ds2jn"
+                  },
+                  "activity": "${SendActivity_0ds2jn()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "ksb3zc"
+                  },
+                  "activity": "${SendActivity_ksb3zc()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "L4sXgn"
+              },
+              "activity": "${SendActivity_L4sXgn()}"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "SDxQH8"
+            "id": "Vz0ps9"
           },
-          "activity": "${SendActivity_SDxQH8()}"
+          "activity": "${SendActivity_Vz0ps9()}"
         },
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.DeleteProperty",
           "$designer": {
-            "id": "y29BiJ"
+            "id": "FuXqVc"
           },
-          "activity": "${SendActivity_y29BiJ()}"
-        },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "dai0C1",
+        "name": "ThirdQuestion"
+      },
+      "event": "ThirdQuestion",
+      "actions": [
         {
-          "$kind": "Microsoft.TextInput",
+          "$kind": "Microsoft.ChoiceInput",
           "$designer": {
-            "id": "ubOAgG"
+            "id": "sEpjge"
           },
+          "defaultLocale": "en-us",
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
           "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_ubOAgG()}",
+          "prompt": "${ChoiceInput_Prompt_sEpjge()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
-          "defaultValueResponse": ""
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "nfVRiX"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "x7cMHE"
+                  },
+                  "activity": "${SendActivity_x7cMHE()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "Grc4Bb"
+                  },
+                  "activity": "${SendActivity_Grc4Bb()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Bv7w38"
+              },
+              "activity": "${SendActivity_Bv7w38()}"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "IMBUBQ"
+            "id": "oK16mX"
           },
-          "activity": "${SendActivity_IMBUBQ()}"
+          "activity": "${SendActivity_oK16mX()}"
         },
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.DeleteProperty",
           "$designer": {
-            "id": "gw0EKp"
+            "id": "3380Ba"
           },
-          "activity": "${SendActivity_gw0EKp()}"
-        },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "rXtsfG",
+        "name": "4Question"
+      },
+      "event": "4Question",
+      "actions": [
         {
-          "$kind": "Microsoft.TextInput",
+          "$kind": "Microsoft.ChoiceInput",
           "$designer": {
-            "id": "5A4Oxr"
+            "id": "nE7ZWB"
           },
+          "defaultLocale": "en-us",
           "disabled": false,
           "maxTurnCount": 3,
           "alwaysPrompt": false,
           "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_5A4Oxr()}",
+          "prompt": "${ChoiceInput_Prompt_nE7ZWB()}",
           "unrecognizedPrompt": "",
           "invalidPrompt": "",
-          "defaultValueResponse": ""
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "VAYg3k"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "5JMtFr"
+                  },
+                  "activity": "${SendActivity_5JMtFr()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "89IW5B"
+                  },
+                  "activity": "${SendActivity_89IW5B()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "Yl9tl7"
+              },
+              "activity": "${SendActivity_Yl9tl7()}"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "zBgH5M"
+            "id": "QPV37y"
           },
-          "activity": "${SendActivity_zBgH5M()}"
+          "activity": "${SendActivity_QPV37y()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "3hYF8q"
+          },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "hNXVYC",
+        "name": "5Question"
+      },
+      "event": "5Question",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "w4gVyy"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_w4gVyy()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "ogt85W"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "QZFF3i"
+                  },
+                  "activity": "${SendActivity_QZFF3i()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "PhyNa6"
+                  },
+                  "activity": "${SendActivity_PhyNa6()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "W4zFAT"
+              },
+              "activity": "${SendActivity_W4zFAT()}"
+            }
+          ]
         },
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "RsT6SH"
+            "id": "gadJYy"
           },
-          "activity": "${SendActivity_RsT6SH()}"
+          "activity": "${SendActivity_gadJYy()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "r3uxIf"
+          },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "xoeNCG",
+        "name": "6Question"
+      },
+      "event": "6Question",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "4ChDDq"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_4ChDDq()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "He2oU1"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "rwyGHN"
+                  },
+                  "activity": "${SendActivity_rwyGHN()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "x5BXYr"
+                  },
+                  "activity": "${SendActivity_x5BXYr()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "NscsQW"
+              },
+              "activity": "${SendActivity_NscsQW()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "BPJ4bq"
+          },
+          "activity": "${SendActivity_BPJ4bq()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "4TzHQB"
+          },
+          "property": "$user.miniquizans"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "MMK5QZ",
+        "name": "7Question"
+      },
+      "event": "7Question",
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "ENFj45"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_ENFj45()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "property": "$user.miniquizans",
+          "style": "suggestedAction"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "KBiBWZ"
+          },
+          "condition": "$user.miniquizans",
+          "cases": [
+            {
+              "value": "Yes",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "uR5EkW"
+                  },
+                  "activity": "${SendActivity_uR5EkW()}"
+                }
+              ]
+            },
+            {
+              "value": "No",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "oDQMcL"
+                  },
+                  "activity": "${SendActivity_oDQMcL()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "S4CuGL"
+              },
+              "activity": "${SendActivity_S4CuGL()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "PhsySX"
+          },
+          "activity": "${SendActivity_PhsySX()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "IG2zAd"
+          },
+          "property": "$user.miniquizans"
         }
       ]
     }

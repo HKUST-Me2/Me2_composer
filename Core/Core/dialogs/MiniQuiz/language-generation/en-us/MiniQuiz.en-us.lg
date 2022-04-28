@@ -1,0 +1,487 @@
+[import](common.lg)
+
+# TextInput_Prompt_kbeDFe()
+[Activity
+    Text = ${TextInput_Prompt_kbeDFe_text()}
+]
+
+# TextInput_Prompt_kbeDFe_text()
+- Someone claims "Sexual harassment is a criminal offence." What do you think?
+# SendActivity_1bGyrU()
+[Activity
+    Text = ${SendActivity_1bGyrU_text()}
+]
+
+# SendActivity_1bGyrU_text()
+- Contraventions of the prohibitions against sexual harassment under the SDO would lead to civil liability. Certain acts of sexual harassment, such as touching another person’s private parts without his/her consent, may also amount to the offence of indecent assault under the Crimes Ordinance. 
+# SendActivity_fY1Oac()
+[Activity
+    Text = ${SendActivity_fY1Oac_text()}
+]
+
+# SendActivity_fY1Oac_text()
+- Here Comes another Myths.
+# TextInput_Prompt_tvJjOw()
+[Activity
+    Text = ${TextInput_Prompt_tvJjOw_text()}
+]
+
+# TextInput_Prompt_tvJjOw_text()
+- Someone said "It is not sexual harassment if it was just a one-off incident. " Do you agree?
+# SendActivity_CVJrYL()
+[Activity
+    Text = ${SendActivity_CVJrYL_text()}
+]
+
+# SendActivity_CVJrYL_text()
+- ```Under the law, whether an act amounts to sexual harassment has nothing to do with its frequency.
+An act can constitute sexual harassment even if it happened only once. ```
+# SendActivity_6LtlQj()
+[Activity
+    Text = ${SendActivity_6LtlQj_text()}
+]
+
+# SendActivity_6LtlQj_text()
+- And... the next myths is ...
+# TextInput_Prompt_mJjaAv()
+[Activity
+    Text = ${TextInput_Prompt_mJjaAv_text()}
+]
+
+# TextInput_Prompt_mJjaAv_text()
+- "It is always a “she said, he said” situation. It is diffcult to prove sexual harassment, and harassers get off the hook all the time. " Is it true?
+# SendActivity_B4M5X3()
+[Activity
+    Text = ${SendActivity_B4M5X3_text()}
+]
+
+# SendActivity_B4M5X3_text()
+- While the claimant of a sexual harassment claim has the burden of proof to support his/her claim with reasons and evidence in legal proceedings, such claims are civil in nature, meaning that the standard of proof adopted by the Court would not be “beyond reasonable doubt” as in criminal cases, but “on the balance of probabilities”. In adopting this standard of proof, the Court would evaluate the evidence presented by both the claimant and the respondent before determining whose account is more credible, and whether to accept the issues raised by the claimant and his/her claim. The standard of proof is therefore considerably lower than that in criminal proceedings. 
+# SendActivity_FK23nr()
+[Activity
+    Text = ${SendActivity_FK23nr_text()}
+]
+
+# SendActivity_FK23nr_text()
+- Next...
+# TextInput_Prompt_hDtfQM()
+[Activity
+    Text = ${TextInput_Prompt_hDtfQM_text()}
+]
+
+# TextInput_Prompt_hDtfQM_text()
+- "It is not sexual harassment if the harasser did not mean it. " Is this correct?
+# SendActivity_vm8Ybj()
+[Activity
+    Text = ${SendActivity_vm8Ybj_text()}
+]
+
+# SendActivity_vm8Ybj_text()
+- Intent is not a necessary element of sexual harassment under the law. A person making a sexual joke, for example, may consider it innocuous or a common practice in certain workplaces, but as long as it is unwelcome to the recipient or creates a hostile or intimidating environment for others, the act can amount to sexual harassment. 
+# SendActivity_sUq0K5()
+[Activity
+    Text = ${SendActivity_sUq0K5_text()}
+]
+
+# SendActivity_sUq0K5_text()
+- And...
+# TextInput_Prompt_7H22I1()
+[Activity
+    Text = ${TextInput_Prompt_7H22I1_text()}
+]
+
+# TextInput_Prompt_7H22I1_text()
+- Do you agree "Men cannot be sexually harassed. " ?
+# SendActivity_muWZBs()
+[Activity
+    Text = ${SendActivity_muWZBs_text()}
+]
+
+# SendActivity_muWZBs_text()
+- The law protects everyone, regardless of the gender of the victim. 
+# SendActivity_SfFOEM()
+[Activity
+    Text = ${SendActivity_SfFOEM_text()}
+]
+
+# SendActivity_SfFOEM_text()
+- Let's continue!
+# TextInput_Prompt_ozORlE()
+[Activity
+    Text = ${TextInput_Prompt_ozORlE_text()}
+]
+
+# TextInput_Prompt_ozORlE_text()
+- "Sexual harassment never happens between people of the same sex. " Is it ?
+# SendActivity_SDxQH8()
+[Activity
+    Text = ${SendActivity_SDxQH8_text()}
+]
+
+# SendActivity_SDxQH8_text()
+- Sexual harassment can take place between men and women, among men, or among women. Gender is irrelevant as to whether an act amounts to sexual harassment. 
+# SendActivity_y29BiJ()
+[Activity
+    Text = ${SendActivity_y29BiJ_text()}
+]
+
+# SendActivity_y29BiJ_text()
+- Last two question!
+# TextInput_Prompt_ubOAgG()
+[Activity
+    Text = ${TextInput_Prompt_ubOAgG_text()}
+]
+
+# TextInput_Prompt_ubOAgG_text()
+- "Some people mean “yes” when they say “no”. " Is it true?
+# SendActivity_IMBUBQ()
+[Activity
+    Text = ${SendActivity_IMBUBQ_text()}
+]
+
+# SendActivity_IMBUBQ_text()
+- When a person looks offended, pushes you away, or explicitly says “no” to you, it is a clear sign that he/she does not welcome whatever you are doing. When you are unsure, take the time to communicate with him/her, and always obtain consent before engaging in any behaviour that may otherwise constitute sexual harassment. 
+# SendActivity_gw0EKp()
+[Activity
+    Text = ${SendActivity_gw0EKp_text()}
+]
+
+# SendActivity_gw0EKp_text()
+- The last one to go!
+# TextInput_Prompt_5A4Oxr()
+[Activity
+    Text = ${TextInput_Prompt_5A4Oxr_text()}
+]
+
+# TextInput_Prompt_5A4Oxr_text()
+- ```"Employers are not liable for acts
+of sexual harassment committed by
+their employees. " True or False?```
+# SendActivity_zBgH5M()
+[Activity
+    Text = ${SendActivity_zBgH5M_text()}
+]
+
+# SendActivity_zBgH5M_text()
+- ```"Employers and principals of agents, as well as persons engaging interns and volunteers, will be held liable for any unlawful act of sexual harassment committed by their employees, agents, interns and volunteers respectively in the course of employment or the relevant internship and volunteer work, whether or not they knew about or approved the act.
+The law provides for a defence for the employer or person engaging the intern or volunteer, where they can prove that they have taken “reasonably practicable steps” to prevent the employee, intern or volunteer from doing the relevant sexual harassment act (note: there is no equivalent defence for principals).
+Such steps may include formulating a comprehensive anti\-sexual harassment policy, informing all workplace participants of the policy through different channels, providing training and reviewing the policy on a periodic basis, as well as setting up a complaint\-handling mechanism and designating staff to handle complaints. Ultimately, in the event of a civil claim, the Court will consider the specifc circumstances of the case and decide whether the steps taken are suffcient. "```
+# SendActivity_RsT6SH()
+[Activity
+    Text = ${SendActivity_RsT6SH_text()}
+]
+
+# SendActivity_RsT6SH_text()
+- ```Thanks for your participation! 
+
+All the information a sourced from https://sfgov.org/dosw/sexual\-harassment\-frequently\-asked\-questions
+
+Have a nice day!```
+# ChoiceInput_Prompt_yyQx8i()
+[Activity
+    Text = ${ChoiceInput_Prompt_yyQx8i_text()}
+]
+
+# ChoiceInput_Prompt_yyQx8i_text()
+- It is not sexual harassment if it was just a one-off incident.
+# SendActivity_7QG27B()
+[Activity
+    Text = ${SendActivity_7QG27B_text()}
+]
+
+# SendActivity_7QG27B_text()
+- You are wrong
+# SendActivity_PHOh1l()
+[Activity
+    Text = ${SendActivity_PHOh1l_text()}
+]
+
+# SendActivity_PHOh1l_text()
+- You are Correct👍
+# SendActivity_YW5SlN()
+[Activity
+    Text = ${SendActivity_YW5SlN_text()}
+]
+
+# SendActivity_YW5SlN_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_syTIMn()
+[Activity
+    Text = ${SendActivity_syTIMn_text()}
+]
+
+# SendActivity_syTIMn_text()
+- ```Under the law, whether an act amounts to sexual harassment has nothing to do with its frequency.
+An act can constitute sexual harassment even if it happened only once.```
+# ChoiceInput_Prompt_KY0ugb_text()
+- It is always a “she said, he said” situation. It is difficult to prove sexual harassment, and harassers get off the hook all the time.
+# ChoiceInput_Prompt_KY0ugb()
+[Activity
+    Text = ${ChoiceInput_Prompt_KY0ugb_text()}
+]
+
+# SendActivity_L4sXgn_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_L4sXgn()
+[Activity
+    Text = ${SendActivity_L4sXgn_text()}
+]
+
+# SendActivity_0ds2jn_text()
+- You are wrong
+# SendActivity_0ds2jn()
+[Activity
+    Text = ${SendActivity_0ds2jn_text()}
+]
+
+# SendActivity_ksb3zc_text()
+- You are Correct👍
+# SendActivity_ksb3zc()
+[Activity
+    Text = ${SendActivity_ksb3zc_text()}
+]
+
+# SendActivity_Vz0ps9_text()
+- While the claimant of a sexual harassment claim has the burden of proof to support his/her claim with reasons and evidence in legal proceedings, such claims are civil in nature, meaning that the standard of proof adopted by the Court would not be “beyond reasonable doubt” as in criminal cases, but “on the balance of probabilities”. In adopting this standard of proof, the Court would evaluate the evidence presented by both the claimant and the respondent before determining whose account is more credible, and whether to accept the issues raised by the claimant and his/her claim. The standard of proof is therefore considerably lower than that in criminal proceedings.
+# SendActivity_Vz0ps9()
+[Activity
+    Text = ${SendActivity_Vz0ps9_text()}
+]
+
+# ChoiceInput_Prompt_sEpjge_text()
+- It is not sexual harassment if the harasser did not mean it.
+# ChoiceInput_Prompt_sEpjge()
+[Activity
+    Text = ${ChoiceInput_Prompt_sEpjge_text()}
+]
+
+# SendActivity_Bv7w38_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_Bv7w38()
+[Activity
+    Text = ${SendActivity_Bv7w38_text()}
+]
+
+# SendActivity_x7cMHE_text()
+- You are wrong
+# SendActivity_x7cMHE()
+[Activity
+    Text = ${SendActivity_x7cMHE_text()}
+]
+
+# SendActivity_Grc4Bb_text()
+- You are Correct👍
+# SendActivity_Grc4Bb()
+[Activity
+    Text = ${SendActivity_Grc4Bb_text()}
+]
+
+# SendActivity_oK16mX_text()
+- Intent is not a necessary element of sexual harassment under the law. A person making a sexual joke, for example, may consider it innocuous or a common practice in certain workplaces, but as long as it is unwelcome to the recipient or creates a hostile or intimidating environment for others, the act can amount to sexual harassment.
+# SendActivity_oK16mX()
+[Activity
+    Text = ${SendActivity_oK16mX_text()}
+]
+
+# ChoiceInput_Prompt_nE7ZWB_text()
+- Men cannot be sexually harassed.
+# ChoiceInput_Prompt_nE7ZWB()
+[Activity
+    Text = ${ChoiceInput_Prompt_nE7ZWB_text()}
+]
+
+# SendActivity_Yl9tl7_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_Yl9tl7()
+[Activity
+    Text = ${SendActivity_Yl9tl7_text()}
+]
+
+# SendActivity_5JMtFr_text()
+- You are wrong
+# SendActivity_5JMtFr()
+[Activity
+    Text = ${SendActivity_5JMtFr_text()}
+]
+
+# SendActivity_89IW5B_text()
+- You are Correct👍
+# SendActivity_89IW5B()
+[Activity
+    Text = ${SendActivity_89IW5B_text()}
+]
+
+# SendActivity_QPV37y_text()
+- The law protects everyone, regardless of the gender of the victim.
+# SendActivity_QPV37y()
+[Activity
+    Text = ${SendActivity_QPV37y_text()}
+]
+
+# ChoiceInput_Prompt_w4gVyy_text()
+- Sexual harassment never happens between people of the same sex.
+# ChoiceInput_Prompt_w4gVyy()
+[Activity
+    Text = ${ChoiceInput_Prompt_w4gVyy_text()}
+]
+
+# SendActivity_W4zFAT_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_W4zFAT()
+[Activity
+    Text = ${SendActivity_W4zFAT_text()}
+]
+
+# SendActivity_QZFF3i_text()
+- You are wrong
+# SendActivity_QZFF3i()
+[Activity
+    Text = ${SendActivity_QZFF3i_text()}
+]
+
+# SendActivity_PhyNa6_text()
+- You are Correct👍
+# SendActivity_PhyNa6()
+[Activity
+    Text = ${SendActivity_PhyNa6_text()}
+]
+
+# SendActivity_gadJYy_text()
+- Sexual harassment can take place between men and women, among men, or among women. Gender is irrelevant as to whether an act amounts to sexual harassment.
+# SendActivity_gadJYy()
+[Activity
+    Text = ${SendActivity_gadJYy_text()}
+]
+
+# ChoiceInput_Prompt_4ChDDq_text()
+- It is not sexual harassment if it was just a one-off incident.
+# ChoiceInput_Prompt_4ChDDq()
+[Activity
+    Text = ${ChoiceInput_Prompt_4ChDDq_text()}
+]
+
+# SendActivity_NscsQW_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_NscsQW()
+[Activity
+    Text = ${SendActivity_NscsQW_text()}
+]
+
+# SendActivity_rwyGHN_text()
+- You are wrong
+# SendActivity_rwyGHN()
+[Activity
+    Text = ${SendActivity_rwyGHN_text()}
+]
+
+# SendActivity_x5BXYr_text()
+- You are Correct👍
+# SendActivity_x5BXYr()
+[Activity
+    Text = ${SendActivity_x5BXYr_text()}
+]
+
+# SendActivity_BPJ4bq_text()
+- ```Under the law, whether an act amounts to sexual harassment has nothing to do with its frequency.
+An act can constitute sexual harassment even if it happened only once.```
+# SendActivity_BPJ4bq()
+[Activity
+    Text = ${SendActivity_BPJ4bq_text()}
+]
+
+# ChoiceInput_Prompt_ENFj45_text()
+- Some people mean “yes” when they say “no”.
+# ChoiceInput_Prompt_ENFj45()
+[Activity
+    Text = ${ChoiceInput_Prompt_ENFj45_text()}
+]
+
+# SendActivity_S4CuGL_text()
+- Sorry, I think this is not a valid answer
+# SendActivity_S4CuGL()
+[Activity
+    Text = ${SendActivity_S4CuGL_text()}
+]
+
+# SendActivity_uR5EkW_text()
+- You are wrong
+# SendActivity_uR5EkW()
+[Activity
+    Text = ${SendActivity_uR5EkW_text()}
+]
+
+# SendActivity_oDQMcL_text()
+- You are Correct👍
+# SendActivity_oDQMcL()
+[Activity
+    Text = ${SendActivity_oDQMcL_text()}
+]
+
+# SendActivity_PhsySX_text()
+- When a person looks offended, pushes you away, or explicitly says “no” to you, it is a clear sign that he/she does not welcome whatever you are doing. When you are unsure, take the time to communicate with him/her, and always obtain consent before engaging in any behaviour that may otherwise constitute sexual harassment.
+# SendActivity_PhsySX()
+[Activity
+    Text = ${SendActivity_PhsySX_text()}
+]
+
+# SendActivity_L0vPzV()
+[Activity
+    Text = ${SendActivity_L0vPzV_text()}
+]
+
+# SendActivity_L0vPzV_text()
+- 😸Thanks for playing our mini quiz!
+# SendActivity_kzPbFO()
+[Activity
+    Attachments = ${SendActivity_kzPbFO_attachment_2URPzP()}
+]
+
+# SendActivity_kzPbFO_attachment_2URPzP()
+[AnimationCard
+    title = Welcome to MiniQuiz Game
+    subtitle = Have Fun!😸
+    image = https://docs.microsoft.com/en-us/bot-framework/media/v1x/how-it-works/architecture-resize.png
+    media = https://c.tenor.com/b3oUwj1NnO8AAAAd/cat-cute-cat.gif
+]
+# SendActivity_p11kdm()
+[Activity
+    Text = ${SendActivity_p11kdm_text()}
+]
+
+# SendActivity_p11kdm_text()
+- the Next one!
+# SendActivity_zNERfM()
+[Activity
+    Text = ${SendActivity_zNERfM_text()}
+]
+
+# SendActivity_zNERfM_text()
+- Here come the nxt!
+# SendActivity_RfItNb()
+[Activity
+    Text = ${SendActivity_RfItNb_text()}
+]
+
+# SendActivity_RfItNb_text()
+- next!
+# SendActivity_78dewY()
+[Activity
+    Text = ${SendActivity_78dewY_text()}
+]
+
+# SendActivity_78dewY_text()
+- Add oil!
+# SendActivity_BsJacn()
+[Activity
+    Text = ${SendActivity_BsJacn_text()}
+]
+
+# SendActivity_BsJacn_text()
+- next!
+# SendActivity_6dAHTg()
+[Activity
+    Text = ${SendActivity_6dAHTg_text()}
+]
+
+# SendActivity_6dAHTg_text()
+- Next!

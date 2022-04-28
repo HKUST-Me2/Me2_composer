@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ss9GE5QtAPgjMSR6pxY6JRKrsnVF50UbpUvXc2ysWcpF0Ak0XB4IYuxEvLbU104DCjpbq87iWOBCCc2Ln4Qn2w==",
+  "dgSpecHash": "bKiZWDyJLMC1npZIcfe9wB9CXzjqwOM2ZyMe0cL3B4WeGGgznZl2eNf26lI69X03nmrwma6g+rloXkMcWvR9ng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yoyom\\OneDrive\\文件\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\yoyom\\Downloads\\Me2-merged\\Me2-merged\\Core\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yoyom\\.nuget\\packages\\adaptiveexpressions\\4.15.2\\adaptiveexpressions.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\antlr4.runtime.standard\\4.8.0\\antlr4.runtime.standard.4.8.0.nupkg.sha512",
@@ -37,6 +37,7 @@
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder\\4.15.2\\microsoft.bot.builder.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder.ai.luis\\4.15.2\\microsoft.bot.builder.ai.luis.4.15.2.nupkg.sha512",
+    "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder.ai.orchestrator\\4.15.2\\microsoft.bot.builder.ai.orchestrator.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder.ai.qna\\4.15.2\\microsoft.bot.builder.ai.qna.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder.applicationinsights\\4.15.2\\microsoft.bot.builder.applicationinsights.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.builder.azure\\4.15.2\\microsoft.bot.builder.azure.4.15.2.nupkg.sha512",
@@ -53,6 +54,7 @@
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.connector.streaming\\4.15.2\\microsoft.bot.connector.streaming.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.schema\\4.15.2\\microsoft.bot.schema.4.15.2.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.bot.streaming\\4.15.2\\microsoft.bot.streaming.4.15.2.nupkg.sha512",
+    "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.botframework.orchestrator\\4.14.3\\microsoft.botframework.orchestrator.4.14.3.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\2.0.0\\microsoft.extensions.caching.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\yoyom\\.nuget\\packages\\microsoft.extensions.caching.memory\\2.0.0\\microsoft.extensions.caching.memory.2.0.0.nupkg.sha512",

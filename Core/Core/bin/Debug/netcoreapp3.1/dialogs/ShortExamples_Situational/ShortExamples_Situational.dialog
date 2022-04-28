@@ -1,9 +1,9 @@
 {
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
-    "id": "GLRJBz",
-    "name": "ShortExamples_Situational",
-    "comment": "Situational examples / case analysis (King chow's video +EOC report)"
+    "id": "OCwsNF",
+    "name": "See_OthersStories",
+    "comment": "Situational examples / case analysis (King Chow Vid + EOC Report)"
   },
   "autoEndDialog": true,
   "defaultResultProperty": "dialog.result",
@@ -13,9 +13,18 @@
       "$designer": {
         "name": "BeginDialog",
         "description": "",
-        "id": "sXk5IL"
+        "id": "DjgN7b"
       },
-      "actions": []
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "sdC7sv",
+            "comment": "test1"
+          },
+          "activity": "${SendActivity_sdC7sv()}"
+        }
+      ]
     }
   ],
   "generator": "ShortExamples_Situational.lg",

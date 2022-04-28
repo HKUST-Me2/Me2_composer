@@ -2,7 +2,7 @@
   "$kind": "Microsoft.AdaptiveDialog",
   "$designer": {
     "id": "NSPEcb",
-    "name": "Victims_Approach",
+    "name": "VictimApproach",
     "comment": "Education Choice 2.2: Victim's Approach"
   },
   "autoEndDialog": true,
@@ -11,7 +11,7 @@
     {
       "$kind": "Microsoft.OnBeginDialog",
       "$designer": {
-        "name": "BeginDialog",
+        "name": "Victim",
         "description": "",
         "id": "1HkjEE"
       },
@@ -188,7 +188,8 @@
                                   "defaultValueResponse": "",
                                   "choiceOptions": {
                                     "includeNumbers": true,
-                                    "inlineOrMore": ", or "
+                                    "inlineOrMore": ", or ",
+                                    "inlineOr": " or "
                                   },
                                   "property": "user.general_action",
                                   "style": "heroCard",
@@ -542,14 +543,6 @@
               "activity": "${SendActivity_T3csbc()}"
             }
           ]
-        },
-        {
-          "$kind": "Microsoft.BeginDialog",
-          "$designer": {
-            "id": "kECQlN"
-          },
-          "activityProcessed": true,
-          "dialog": "Core"
         }
       ]
     }

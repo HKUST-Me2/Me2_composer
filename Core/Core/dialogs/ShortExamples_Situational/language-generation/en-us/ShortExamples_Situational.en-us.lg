@@ -1,0 +1,9 @@
+[import](common.lg)
+
+# SendActivity_sdC7sv()
+[Activity
+    Text = ${SendActivity_sdC7sv_text()}
+]
+
+# SendActivity_sdC7sv_text()
+- test1

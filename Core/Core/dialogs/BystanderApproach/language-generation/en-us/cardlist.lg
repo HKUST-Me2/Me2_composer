@@ -1,0 +1,192 @@
+> source: https://static1.squarespace.com/static/5ff5d891409193661a0718c0/t/6143c3c598215b66462b087c/1631830987649/Callisto_AlliesGuide.pdf
+
+# cardActionTemplate(type, title, value)
+[CardAction
+    Type = ${if(type == null, 'imBack', type)}
+    Title = ${title}
+    Value = ${value}
+    Text = ${title}
+]
+
+# HeroCard1
+[Herocard
+    title=${TitleText1()}
+    text=${DescriptionText1()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText1
+-BELIEVE AND AFFIRM WHAT THE SURVIVOR HAS TOLD YOU.
+
+# DescriptionText1
+- ALWAYS emphasize that what happened was NOT their fault and they could not have done ANYTHING to prevent this. One of the most common reactions to sexual violence is for the survivor to assume they should have done something to prevent it. It’s critical that we help survivors understand that offenders commit sexual violence to take away another’s agency. Survivors are not responsible or to blame in any way, shape, or form.
+
+# HeroCard2
+[Herocard
+    title=${TitleText2()}
+    text=${DescriptionText2()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText2
+- CHECK FOR SAFETY
+
+# DescriptionText2
+- Ask about their immediate needs, specifically if they may be in any immediate danger. Let the survivor set the agenda and name priorities.
+
+# HeroCard3
+[Herocard
+    title=${TitleText3()}
+    text=${DescriptionText3()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText3
+-MAKE IT CLEAR YOU ARE WILLING TO TALK ABOUT IT WITH THEM IF THEY WANT TO, BUT NOT UNTIL THEN.
+
+# DescriptionText3
+- Don’t try and pressure the survivor into saying anything if they don’t want to. Every survivor operates on their own timeline. There is no “right” timeline for beginning to talk about what happened.
+
+# HeroCard4
+[Herocard
+    title=${TitleText4()}
+    text=${DescriptionText4()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText4
+-FOLLOW THEIR LEAD.
+
+# DescriptionText4
+- Disclosing an assault or abuse to anyone, especially someone you care about, can be extremely difficult—follow the survivors’ lead in setting tone, helping uncover resources, and, most importantly, verbally uplifting them. Be careful of jumping into problemsolving or giving advice. Allow time for the survivor to share their experience without interrupting. Remember you do not need to rescue or fix it for them.
+
+# HeroCard5
+[Herocard
+    title=${TitleText5()}
+    text=${DescriptionText5()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+
+# TitleText5
+- YOU ARE THERE TO LISTEN AND BELIEVE THEM, NOT TO INTERROGATE.
+
+# DescriptionText5
+- If you have questions, consider how you can ask them in a judgement-free space. In the same vein, be conscious of the questions you’re asking and try to not ask questions that are more invasive than the survivor may be comfortable with. Though hearing an incident of sexual violence can often be shocking as an ally, it’s important you try to keep any immediate feelings of shock to yourself. Phrases like, “really?” or, “are you serious?” are natural responses, but can be extremely damaging and make survivors second guess their experience. Instead, you might say, “I am so sorry that this happened to you” or, “Thank you for trusting me to talk about this horrible experience.”
+
+# HeroCard6
+[Herocard
+    title=${TitleText6()}
+    text=${DescriptionText6()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+# TitleText6
+- USE COMPASSIONATE LANGUAGE THAT ALLOWS THE SURVIVOR TO LEAD THE CONVERSATION.
+
+# DescriptionText6
+- Saying things like “I think you need to report this immediately” may be coming from a place of support, but can provide overwhelming pressure to the survivor to take actions they may not be comfortable with. As angry or upset as you may be that this happened to someone you care about, you are not there to “fix” the situation through things like making a plan of action on their behalf. The best you can do is to help the survivor move forward in whatever form that looks like for them. Conversely, urging the survivor not to take any action can invalidate their experience and minimize the survivor’s feelings and the reality of the assault itself.
+
+
+# HeroCard7
+[Herocard
+    title=${TitleText7()}
+    text=${DescriptionText7()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+# TitleText7
+- IF YOU’RE EVER UNCERTAIN ABOUT WHAT TO SAY, JUST LISTEN.
+
+# DescriptionText7
+- Being present and being an empathetic and understanding audience is the best way to show support.. Listening is an act that shows the survivor that they are not alone. Safe connections, even if it’s not directly talking about the sexual violence can assist in giving relief and regulation to someone experiencing trauma.
+
+# HeroCard8
+[Herocard
+    title=${TitleText8()}
+    text=${DescriptionText8()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+# TitleText8
+- RECOGNIZE AND APPLAUD THEIR STRENGTH IN THE ROAD TO HEALING, ACKNOWLEDGING THE HARDSHIPS THAT COME WITH THIS JOURNEY.
+
+# DescriptionText8
+- Be conscious that the person sharing this information with you is probably being very intentional about what they are saying and not saying. Allow them to maintain control of the conversation and share what they feel comfortable with.
+
+# HeroCard9
+[Herocard
+    title=${TitleText9()}
+    text=${DescriptionText9()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+# TitleText9
+- OFFER WHATEVER HELP WOULD BE MOST BENEFICIAL FOR THE SURVIVOR, NOT WHAT YOU MAY THINK WOULD BENEFIT THEM.
+
+# DescriptionText9
+- It can be challenging not to center your personal feelings, but it’s important to do so in order to best support the survivor. For example, some survivors may confide in you because they want help navigating reporting options, but others may not feel comfortable going through any formal process. Be sure to listen to whatever they most want their path forward to look like. Allow the survivor to make the decisions.
+
+# HeroCard10
+[Herocard
+    title=${TitleText10()}
+    text=${DescriptionText10()}
+    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+]
+# TitleText10
+- TRY NOT TO COMPARE YOUR EXPERIENCES TO THEIRS.
+
+# DescriptionText10
+- If you are also a survivor and are comfortable sharing that, feel free to do so. But, remember that this conversation is about them and every experience of assault is unique. Each survivor experiences sexual violence in the context of their own identities, experiences, and circumstances. It is important to refrain from assuming we can fully understand the way someone might be navigating their lived experiences, especially when it also includes systems of oppression that further harm and silence survivors. We know repeat perpetrators are a serious problem, but that shouldn’t be a reason to pressure a survivor into taking an action they don’t want to take. It is most important that a survivor feels listened to and supported. Their path to healing is completely their choice, and is unique to every survivor.
+
+
+# AdaptiveCard
+[Activity
+    Attachments = ${json(adaptivecardjson())}
+]
+
+# adaptivecardjson()
+- ```
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "TRY NOT TO COMPARE YOUR EXPERIENCES TO THEIRS.",
+            "wrap": true,
+            "size": "ExtraLarge",
+            "weight": "Default",
+            "color": "Accent"
+        },
+        {
+            "type": "TextBlock",
+            "text": "If you are also a survivor and are comfortable sharing that, feel free to do so. But, remember that this conversation is about them and every experience of assault is unique. Each survivor experiences sexual violence in the context of their own identities, experiences, and circumstances. It is important to refrain from assuming we can fully understand the way someone might be navigating their lived experiences, especially when it also includes systems of oppression that further harm and silence survivors. We know repeat perpetrators are a serious problem, but that shouldn’t be a reason to pressure a survivor into taking an action they don’t want to take. It is most important that a survivor feels listened to and supported. Their path to healing is completely their choice, and is unique to every survivor.",
+            "wrap": true,
+            "color": "Default"
+        }
+    ],
+    "backgroundImage": {
+        "url": "https://images.pexels.com/photos/1303092/pexels-photo-1303092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+}
+```
+# AttachmentLayoutType
+- carousel
+- list
+
+# AllCards
+[Activity
+    Attachments = ${HeroCard1()} |  ${HeroCard2()}
+    AttachmentLayout = ${AttachmentLayoutType()}
+]
+
+# help
+- ```
+    I can show you examples on different Cards
+    [Suggestions=HeroCard|ThumbnailCard|SigninCard|AnimationCard|VideoCard|AudioCard|AdaptiveCard|AllCards]
+    01 - HeroCard
+    02 - ThumbnailCard
+    03 - SigninCard
+    04 - AnimationCard
+    05 - VideoCard
+    06 - AudioCard
+    07 - AdaptiveCard
+    08 - AllCards
+  ```

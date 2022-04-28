@@ -1,0 +1,340 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "SV5eLz",
+    "name": "OcampSpecials",
+    "comment": "Typical cases and ways to handle about the OCamp"
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "2hpTPC"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "H6s6PF"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_H6s6PF()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "choices": [
+            "1. I am together with a group of people",
+            "2. I am only with one or two people"
+          ],
+          "property": "user.ocampchoice1",
+          "style": "heroCard"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "t7hKGR"
+          },
+          "condition": "=user.ocampchoice1",
+          "cases": [
+            {
+              "value": "1. I am together with a group of people",
+              "actions": [
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "xn09C1"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_xn09C1()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "style": "heroCard",
+                  "choices": [
+                    "I feel uncomfortable with the words  they use during conversations or games  but I am not in the game (observer)",
+                    "\"People don't seem to find any problems with they games they  play and the words they use, however sexually explicit they are\"",
+                    "\"I feel uncomfortable with the words  they use during conversations and games but I'm already joining their games \"",
+                    "\"The games they play have a sexual nature,  it's part of the game so I knew it before  they started.  They'll ask about my sexual life/ preferences,  discussing around with everyone, and sometimes make sexually sugestive signals\"",
+                    "\"They're making touches or bumps with a sexual nature, to other or to me Many unwanted deliberate touching, leaning over, cornering, or pinching. Unwanted sexual looks or gestures. \""
+                  ],
+                  "property": "user.ocampchoice2"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "tl2353"
+                  },
+                  "condition": "=user.ocampchoice2",
+                  "cases": [
+                    {
+                      "value": "I feel uncomfortable with the words  they use during conversations or games  but I am not in the game (observer)",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "qTG2A2"
+                          },
+                          "activity": "${SendActivity_qTG2A2()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "\"People don't seem to find any problems with they games they  play and the words they use, however sexually explicit they are\"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "KKVYNB"
+                          },
+                          "activity": "${SendActivity_KKVYNB()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "\"I feel uncomfortable with the words  they use during conversations and games but I'm already joining their games \"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.ChoiceInput",
+                          "$designer": {
+                            "id": "43krxH"
+                          },
+                          "defaultLocale": "en-us",
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": false,
+                          "allowInterruptions": false,
+                          "prompt": "${ChoiceInput_Prompt_43krxH()}",
+                          "unrecognizedPrompt": "",
+                          "invalidPrompt": "",
+                          "defaultValueResponse": "",
+                          "choiceOptions": {
+                            "includeNumbers": true
+                          },
+                          "property": "user.empty"
+                        },
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "I7jWMI"
+                          },
+                          "activity": "${SendActivity_I7jWMI()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "\"The games they play have a sexual nature,  it's part of the game so I knew it before  they started.  They'll ask about my sexual life/ preferences,  discussing around with everyone, and sometimes make sexually sugestive signals\"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "QcFgvc"
+                          },
+                          "activity": "${SendActivity_QcFgvc()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "\"They're making touches or bumps with a sexual nature, to other or to me Many unwanted deliberate touching, leaning over, cornering, or pinching. Unwanted sexual looks or gestures. \"",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.ChoiceInput",
+                          "$designer": {
+                            "id": "3pmw4H"
+                          },
+                          "defaultLocale": "en-us",
+                          "disabled": false,
+                          "maxTurnCount": 3,
+                          "alwaysPrompt": false,
+                          "allowInterruptions": false,
+                          "prompt": "${ChoiceInput_Prompt_3pmw4H()}",
+                          "unrecognizedPrompt": "",
+                          "invalidPrompt": "",
+                          "defaultValueResponse": "",
+                          "choiceOptions": {
+                            "includeNumbers": true,
+                            "inlineOrMore": ", or ",
+                            "inlineOr": " or ",
+                            "inlineSeparator": ", "
+                          },
+                          "choices": [
+                            "\"It's not that serious to an extent that I will report  to the school or make it anything official, but I simply feel  uncomfortable discussing these topics with people whom  I'd rather not continue with \"",
+                            "\"I feel extremely uncomfortable and I want to leave  the scene as soon as possible. I don't to tell anyone,  so that I don't have to recall any of what happened I hope that the school will somehow find out this ocamp  and cancel it. Or at least let my friends know to prevent  from joining\""
+                          ],
+                          "property": "user.ocampchoice3",
+                          "style": "heroCard"
+                        },
+                        {
+                          "$kind": "Microsoft.SwitchCondition",
+                          "$designer": {
+                            "id": "PCQnJa"
+                          },
+                          "cases": [
+                            {
+                              "value": "\"It's not that serious to an extent that I will report  to the school or make it anything official, but I simply feel  uncomfortable discussing these topics with people whom  I'd rather not continue with \"",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "7jJrnM"
+                                  },
+                                  "activity": "${SendActivity_7jJrnM()}"
+                                }
+                              ]
+                            },
+                            {
+                              "value": "\"I feel extremely uncomfortable and I want to leave  the scene as soon as possible. I don't to tell anyone,  so that I don't have to recall any of what happened I hope that the school will somehow find out this ocamp  and cancel it. Or at least let my friends know to prevent  from joining\"",
+                              "actions": [
+                                {
+                                  "$kind": "Microsoft.SendActivity",
+                                  "$designer": {
+                                    "id": "vbcbQC"
+                                  },
+                                  "activity": "${SendActivity_vbcbQC()}"
+                                }
+                              ]
+                            }
+                          ],
+                          "condition": "=user.ocampchoice3"
+                        }
+                      ]
+                    }
+                  ],
+                  "default": [
+                    {
+                      "$kind": "Microsoft.SendActivity",
+                      "$designer": {
+                        "id": "PmHAyV"
+                      },
+                      "activity": "${SendActivity_PmHAyV()}"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "value": "2. I am only with one or two people",
+              "actions": [
+                {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "r93MxL"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "prompt": "${ChoiceInput_Prompt_r93MxL()}",
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "defaultValueResponse": "",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "choices": [
+                    "They are taking to themselves and  I am not a part of their discussion",
+                    "They are talking to me/ I feel like they are  signalling me verbally/ remarks or comments  towards me",
+                    "They're making touches or bumps with a sexual nature targeting me Many unwanted deliberate touching, leaning over, cornering, or pinching. Unwanted sexual looks or gestures. "
+                  ],
+                  "style": "heroCard",
+                  "property": "user.ocampchoice4"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "gLHWuD"
+                  },
+                  "condition": "=user.ocampchoice4",
+                  "cases": [
+                    {
+                      "value": "They are taking to themselves and  I am not a part of their discussion",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "DQ6E6i"
+                          },
+                          "activity": "${SendActivity_DQ6E6i()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "They are talking to me/ I feel like they are  signalling me verbally/ remarks or comments  towards me",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "s7ZLtU"
+                          },
+                          "activity": "${SendActivity_s7ZLtU()}"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "They're making touches or bumps with a sexual nature targeting me Many unwanted deliberate touching, leaning over, cornering, or pinching. Unwanted sexual looks or gestures. ",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "vHR6kb"
+                          },
+                          "activity": "${SendActivity_vHR6kb()}"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "QXA3s2"
+              },
+              "activity": "${SendActivity_QXA3s2()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "drrMZG"
+          },
+          "activity": "${SendActivity_drrMZG()}"
+        }
+      ]
+    }
+  ],
+  "generator": "OcampSpecials.lg",
+  "recognizer": "OcampSpecials.lu.qna",
+  "id": "OcampSpecials"
+}
