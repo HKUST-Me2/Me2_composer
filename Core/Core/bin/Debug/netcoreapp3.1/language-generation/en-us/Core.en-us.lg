@@ -3,12 +3,10 @@
 # SendActivity_Greeting()
 [Activity
     Text = ${SendActivity_Greeting_text()}
-    SuggestedActions = Education
 ]
 
 # SendActivity_Greeting_text()
-- Welcome to your bot.
-
+- Hi, I'm Me2. I'm here to help you with any issues related to sexual harassment.
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
@@ -22,7 +20,7 @@
 ]
 
 # ChoiceInput_Prompt_M4QGFV_text()
-- Any person of any sex, gender, age, and race can be a victim of sexual harassment. Sexual harassment creates a hostile environment and is illegal. It includes any unwanted verbal or physical sexual behaviour. This can range from sexual comments about a person’s clothing, anatomy, or looks, to very serious acts that qualify as assault or rape. Sexual harassment is about the impact of the behaviour on you, and the severity and frequency of the incidents. It is not about the intent of the person who is engaging in the behaviour.
+- What may I help you?
 # SendActivity_1YIrzU()
 [Activity
     Text = ${SendActivity_1YIrzU_text()}
@@ -72,13 +70,6 @@
 
 # SendActivity_xVeKrJ_text()
 - 2
-# ChoiceInput_Prompt_yN4Q2p()
-[Activity
-    Text = ${ChoiceInput_Prompt_yN4Q2p_text()}
-]
-
-# ChoiceInput_Prompt_yN4Q2p_text()
-- Bystander's Approach or Victim's Approach
 # ChoiceInput_Prompt_cLtVzZ()
 [Activity
     Text = ${ChoiceInput_Prompt_cLtVzZ_text()}
@@ -86,13 +77,6 @@
 
 # ChoiceInput_Prompt_cLtVzZ_text()
 - Which kind of examples you want to check out?
-# ChoiceInput_Prompt_2cq8wG_text()
-- Sometimes it’s difficult to know what to say when a survivor discloses their assault to you. As much as we’d like to have the perfect thing to say to make it right, the truth is that there is no single correct thing we can say (or do) to repair their trauma. You can, however, respond in ways that are supportive and empowering to help in their healing process.
-# ChoiceInput_Prompt_2cq8wG()
-[Activity
-    Text = ${ChoiceInput_Prompt_2cq8wG_text()}
-]
-
 # SendActivity_ZaaQIp()
 [Activity
     Text = ${SendActivity_ZaaQIp_text()}
@@ -100,3 +84,17 @@
 
 # SendActivity_ZaaQIp_text()
 - ⚠️Debug: End of Edu
+# SendActivity_Yl4NFe_text()
+- We care a lot about confidentiality. ONLY you can access the chats unless you choose to connect with the University. Please also note that the information I provide is for informational purpose only. Consult an attorny for legal advice.
+# SendActivity_Yl4NFe()
+[Activity
+    Text = ${SendActivity_Yl4NFe_text()}
+    SuggestedActions = Get Started
+]
+
+# SendActivity_6AnRaD_text()
+- Any person of any sex, gender, age, and race can be a victim of sexual harassment. Sexual harassment creates a hostile environment and is illegal. It includes any unwanted verbal or physical sexual behaviour. This can range from sexual comments about a person’s clothing, anatomy, or looks, to very serious acts that qualify as assault or rape. Sexual harassment is about the impact of the behaviour on you, and the severity and frequency of the incidents. It is not about the intent of the person who is engaging in the behaviour.
+# SendActivity_6AnRaD()
+[Activity
+    Text = ${SendActivity_6AnRaD_text()}
+]

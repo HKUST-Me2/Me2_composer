@@ -1,0 +1,142 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "gqBPZz",
+    "name": "AboutMe2",
+    "comment": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "ZD2l3A"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "Tq2q2s"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "user.choice",
+          "choices": [
+            "What does Me2 Chatbot do?",
+            "How can Me2 Chatbot help me?",
+            "Who is Me2 Chatbot for?",
+            "Can I trust Me2 Chatbot with my private information?",
+            "Is Me2 Chatbot affiliated with HKUST?",
+            "What can I do if I want to report to the school immediately?"
+          ],
+          "style": "heroCard",
+          "recognizerOptions": {
+            "recognizeOrdinals": true
+          },
+          "prompt": "${ChoiceInput_Prompt_Tq2q2s()}"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "TurmbG"
+          },
+          "cases": [
+            {
+              "value": "What does Me2 Chatbot do?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "iWNHnl"
+                  },
+                  "activity": "${SendActivity_iWNHnl()}"
+                }
+              ]
+            },
+            {
+              "value": "How can Me2 Chatbot help me?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "158oLW"
+                  },
+                  "activity": "${SendActivity_158oLW()}"
+                }
+              ]
+            },
+            {
+              "value": "Who is Me2 Chatbot for?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "udZk4S"
+                  },
+                  "activity": "${SendActivity_udZk4S()}"
+                }
+              ]
+            },
+            {
+              "value": "Can I trust Me2 Chatbot with my private information?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "pbpYif"
+                  },
+                  "activity": "${SendActivity_pbpYif()}"
+                }
+              ]
+            },
+            {
+              "value": "Is Me2 Chatbot affiliated with HKUST?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "rAa9BO"
+                  },
+                  "activity": "${SendActivity_rAa9BO()}"
+                }
+              ]
+            },
+            {
+              "value": "What can I do if I want to report to the school immediately?",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "KpUhaM"
+                  },
+                  "activity": "${SendActivity_KpUhaM()}"
+                }
+              ]
+            }
+          ],
+          "condition": "=user.choice"
+        }
+      ]
+    }
+  ],
+  "generator": "AboutMe2.lg",
+  "recognizer": {
+    "$kind": "Microsoft.RegexRecognizer",
+    "intents": []
+  },
+  "id": "AboutMe2"
+}

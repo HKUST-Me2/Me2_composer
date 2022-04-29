@@ -1,0 +1,53 @@
+[import](common.lg)
+
+# SendActivity_iWNHnl()
+[Activity
+    Text = ${SendActivity_iWNHnl_text()}
+]
+
+# SendActivity_iWNHnl_text()
+- ```Me2 Chatbot offers two features at this moment:
+1. Education about sexual harassment
+2. Documentation of sexual harassment cases```
+# SendActivity_158oLW()
+[Activity
+    Text = ${SendActivity_158oLW_text()}
+]
+
+# SendActivity_158oLW_text()
+- ```If you have experienced sexual harassment, Me2 Chatbot helps you to document the details for future reporting.
+If you want to know more about sexual harassment, Me2 Chatbot acts as a platform for you to learn more about it.```
+# SendActivity_udZk4S()
+[Activity
+    Text = ${SendActivity_udZk4S_text()}
+]
+
+# SendActivity_udZk4S_text()
+- Me2 Chatbot is for everyone in HKUST.
+# SendActivity_pbpYif()
+[Activity
+    Text = ${SendActivity_pbpYif_text()}
+]
+
+# SendActivity_pbpYif_text()
+- Your information is safe with us. Me2 Chatbot has built the system so that the developers cannot see what information you input. Only the school will know your documentation details when you decide to report it.
+# SendActivity_rAa9BO()
+[Activity
+    Text = ${SendActivity_rAa9BO_text()}
+]
+
+# SendActivity_rAa9BO_text()
+- Me2 Chatbot is affiliated and supported by HKUST.
+# SendActivity_KpUhaM()
+[Activity
+    Text = ${SendActivity_KpUhaM_text()}
+]
+
+# SendActivity_KpUhaM_text()
+- You can send an email to the Gender Equity Officer (gdc@ust.hk)
+# ChoiceInput_Prompt_Tq2q2s_text()
+- What may I help you?
+# ChoiceInput_Prompt_Tq2q2s()
+[Activity
+    Text = ${ChoiceInput_Prompt_Tq2q2s_text()}
+]

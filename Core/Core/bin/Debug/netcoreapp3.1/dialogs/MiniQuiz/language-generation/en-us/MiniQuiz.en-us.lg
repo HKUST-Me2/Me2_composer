@@ -443,3 +443,45 @@ An act can constitute sexual harassment even if it happened only once.```
     image = https://docs.microsoft.com/en-us/bot-framework/media/v1x/how-it-works/architecture-resize.png
     media = https://c.tenor.com/b3oUwj1NnO8AAAAd/cat-cute-cat.gif
 ]
+# SendActivity_p11kdm()
+[Activity
+    Text = ${SendActivity_p11kdm_text()}
+]
+
+# SendActivity_p11kdm_text()
+- the Next one!
+# SendActivity_zNERfM()
+[Activity
+    Text = ${SendActivity_zNERfM_text()}
+]
+
+# SendActivity_zNERfM_text()
+- Here come the nxt!
+# SendActivity_RfItNb()
+[Activity
+    Text = ${SendActivity_RfItNb_text()}
+]
+
+# SendActivity_RfItNb_text()
+- next!
+# SendActivity_78dewY()
+[Activity
+    Text = ${SendActivity_78dewY_text()}
+]
+
+# SendActivity_78dewY_text()
+- Add oil!
+# SendActivity_BsJacn()
+[Activity
+    Text = ${SendActivity_BsJacn_text()}
+]
+
+# SendActivity_BsJacn_text()
+- next!
+# SendActivity_6dAHTg()
+[Activity
+    Text = ${SendActivity_6dAHTg_text()}
+]
+
+# SendActivity_6dAHTg_text()
+- Next!

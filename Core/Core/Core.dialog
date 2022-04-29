@@ -40,6 +40,13 @@
                     "name": "Send a response"
                   },
                   "activity": "${SendActivity_Greeting()}"
+                },
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "Yl4NFe"
+                  },
+                  "activity": "${SendActivity_Yl4NFe()}"
                 }
               ]
             }
@@ -70,9 +77,9 @@
       "$kind": "Microsoft.OnIntent",
       "$designer": {
         "id": "9VFjBZ",
-        "name": "Education"
+        "name": "Core"
       },
-      "intent": "Education",
+      "intent": "Core",
       "actions": [
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -94,11 +101,10 @@
           },
           "property": "user.choice",
           "choices": [
-            "1. see other stories ",
-            "2. Bystander's & victim's approach ",
-            "3. Ocamp specials ",
-            "4. Mini quiz",
-            "5. short examples from different categories"
+            "I want to know more about sexual harassment",
+            "I want to know more about you",
+            "I want to record a case",
+            "I just want to play with you"
           ],
           "style": "heroCard",
           "recognizerOptions": {
@@ -113,7 +119,7 @@
           },
           "cases": [
             {
-              "value": "1. see other stories ",
+              "value": "I want to know more about sexual harassment",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
@@ -123,17 +129,103 @@
                   "activity": "${SendActivity_rR9Um5()}"
                 },
                 {
-                  "$kind": "Microsoft.BeginDialog",
+                  "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "f1snRn"
+                    "id": "6AnRaD"
                   },
-                  "activityProcessed": true,
-                  "dialog": "ShortExamples_Situational"
+                  "activity": "${SendActivity_6AnRaD()}"
+                },
+                {
+                  "$kind": "Microsoft.SwitchCondition",
+                  "$designer": {
+                    "id": "g2VbAb"
+                  },
+                  "condition": "=user.choice",
+                  "cases": [
+                    {
+                      "value": "1. I want to know others' stories",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "9mx1z6"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ShortExamples_Situational"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "2. Can you give me some examples of sexual harassment?",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "GCcGOs"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "ShortExamples_Detailed"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "3. What can I do if I think I'm sexually harassed?",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "mJK77V"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "Victims_Approach"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "4. What can I do if I think I've witnessed sexual harassment?",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "AZTAPi"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "BystanderApproach"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "5. I want to know more about issues related to Orientation camps",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "BvrP6t"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "OcampTypicalCases"
+                        }
+                      ]
+                    },
+                    {
+                      "value": "6. I think I am an expert of sexual harassment. Test me!",
+                      "actions": [
+                        {
+                          "$kind": "Microsoft.BeginDialog",
+                          "$designer": {
+                            "id": "c9zEXW"
+                          },
+                          "activityProcessed": true,
+                          "dialog": "MiniQuiz"
+                        }
+                      ]
+                    }
+                  ]
                 }
               ]
             },
             {
-              "value": "2. Bystander's & victim's approach ",
+              "value": "I want to know more about you",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
@@ -143,111 +235,17 @@
                   "activity": "${SendActivity_xVeKrJ()}"
                 },
                 {
-                  "$kind": "Microsoft.ChoiceInput",
+                  "$kind": "Microsoft.BeginDialog",
                   "$designer": {
-                    "id": "yN4Q2p"
+                    "id": "pGqZQW"
                   },
-                  "defaultLocale": "en-us",
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${ChoiceInput_Prompt_yN4Q2p()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "choiceOptions": {
-                    "includeNumbers": true,
-                    "inlineOrMore": ", or ",
-                    "inlineOr": " or ",
-                    "inlineSeparator": ", "
-                  },
-                  "property": "user.approach",
-                  "style": "heroCard",
-                  "choices": [
-                    "Bystander's Approach",
-                    "Victim's Approach"
-                  ]
-                },
-                {
-                  "$kind": "Microsoft.SwitchCondition",
-                  "$designer": {
-                    "id": "PPFRs6"
-                  },
-                  "condition": "=user.approach",
-                  "cases": [
-                    {
-                      "value": "Bystander's Approach",
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.ChoiceInput",
-                          "$designer": {
-                            "id": "2cq8wG"
-                          },
-                          "defaultLocale": "en-us",
-                          "disabled": false,
-                          "maxTurnCount": 3,
-                          "alwaysPrompt": false,
-                          "allowInterruptions": false,
-                          "prompt": "${ChoiceInput_Prompt_2cq8wG()}",
-                          "unrecognizedPrompt": "",
-                          "invalidPrompt": "",
-                          "defaultValueResponse": "",
-                          "choiceOptions": {
-                            "includeNumbers": true,
-                            "inlineOrMore": ", or ",
-                            "inlineOr": " or ",
-                            "inlineSeparator": ", "
-                          },
-                          "property": "user.showchoiceB",
-                          "style": "heroCard",
-                          "choices": [
-                            "Show me what to do!"
-                          ]
-                        },
-                        {
-                          "$kind": "Microsoft.SwitchCondition",
-                          "$designer": {
-                            "id": "OeA7Ea"
-                          },
-                          "condition": "user.showchoiceB",
-                          "cases": [
-                            {
-                              "value": "Show me what to do!",
-                              "actions": [
-                                {
-                                  "$kind": "Microsoft.BeginDialog",
-                                  "$designer": {
-                                    "id": "EU7Zt6"
-                                  },
-                                  "activityProcessed": true,
-                                  "dialog": "BystanderApproach"
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "value": "Victim's Approach",
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "ZqHGGU"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "Victims_Approach"
-                        }
-                      ]
-                    }
-                  ]
+                  "activityProcessed": true,
+                  "dialog": "AboutMe2"
                 }
               ]
             },
             {
-              "value": "3. Ocamp specials ",
+              "value": "I want to record a case",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
@@ -255,19 +253,11 @@
                     "id": "5P1Hf4"
                   },
                   "activity": "${SendActivity_5P1Hf4()}"
-                },
-                {
-                  "$kind": "Microsoft.BeginDialog",
-                  "$designer": {
-                    "id": "lRhwpt"
-                  },
-                  "activityProcessed": true,
-                  "dialog": "OcampSpecials"
                 }
               ]
             },
             {
-              "value": "4. Mini quiz",
+              "value": "I just want to play with you",
               "actions": [
                 {
                   "$kind": "Microsoft.SendActivity",
@@ -275,68 +265,6 @@
                     "id": "WAJmFY"
                   },
                   "activity": "${SendActivity_WAJmFY()}"
-                },
-                {
-                  "$kind": "Microsoft.BeginDialog",
-                  "$designer": {
-                    "id": "ND2jH8"
-                  },
-                  "activityProcessed": true,
-                  "dialog": "MiniQuiz"
-                }
-              ]
-            },
-            {
-              "value": "5. short examples from different categories",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "SKinw3"
-                  },
-                  "activity": "${SendActivity_SKinw3()}"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "bmpqaD"
-                  },
-                  "activity": "${SendActivity_bmpqaD()}"
-                },
-                {
-                  "$kind": "Microsoft.SwitchCondition",
-                  "$designer": {
-                    "id": "mPPp5p"
-                  },
-                  "condition": "=user.examplechoice",
-                  "cases": [
-                    {
-                      "value": "Situational Example (EOC)",
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "pOz79L"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "ShortExamples_Situational"
-                        }
-                      ]
-                    },
-                    {
-                      "value": "Detailed Scription (ocamp)",
-                      "actions": [
-                        {
-                          "$kind": "Microsoft.BeginDialog",
-                          "$designer": {
-                            "id": "DRT1kX"
-                          },
-                          "activityProcessed": true,
-                          "dialog": "ShortExamples_Detailed"
-                        }
-                      ]
-                    }
-                  ]
                 }
               ]
             }
@@ -369,8 +297,8 @@
     "$kind": "Microsoft.RegexRecognizer",
     "intents": [
       {
-        "intent": "Education",
-        "pattern": "Education"
+        "intent": "Core",
+        "pattern": "Get Started"
       }
     ]
   }

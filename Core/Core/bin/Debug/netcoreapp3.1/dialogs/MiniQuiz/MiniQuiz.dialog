@@ -32,6 +32,13 @@
           "eventName": "FirstQuestion"
         },
         {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "p11kdm"
+          },
+          "activity": "${SendActivity_p11kdm()}"
+        },
+        {
           "$kind": "Microsoft.EmitEvent",
           "$designer": {
             "id": "LdP2Jh"
@@ -39,6 +46,13 @@
           "handledProperty": "turn.eventHandled",
           "bubbleEvent": true,
           "eventName": "SecondQuestion"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "zNERfM"
+          },
+          "activity": "${SendActivity_zNERfM()}"
         },
         {
           "$kind": "Microsoft.EmitEvent",
@@ -50,6 +64,13 @@
           "eventName": "ThirdQuestion"
         },
         {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "RfItNb"
+          },
+          "activity": "${SendActivity_RfItNb()}"
+        },
+        {
           "$kind": "Microsoft.EmitEvent",
           "$designer": {
             "id": "LrvUH0"
@@ -57,6 +78,13 @@
           "handledProperty": "turn.eventHandled",
           "bubbleEvent": true,
           "eventName": "4Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "78dewY"
+          },
+          "activity": "${SendActivity_78dewY()}"
         },
         {
           "$kind": "Microsoft.EmitEvent",
@@ -68,6 +96,13 @@
           "eventName": "5Question"
         },
         {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "BsJacn"
+          },
+          "activity": "${SendActivity_BsJacn()}"
+        },
+        {
           "$kind": "Microsoft.EmitEvent",
           "$designer": {
             "id": "uzD8kX"
@@ -75,6 +110,13 @@
           "handledProperty": "turn.eventHandled",
           "bubbleEvent": true,
           "eventName": "6Question"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "6dAHTg"
+          },
+          "activity": "${SendActivity_6dAHTg()}"
         },
         {
           "$kind": "Microsoft.EmitEvent",
