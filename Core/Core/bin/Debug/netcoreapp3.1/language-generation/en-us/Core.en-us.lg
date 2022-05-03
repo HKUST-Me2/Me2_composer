@@ -98,3 +98,11 @@
 [Activity
     Text = ${SendActivity_6AnRaD_text()}
 ]
+
+# SendActivity_MTbx2W()
+[Activity
+    Text = ${SendActivity_MTbx2W_text()}
+]
+
+# SendActivity_MTbx2W_text()
+- u chose $user.choice

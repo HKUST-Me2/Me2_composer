@@ -278,7 +278,7 @@
               "activity": "${SendActivity_1YIrzU()}"
             }
           ],
-          "condition": "=user.choice"
+          "condition": "=$user.choice"
         },
         {
           "$kind": "Microsoft.SendActivity",

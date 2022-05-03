@@ -113,6 +113,13 @@
           "prompt": "${ChoiceInput_Prompt_M4QGFV()}"
         },
         {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "MTbx2W"
+          },
+          "activity": "${SendActivity_MTbx2W()}"
+        },
+        {
           "$kind": "Microsoft.SwitchCondition",
           "$designer": {
             "id": "5ku3av"
@@ -278,7 +285,7 @@
               "activity": "${SendActivity_1YIrzU()}"
             }
           ],
-          "condition": "=user.choice"
+          "condition": "$user.choice"
         },
         {
           "$kind": "Microsoft.SendActivity",
