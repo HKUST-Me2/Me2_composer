@@ -1,0 +1,19 @@
+[import](common.lg)
+[import](cardlist.lg)
+
+# SendActivity_1ukESY()
+- ${VictimAll()}
+# SendActivity_czNxjK()
+[Activity
+    Text = ${SendActivity_czNxjK_text()}
+]
+
+# SendActivity_czNxjK_text()
+- If you're experiencing sexual harassment, please SAY NO directly. Make it clear to the harasser that you do not welcome the behaviour and it must stop, for example by yelling at him/her to stop, pushing him/her away, or sending a text message to voice your objection to such behaviour.
+# SendActivity_BPfGtL()
+[Activity
+    Text = ${SendActivity_BPfGtL_text()}
+]
+
+# SendActivity_BPfGtL_text()
+- You have options—when you are ready. This information is a starting point to help you think through what options may be best for you. While navigating your options below, keep in mind that the information may not be complete and that some options may not be applicable to your circumstance. None of the information provided is legal advice.

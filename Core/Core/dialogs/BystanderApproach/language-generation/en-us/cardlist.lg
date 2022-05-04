@@ -403,3 +403,253 @@
     Attachments = ${HeroCardo15()} |  ${HeroCardo16()} | ${HeroCardo17()} | ${HeroCardo18()}
     AttachmentLayout = carousel
 ]
+
+
+# VictimLayoutType
+- carousel
+
+# VictimAll
+[Activity     
+    Attachments = ${VictimCard1()} | ${VictimCard2()} | ${VictimCard3()} | ${VictimCard4()} | ${VictimCard5()} | ${VictimCard6()} | ${VictimCard7()} |  ${VictimCard8()} | ${VictimCard9()} | ${VictimCard10()} | ${VictimCard11()} | ${VictimCard12()} | ${VictimCard6()} | ${VictimCard13()} |  ${VictimCard14()}
+    AttachmentLayout = ${VictimLayoutType()} 
+]
+
+# VictimCard1
+[Herocard
+    title= Say No
+    text= ${VictimText1()}
+]
+
+#VictimText1
+- Make it clear to the harasser that you do not welcome the behaviour and it must stop, forexample by yelling at him/her to stop, pushing him/her away, or sending a text message to voice your objection to such behaviour. 
+
+# VictimCard2
+[Herocard
+    title= Jot down what happened 
+    text= ${VictimText2()}
+]
+
+#VictimText2
+- ```
+Record the details of the incident as soon as you can, including the date, time and place, the events that took place (e.g. what the harasser did, how you reacted), and whether there were other people around. These notes may come in handy when you lodge a complaint, locate witnesses or decide to take legal action. 
+
+What are the benefits?
+- Writing can help you make sure you don’t forget certain details.
+- Writing can be a way to process trauma.
+- It can help you share what happened later with an attorney, therapist, friend, or your school.
+- It can be a helpful starting point for a declaration or other legal statement, including a Victim Impact Statement, Restraining Orders, or a Title IX closing or opening statement.
+- It can help you report to police, if you decide to move forward with a criminal complaint.
+
+What are the potential risks?
+- It may get into the wrong hands - someone you don’t trust may see it.
+- You may risk weakening a legal argument down the road.
+- If you admit to alcohol or drug use in writing, it could potentially be used against you.
+- If you decided to proceed with a legal action, your writing could be subpoenaed (and ultimately viewed by the perpetrator and their attorney).
+- It could be triggering if you are going back and forth and challenging your own versions. Remember that the point of writing down the incident is to get it out of your memory and not to question or relive it.
+ ```
+
+# VictimCard3
+[Herocard
+    title= Lodge a complaint
+    text= ${VictimText3()}
+]
+
+#VictimText3
+- ```
+Make a complaint to your employer, school or the relevant organisation (e.g. a service provider) and ask that they handle it in a fair and impartial manner. If needed, seek assistance from the EOC, social workers, trade unions, NGOs, your friends or family. 
+
+What are the benefits?
+- You may receive school accommodations like changes to your schedule, where you live, a leave of absence, or a no contact order to keep the offender away.
+- It might help prevent the same thing from happening to other students.
+- It creates a papertrail to show that you reported what happened (sometimes helpful in a future legal case).
+- If the school decides not to take action or doesn’t follow proper procedure, you have a right to file a grievance against the school.
+- Possible accommodation will help you access your right to education and will provide you time to heal without worrying about your performance at the school.
+- It is your right to cooperate with the investigation at school, in case you decide not to pursue any actions.
+
+What are the potential risks?
+- Title IX has a duty to both you and the offender (if they are also a student at your school).
+- Every school’s Title IX process is different - check with your school to learn more about what their process includes, and what standard of evidence they use.
+- Once you report, the process & outcome may be out of your control.
+```
+# VictimCard4
+[Herocard
+    title= Get help from the Equal Opportunity Committee 
+    text= ${VictimText4()}
+]
+
+#VictimText4
+- Contact the EOC within 12 months of the incident and lodge a complaint in writing by post or fax, or by using the online form on the EOC website.
+
+# VictimCard5
+[Herocard
+    title= File a lawsuit at the District Court
+    text= ${VictimText5()}
+]
+
+#VictimText5
+-```
+Issue civil proceedings at the District Court within 24 months of the incident.
+If you previously lodged a complaint with the EOC and were unable to settle the dispute through conciliation, then the period that elapsed between the date you lodged your complaint and the date the relevant conciliation failed would be disregarded in the calculation of the 24-month limitation period.
+```
+
+# VictimCard6
+[Herocard
+    title= Make a report to the police
+    text= ${VictimText6()}
+]
+
+#VictimText6
+-```
+Some acts of sexual harassment may amount to criminal offences. You may report the incident to the police and lodge a complaint with the EOC concurrently. 
+
+What are the benefits?
+- Reporting to the police can provide an immediate sense of action.
+- The police can help you obtain a criminal protective order.
+- This can be useful for any legal action you take later - including a civil lawsuit, a claim for crime victims assistance funds, or even your immigration case (U Visa).
+- If you report within 72 hours, a rape kit collects vital evidence from your body that you won’t have access to later if you don’t .
+- You could potentially help protect your community by putting the police on notice, or creating a trail of evidence of repeated allegations against an offender.
+
+What are the potential risks?
+- The officer you talk to may not be trained in responding to people in your circumstances.
+- A police officer’s role is to investigate what happened - so they may ask you questions that make you feel like you are not believed and could potentially be retraumatizing.
+- You may not trust police based on past experience.
+- You may not have control over what legal proceedings come next.
+- While preserving forensic evidence of the crime can be important to building a case against your assailant, these exams can be difficult experiences. Survivors have described forensic exams as retraumatizing and intrusive. If you can, please consider asking a friend to take you to the hospital and home afterwards so you feel more comfortable.
+```
+
+# VictimCard7
+[Herocard
+    title= Don't take action
+    text= ${VictimText7()}
+]
+
+#VictimText7
+-```
+What are the benefits?
+- Limits who knows about what happened.
+- Gives you time to figure out what you want to do.
+- Allows you to process trauma in your own time.
+
+What are the potential risks?
+- You may be risking your own safety - especially if this person is still a threat to you.
+- You may be going without help from your school that you are legally entitled to - like changes to your schedule, dorm location, or a no contact order to protect you from the perpetrator and allow you time to process trauma and continue your education. If your school does not know, they can’t help you.
+- You may worry that it could happen to someone else.
+- You may not be able to access supportive services or therapy.
+- Some legal options are time sensitive, and you might run out of time depending on how long you wait.
+- You may be risking your health if you have hidden injuries or want to explore options for unwanted pregnancy or STDs.
+```
+
+# VictimCard8
+[Herocard
+    title= Find other victims
+    text= ${VictimText8()}
+]
+
+#VictimText8
+-```
+What are the benefits?
+- You could coordinate a plan of action together.
+- It could be meaningful to learn you are not the only one.
+- It could be beneficial to put your campus on notice that you are not the only victim, which might lead to more reasonable measures if the campus is not taking actions to protect other students against the repeat offender.
+
+What are the potential risks?
+- You may be putting yourself at risk by sharing intimate details or by relying on someone who may have different motivations than you.
+- You have no control over what the other person will do or who they might tell.
+- It could be futile and may be more frustrating if they decide not to take action and you don't have more support for your case.
+```
+
+# VictimCard9
+[Herocard
+    title= Confront your perpetrator
+    text= ${VictimText9()}
+]
+
+#VictimText9
+-```
+What are the benefits?
+- You can get out what you want to say - which potentially can provide emotional relief.
+- Depending on your relationship and the circumstances, they could be receptive to the harm they’ve caused and the need to change their ways
+
+What are the potential risks?
+- Emotional risk - you have no idea what the person will say or what they will do with the information.
+- Safety risk - if you suffered violence or do not feel safe around this person, confrontation, even over email or text, can aggravate a dangerous situation.
+- What you say to them may be used against you if you do choose to tell your school or the police, etc.
+- This might be encouraging for some perpetrators who desire to cause harm and may enjoy hearing that they have done so..
+```
+
+# VictimCard10
+[Herocard
+    title= Post on social media
+    text= ${VictimText10()}
+]
+
+#VictimText10
+-```
+What are the benefits?
+- Social media is an accessible platform, making it an easy option.
+- It can allow you to get things off your chest.
+- It might potentially protect your community.
+
+What are the potential risks?
+- You could be sued for defamation - which could cost you a lot of money and time to defend. Suing survivors for defamation is a tool offenders use to get the survivor to recant what they have said.
+- You could ruin your own reputation if you are not believed.
+- You could face consequences at school, leading to a disruption in your education.
+- Social media posts last forever - you do not have control over who views them - even if you restrict your settings or later delete the post. Future bosses, partners, friends, teachers, may all have access to your post.
+```
+
+# VictimCard11
+[Herocard
+    title= Talk to an attorney 
+    text= ${VictimText11()}
+]
+
+#VictimText11
+-```
+What are the benefits?
+- Attorneys have a duty of confidentiality.
+- They can help you think through your legal options and figure out what you want to do next.
+- They can help you explore whether and how to achieve what you want: whether that is punishment for the offender, protection for yourself, immigration relief, educational benefits, financial compensation, etc.
+- Attorneys can prepare you for reporting to police or to Title IX, etc., and can help you feel less alone in the process.
+- They can provide you additional information on time limits for filing cases.
+- They can help you write a victim impact statement, and assist with filing for Victim Compensation.
+- If the attorney takes your case, they can represent you in legal proceedings.
+```
+
+# VictimCard12
+[Herocard
+    title= Tell a whisper network
+    text= ${VictimText12()}
+]
+
+#VictimText12
+-```
+What are the benefits?
+- Warning your friends or community may help keep them safe.
+- By sharing the information with others, you may learn that you are not the first person harmed by your offender.
+
+What are the potential risks?
+- You don’t have control over what whispers are shared, who is believed, or how what you say is interpreted.
+- If the whispers get loud enough (i.e., published on social media), you may get sued for defamation.
+- It could impact your Title IX claim on campus.
+- It might impact the experience and support you get on campus from other friends or acquaintances.
+- You could risk your reputation.
+```
+
+# VictimCard13
+[Herocard
+    title= send email to HKUST Gender Equity Officer
+]
+
+# VictimCard14
+[Herocard
+    title= Meeting with counsellors
+    text= ${VictimText14()}
+]
+
+#VictimText14
+-```
+- https://counsel.hkust.edu.hk/
+- https://counsel.hkust.edu.hk/make_an_appointment.php
+- Psychological Assessment:
+- https://counsel.hkust.edu.hk/page.php?section=Resources&subsection=20&anchor=selfassessment
+```
