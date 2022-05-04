@@ -171,12 +171,6 @@
 - carousel
 - list
 
-# AllCards
-[Activity
-    Attachments = ${HeroCard1()} |  ${HeroCard2()}
-    AttachmentLayout = ${AttachmentLayoutType()}
-]
-
 # help
 - ```
     I can show you examples on different Cards
@@ -190,3 +184,222 @@
     07 - AdaptiveCard
     08 - AllCards
   ```
+
+
+>>1
+# HeroCardo1
+[Herocard
+    
+    text=${DescriptionTexto1()}
+]
+
+# DescriptionTexto1
+- I received a friend request from a stranger on Skype. I thought I was getting response from my post at Language Exchange. We chatted briefly then he asked for a video call. The screen was dark, though the audio was normal. He said it was technical problems. A few minutes later, he suddenly said, You are so beautiful.” Then I could see him on screen. He was masturbating and his lower part was naked. I was shocked and offended, and immediately turned off Skype and blocked him. At that very moment, I was in the library, I was terrified and worried that it might have been seen by others.
+
+# HeroCardo2
+[Herocard
+    
+    text=${DescriptionTexto2()}
+]
+
+# DescriptionTexto2
+
+- A man was pretending to conduct a questionnaire survey with students. He posed a number of personal and inappropriate questions, kept asking me to send him personal photos, and repeatedly made harassing phone calls.
+
+# HeroCardo3
+[Herocard
+    
+    text=${DescriptionTexto3()}
+]
+
+# DescriptionTexto3
+- Sometimes friends share funny messages in chat group. Some of the messages or photos are of a sexual nature. I am not particularly offended but I think it is not necessary to make fun with sex.
+
+>>2
+
+# HeroCardo4
+[Herocard
+    
+    text=${DescriptionTexto4()}
+]
+
+# DescriptionTexto4
+- Some students always talk about sex-related topics in their conversation. They’ll ask something like, ‘Are you a virgin? Have you had sex? Did you use a condom?’ ... Sometimes if you fail a game, your punishment is that you have to answer whatever being asked and they love asking those questions which sound funny to them ... you may just laugh it off ... Some female group-mates [in orientation camp] felt such questions too pushy. Some group leaders would then just talk something else and pass over it. (Female, Undergraduate)
+
+
+# HeroCardo5
+[Herocard
+    
+    text=${DescriptionTexto5()}
+]
+
+# DescriptionTexto5
+- In a student gathering, several female students asked the interviewee to take a photo together with some other girls. The interviewee found that they asked her to take photos to compare their body shape and breast size. She was mocked that “these girls have boobs while this and this don’t have ...” The interviewee recalled, “I felt very embarrassed and just walked away.” (Female, Undergraduate)
+
+# HeroCardo6
+[Herocard
+    
+    text=${DescriptionTexto6()}
+]
+
+# DescriptionTexto6
+- Sometimes during a class of my major, two male students sitting in front of me liked talking nonsense. They once said that no one wanted me even I paid for it, and no one wanted me even I whored. They also called one of my friends intersex ... They always talked nonsense and found it fun.” (Female, Undergraduate)
+
+>>3
+
+# HeroCardo7
+[Herocard
+    
+    text=${DescriptionTexto7()}
+]
+
+# DescriptionTexto7
+- I took part in an entrepreneurship competition organised by the university. Three mentors from various fields gave us advice. I met a business incubator on behalf of my team in a coffee shop. He started talking weird, like all of sudden grabbed my hand ... I pushed his hand away, I told him I was recording and asked him to continue our discussion ... then he behaved himself” ... “While we were leaving the coffee shop, he run his hand over my hair all along to my back. I asked what he was doing. He said ‘I thought you were more open-minded’. ... After that, he often called or texted me at three o’clock in the morning to talk about the competition ...” (Female, Undergraduate, Interview #2)
+
+
+# HeroCardo8
+[Herocard
+    
+    text=${DescriptionTexto8()}
+]
+
+# DescriptionTexto8
+
+- I still remembered what happened last year during my overseas internship … A customer praised me in front of my male co-ordinator, that is my supervisor… The male supervisor touched my back like this for seconds, saying ‘I know she is smart.’ I was very uncomfortable at that moment, felt like he was taking advantage of me. Even you may think it’s cultural difference, I did not think it was necessary to touch me or my back if you wanted to praise me. It was so intimate, like how your boyfriend hug around your waist … for approximately five seconds … I was terrified and didn’t know what to do.” (Female, Undergraduate, Interview #25)
+
+>> 4
+
+# HeroCardo9
+[Herocard
+    
+    text=${DescriptionTexto9()}
+]
+
+# DescriptionTexto9
+
+- I was wearing a skirt that day. When I was having my drinks, a male student came over and put his hand on my thigh, asking if I felt cold. I didn’t know how to react. He kept his hand on my thigh until I said I did not feel cold. After that, I noticed the guy did that to other female students in class all the time, regardless he knows them well or not.” (Female, Undergraduate)
+
+# HeroCardo10
+[Herocard
+    
+    text=${DescriptionTexto10()}
+]
+
+# DescriptionTexto10
+- The interviewee had dinner with team members after training. Later she shared a taxi with a male student from another sports team to go back to the residential hall. “All of a sudden he touched my breast and grabbed it, saying, ‘Wow! Why are your boobs becoming so big!’ I pushed his hand aside right away saying, ‘What are you doing? Don’t do that ...’ After we got off the taxi, he asked me to do blow job for him, saying he feels horny and wanted my help. I told him he was insane. … After that, he had called me but I never contacted him again.” (Female, Postgraduate)
+
+# HeroCardo11
+[Herocard
+    
+    text=${DescriptionTexto11()}
+]
+
+# DescriptionTexto11
+- One night, some classmates and the interviewee drank chill in a dorm room. “A guy sat next to me but we could barely see each other in dim light ... He was gutsy to touch me, grope my leg and take my hand. He even whispered to my ear, asking if I can sleep with him that night ...” (Female, Postgraduate, Interview #9)
+
+>> 5
+
+# HeroCardo12
+[Herocard
+    
+    text=${DescriptionTexto12()}
+]
+
+# DescriptionTexto12
+- Some orientation camps have a culture to spot the good-looking and sexy girls ... this culture is so prevalent in our university. In my second year, I was a helper at the orientation camp. The organisers kept on saying, ‘This one is pretty! This one has long legs! I want her in my group!’ Those leaders would fight for girls and say, ‘let me the male group leader take care of them and have a room for us.’ Many uncomfortable remarks were going around, which started well before orientation camp.” (Female, Undergraduate)
+
+# HeroCardo13
+[Herocard
+    
+    text=${DescriptionTexto13()}
+]
+
+# DescriptionTexto13
+- The game ‘Once in a lifetime’ is originally designed to encourage students to think out of the box as they now study in university rather secondary school … All boys and girls played together … When I took off my eye mask ... I saw the helpers covering some students with towels ... I guessed those students had taken off their clothes. I clearly remembered the moment I opened my eyes, there were a bunch of helpers sitting in front of me, which meant they were watching us playing ... After that, I overheard a guy saying, ‘the one in group six is hot!’” (Female, Undergraduate)
+
+# HeroCardo14
+[Herocard
+   
+    text=${DescriptionTexto14()}
+]
+
+# DescriptionTexto14
+- A group of first years all packed into the tutor’s room, not a big room, but seemed to have one hundred-ish students there, it was packed and actually everyone was squeezed shoulder to shoulder. They were blindfolded to play a game, being guided as if they need to take off all the clothes, then a few first years wanted to opt out of the game. I heard that those first years were boycotted after that, so I thought the students were forced to play the game because of peer pressure.” (Female, Postgraduate)
+
+>> 6
+
+# HeroCardo15
+[Herocard
+    
+    text=${DescriptionTexto15()}
+]
+
+# DescriptionTexto15
+
+- (The interviewee heard that there were first years and their seniors playing drinking games in the residential hall.) She heard that the game requires each player passing alcohol by their mouth. After drinking for a while, a second year male student took a female first year out. Some students went to a room to look for them, but the door was locked, so they stayed at the door. After a while, the girl came out in tears, asking female group leaders in another hall for help. It seemed that the guy had made out with the first year. This incident was on everyone’s lips, and became a big thing widely spreading over the residential hall. (Female, Undergraduate)
+
+
+# HeroCardo16
+[Herocard
+    
+    text=${DescriptionTexto16()}
+]
+
+# DescriptionTexto16
+- (Some students joined the student activities in private outside Hong Kong.) “We were quarrelling in the hotel room. He said he had spent so much money to book this hotel for me. I told him I wanted to go back to my hotel, but then he pressed me on the bed, attempted to molest me. I shouted out loud, yelling that I wanted to go back to my hotel. The soundproof is poor. The staff at front desk heard the noise, came over and knocked the door, then the guy let me go.” (Others (Gender), Undergraduate)
+
+
+# HeroCardo17
+[Herocard
+    
+    text=${DescriptionTexto17()}
+]
+
+# DescriptionTexto17
+- A group of first years all packed into the tutor’s room, not a big room, but seemed to have one hundred-ish students there, it was packed and actually everyone was squeezed shoulder to shoulder. They were blindfolded to play a game, being guided as if they need to take off all the clothes, then a few first years wanted to opt out of the game. I heard that those first years were boycotted after that, so I thought the students were forced to play the game because of peer pressure.” (Female, Postgraduate)
+
+
+# HeroCardo18
+[Herocard
+    
+    text=${DescriptionTexto18()}
+]
+
+# DescriptionTexto18
+- If you want to know more about others' experiences, you can go to https://www.eoc.org.hk/eoc/Upload/ResearchReport/SH2018/SHR_PM.pdf"
+
+# AllCardo1
+[Activity
+    Attachments = ${HeroCardo1()} |  ${HeroCardo2()} | ${HeroCardo3()}| ${HeroCardo18()}
+    AttachmentLayout = carousel
+]
+
+# AllCardo2
+[Activity
+    Attachments = ${HeroCardo4()} |  ${HeroCardo5()} | ${HeroCardo6()}| ${HeroCardo18()}
+    AttachmentLayout = carousel
+]
+
+# AllCardo3
+[Activity
+    Attachments = ${HeroCardo7()} |  ${HeroCardo8()}| ${HeroCardo18()}
+    AttachmentLayout = carousel
+]
+
+# AllCardo4
+[Activity
+    Attachments = ${HeroCardo9()} |  ${HeroCardo10()} | ${HeroCardo11()}| ${HeroCardo18()}
+    AttachmentLayout = carousel
+]
+
+# AllCardo5
+[Activity
+    Attachments = ${HeroCardo12()} |  ${HeroCardo13()} | ${HeroCardo14()}| ${HeroCardo18()}
+    AttachmentLayout = carousel
+]
+
+# AllCardo6
+[Activity
+    Attachments = ${HeroCardo15()} |  ${HeroCardo16()} | ${HeroCardo17()} | ${HeroCardo18()}
+    AttachmentLayout = carousel
+]

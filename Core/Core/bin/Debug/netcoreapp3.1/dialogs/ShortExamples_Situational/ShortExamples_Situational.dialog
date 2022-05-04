@@ -17,12 +17,229 @@
       },
       "actions": [
         {
+          "$kind": "Microsoft.ChoiceInput",
+          "$designer": {
+            "id": "0M6TEf"
+          },
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "property": "user.storiestype",
+          "prompt": "${ChoiceInput_Prompt_0M6TEf()}",
+          "style": "heroCard",
+          "choices": [
+            "Verbal harassment",
+            "Inappropraite physical contact",
+            "Orientation games and student activities",
+            "Sexual assault or attempted rape",
+            "Sexual harassment off campus",
+            "Online sexual harassment"
+          ]
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "vl2SkK"
+          },
+          "condition": "=user.storiestype",
+          "cases": [
+            {
+              "value": "Verbal harassment",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "ZF3yLc"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "eventName": "verbal",
+                  "bubbleEvent": true
+                }
+              ]
+            },
+            {
+              "value": "Inappropraite physical contact",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "V4vF4H"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "eventName": "phycontact"
+                }
+              ]
+            },
+            {
+              "value": "Orientation games and student activities",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "uqBaLS"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "bubbleEvent": true,
+                  "eventName": "orientationgames"
+                }
+              ]
+            },
+            {
+              "value": "Sexual assault or attempted rape",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "clbiHj"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "eventName": "assult",
+                  "bubbleEvent": true
+                }
+              ]
+            },
+            {
+              "value": "Sexual harassment off campus",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "X5PoYA"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "eventName": "offcampus",
+                  "bubbleEvent": true
+                }
+              ]
+            },
+            {
+              "value": "Online sexual harassment",
+              "actions": [
+                {
+                  "$kind": "Microsoft.EmitEvent",
+                  "$designer": {
+                    "id": "4GKeEq"
+                  },
+                  "handledProperty": "turn.eventHandled",
+                  "eventName": "online",
+                  "bubbleEvent": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "Dbxuwc",
+        "name": "verbal"
+      },
+      "event": "verbal",
+      "actions": [
+        {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "sdC7sv",
-            "comment": "test1"
+            "id": "vBxgGn"
           },
-          "activity": "${SendActivity_sdC7sv()}"
+          "activity": "${SendActivity_vBxgGn()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "rTR96p",
+        "name": "phycontact"
+      },
+      "event": "phycontact",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "L6LT2F"
+          },
+          "activity": "${SendActivity_L6LT2F()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "f2gX3W",
+        "name": "orientationgames"
+      },
+      "event": "orientationgames",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "OhR74l"
+          },
+          "activity": "${SendActivity_OhR74l()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "CpEIry",
+        "name": "assult"
+      },
+      "event": "assult",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "rxnAxB"
+          },
+          "activity": "${SendActivity_rxnAxB()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "ErAwVX",
+        "name": "offcampus"
+      },
+      "event": "offcampus",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "bj99gH"
+          },
+          "activity": "${SendActivity_bj99gH()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnDialogEvent",
+      "$designer": {
+        "id": "twpdLM",
+        "name": "online"
+      },
+      "event": "online",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "iN0Tma"
+          },
+          "activity": "${SendActivity_iN0Tma()}"
         }
       ]
     }

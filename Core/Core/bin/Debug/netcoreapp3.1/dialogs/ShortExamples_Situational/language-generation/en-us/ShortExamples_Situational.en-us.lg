@@ -1,9 +1,25 @@
 [import](common.lg)
+[import](cardlist.lg)
 
-# SendActivity_sdC7sv()
+# ChoiceInput_Prompt_0M6TEf()
 [Activity
-    Text = ${SendActivity_sdC7sv_text()}
+    Text = ${ChoiceInput_Prompt_0M6TEf_text()}
 ]
 
-# SendActivity_sdC7sv_text()
-- test1
+# ChoiceInput_Prompt_0M6TEf_text()
+- What kind of stories do you want to know? Note that these stories are all from the research of Equal Opportunity Committee.
+# SendActivity_L6LT2F()
+-${AllCardo2()}
+
+# SendActivity_L6LT2F_text()
+- test222
+# SendActivity_vBxgGn()
+-${AllCardo1()}
+# SendActivity_OhR74l()
+-${AllCardo3()}
+# SendActivity_rxnAxB()
+-${AllCardo4()}
+# SendActivity_bj99gH()
+-${AllCardo5()}
+# SendActivity_iN0Tma()
+-${AllCardo6()}

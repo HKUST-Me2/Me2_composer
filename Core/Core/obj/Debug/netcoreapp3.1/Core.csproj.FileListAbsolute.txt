@@ -1148,3 +1148,15 @@ C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ab
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\language-generation\en-us\AboutMe2.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\language-understanding\en-us\AboutMe2.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\knowledge-base\en-us\AboutMe2.en-us.qna
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\AboutMe2.dialog
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\OcampTypicalCases.dialog
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\recognizers\OcampTypicalCases.en-us.lu.dialog
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\recognizers\OcampTypicalCases.lu.dialog
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\recognizers\OcampTypicalCases.lu.qna.dialog
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\language-generation\en-us\AboutMe2.en-us.lg
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\language-understanding\en-us\AboutMe2.en-us.lu
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\language-understanding\en-us\OcampTypicalCases.en-us.lu
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\OcampTypicalCases.en-us.lu
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\AboutMe2\knowledge-base\en-us\AboutMe2.en-us.qna
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\knowledge-base\en-us\OcampTypicalCases.en-us.qna
+C:\Users\virgi\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\OcampTypicalCases.en-us.qna
