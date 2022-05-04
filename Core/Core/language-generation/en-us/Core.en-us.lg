@@ -147,3 +147,12 @@
 [Activity
     Text = ${SendActivity_Acx9D0_text()}
 ]
+
+# SendActivity_zmfFox()
+[Activity
+    Text = ${SendActivity_zmfFox_text()}
+    SuggestedActions = Get Started
+]
+
+# SendActivity_zmfFox_text()
+- Press the button to restart

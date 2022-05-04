@@ -941,14 +941,12 @@ C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Sh
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\recognizers\ShortExamples_Situational.lu.dialog
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\recognizers\ShortExamples_Situational.lu.qna.dialog
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\ShortExamples_Situational.dialog
-C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Victims_Approach\Victims_Approach.dialog
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\BystanderApproach\language-generation\en-us\BystanderApproach.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\BystanderApproach\language-generation\en-us\cardlist.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\MiniQuiz\language-generation\en-us\MiniQuiz.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampSpecials\language-generation\en-us\OcampSpecials.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Detailed\language-generation\en-us\ShortExamples_Detailed.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\language-generation\en-us\ShortExamples_Situational.en-us.lg
-C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Victims_Approach\language-generation\en-us\Victims_Approach.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\language-generation\en-us\common.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\language-generation\en-us\Core.en-us.lg
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\BystanderApproach\language-understanding\en-us\BystanderApproach.en-us.lu
@@ -957,7 +955,6 @@ C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Oc
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\language-understanding\en-us\OcampTypicalCases.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Detailed\language-understanding\en-us\ShortExamples_Detailed.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\language-understanding\en-us\ShortExamples_Situational.en-us.lu
-C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Victims_Approach\language-understanding\en-us\Victims_Approach.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\BystanderApproach.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\MiniQuiz.en-us.lu
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\OcampSpecials.en-us.lu
@@ -972,7 +969,6 @@ C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Oc
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\OcampTypicalCases\knowledge-base\en-us\OcampTypicalCases.en-us.qna
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Detailed\knowledge-base\en-us\ShortExamples_Detailed.en-us.qna
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\ShortExamples_Situational\knowledge-base\en-us\ShortExamples_Situational.en-us.qna
-C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Victims_Approach\knowledge-base\en-us\Victims_Approach.en-us.qna
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\BystanderApproach.en-us.qna
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\MiniQuiz.en-us.qna
 C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\OcampSpecials.en-us.qna
@@ -1513,3 +1509,12 @@ C:\Users\yoyom\OneDrive\桌面\Me2-merged\Me2\Core\Core\obj\Debug\netcoreapp3.1\
 C:\Users\yoyom\OneDrive\桌面\Me2-merged\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\yoyom\OneDrive\桌面\Me2-merged\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\yoyom\OneDrive\桌面\Me2-merged\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\recognizers\VictimApproach.en-us.lu.dialog
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\recognizers\VictimApproach.lu.dialog
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\recognizers\VictimApproach.lu.qna.dialog
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\VictimApproach.dialog
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\language-generation\en-us\VictimApproach.en-us.lg
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\language-understanding\en-us\VictimApproach.en-us.lu
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\VictimApproach\knowledge-base\en-us\VictimApproach.en-us.qna
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\VictimApproach.en-us.lu
+C:\Users\samso\Documents\GitHub\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\VictimApproach.en-us.qna

@@ -82,6 +82,15 @@
       "intent": "Core",
       "actions": [
         {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "pvGlZa"
+          },
+          "properties": [
+            "user.choice"
+          ]
+        },
+        {
           "$kind": "Microsoft.ChoiceInput",
           "$designer": {
             "id": "M4QGFV"
@@ -361,6 +370,13 @@
             "id": "ZaaQIp"
           },
           "activity": "${SendActivity_ZaaQIp()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "zmfFox"
+          },
+          "activity": "${SendActivity_zmfFox()}"
         }
       ],
       "runOnce": false

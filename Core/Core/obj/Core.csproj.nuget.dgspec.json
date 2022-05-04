@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\Core.csproj": {}
+    "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\Core.csproj": {
+    "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\yoyom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\obj\\",
+        "projectPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\samso\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\yoyom\\OneDrive\\桌面\\Me2-merged\\Me2\\Core\\Core\\NuGet.Config",
-          "C:\\Users\\yoyom\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\samso\\Documents\\GitHub\\Me2\\Core\\Core\\NuGet.Config",
+          "C:\\Users\\samso\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
