@@ -228,10 +228,10 @@
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
-                            "id": "mJK77V"
+                            "id": "TyrT4w"
                           },
                           "activityProcessed": true,
-                          "dialog": "Victims_Approach"
+                          "dialog": "VictimApproach"
                         }
                       ]
                     },

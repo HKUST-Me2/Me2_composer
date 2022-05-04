@@ -1,16 +1,5 @@
 [import](cardlist.lg)
 
-# SendActivity_wub4Qv()
-- ${HeroCard1()}
-- ${HeroCard2()}
-- ${HeroCard3()}
-- ${HeroCard4()}
-- ${HeroCard5()}
-- ${HeroCard6()}
-- ${HeroCard7()}
-- ${HeroCard8()}
-- ${HeroCard9()}
-- ${HeroCard10()}
 
-# SendActivity_0rWsqs()
-- ${AdaptiveCard()}
+# SendActivity_GHwJLS()
+- ${ByStanderALL()}

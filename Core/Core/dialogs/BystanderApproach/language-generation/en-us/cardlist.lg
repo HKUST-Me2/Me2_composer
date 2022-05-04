@@ -12,7 +12,7 @@
 [Herocard
     title=${TitleText1()}
     text=${DescriptionText1()}
-    buttons=${cardActionTemplate('imBack', 'Show more cards', 'Show more cards')}
+    buttons=${cardActionTemplate('OK!', 'Show more cards', 'Show more cards')}
 ]
 
 # TitleText1
@@ -405,13 +405,10 @@
 ]
 
 
-# VictimLayoutType
-- carousel
-
 # VictimAll
 [Activity     
-    Attachments = ${VictimCard1()} | ${VictimCard2()} | ${VictimCard3()} | ${VictimCard4()} | ${VictimCard5()} | ${VictimCard6()} | ${VictimCard7()} |  ${VictimCard8()} | ${VictimCard9()} | ${VictimCard10()} | ${VictimCard11()} | ${VictimCard12()} | ${VictimCard6()} | ${VictimCard13()} |  ${VictimCard14()}
-    AttachmentLayout = ${VictimLayoutType()} 
+    Attachments = ${VictimCard1()} | ${VictimCard2()} | ${VictimCard3()} | ${VictimCard4()} | ${VictimCard5()} | ${VictimCard6()} | ${VictimCard7()} |  ${VictimCard8()} | ${VictimCard9()} | ${VictimCard10()} | ${VictimCard11()} | ${VictimCard12()} | ${VictimCard13()} |  ${VictimCard14()}
+    AttachmentLayout = carousel
 ]
 
 # VictimCard1
@@ -653,3 +650,110 @@ What are the potential risks?
 - Psychological Assessment:
 - https://counsel.hkust.edu.hk/page.php?section=Resources&subsection=20&anchor=selfassessment
 ```
+
+# ByStanderLayoutType
+- carousel
+
+# ByStanderALL
+[Activity     
+    Attachments = ${ByStanderCard1()} | ${ByStanderCard2()} | ${ByStanderCard3()} | ${ByStanderCard4()} | ${ByStanderCard5()} 
+    AttachmentLayout = ${ByStanderLayoutType()} 
+]
+
+# ByStanderCard1
+[Herocard
+    title= LISTEN!
+    text= ${ByStanderText1()}
+]
+
+#ByStanderText1
+- Listen to what he/she has to say and, when appropriate, suggest how to lodge a complaint. Show your support, for example by accompanying the victim when he/she lodges a complaint or giving a witness statement if you saw what happened.
+
+# ByStanderCard2
+[Herocard
+    title= REASSURE him/her!
+    text= ${ByStanderText2()}
+]
+
+#ByStanderText2
+- Sexual assault is NEVER the survivor’s fault. No one asks to be sexually assaulted by what they wear, say or do. Let the survivor know that only the perpetrator is to blame; The survivor needs to hear that fears, anxieties, guilt, and anger are normal, understandable and acceptable emotions; Remember, no one ever deserves to be abused or harassed.
+
+
+# ByStanderCard3
+[Herocard
+    title= be PATIENT!
+    text= ${ByStanderText3()}
+]
+
+#ByStanderText3
+- Don’t press for details – let your friend decide how much they want to share. Ask them how you can help; Survivors have to struggle with complex decisions and feelings of powerlessness, trying to make decisions for them may only increase that sense of powerlessness. You can be supportive by helping your friend to identify all the available options and then help by supporting their decision-making process. The survivor can’t just “forget it” or just move on. Recovery is a long term process and each individual moves at their own pace.
+
+
+# ByStanderCard4
+[Herocard
+    title= SAY!
+    text= ${ByStanderText4()}
+]
+
+#ByStanderText4
+-```
+Things you can say:
+- It’s not your fault
+- I’m sorry this happened
+- I believe you
+- How can I help you?
+- I am glad you told me
+- I’ll support your choices
+- You’re not alone
+```
+
+# ByStanderCard5
+[Herocard
+    title= believe your Friend
+    text= ${ByStanderText5()}
+]
+
+#ByStanderText5
+- The most common reason people choose not to tell anyone about sexual abuse is the fear that the listener won’t believe them. People rarely lie or exaggerate about abuse; if someone tells you, it’s because they trust you and needs someone to talk to. People rarely make up stories of abuse. It is not necessary for you to decide if they were “really hurt.” If the survivor says they were hurt, that should be enough; Believe what your friend tells you. It may have been difficult for them to talk to you and trust you."
+
+#ExampleAll
+[Activity
+    Attachments = ${ExampleCard1()} |  ${ExampleCard2()} | ${ExampleCard3()}| ${ExampleCard4()} | ${ExampleCard5()}| ${ExampleCard6()}
+    AttachmentLayout = carousel
+]
+
+#ExampleCard1
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example1.jpg
+    text = Paul downloads some pornographic photos from the internet, he shows them in class and forwards to his classmates.
+]
+
+#ExampleCard2
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example2.jpg
+    text = In an student activity, several students are telling sexual jokes, leering at some female students and making disparaging remarks in the presence of other students. The students find it very offensive.
+]
+
+#ExampleCard3
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example3.jpg
+    text = When John’s boss is evaluating his work performance, he is told that he can get a promotion only if he goes to bed with her.
+]
+
+#ExampleCard4
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example4.jpg
+    text = A male student is very fond of Susan, he keeps asking her out by email, phone calls, and letters, despite Susan says “No” to him every time. She feels annoyed and offended.
+]
+
+#ExampleCard5
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example5.jpg
+    text = Mary is discussing her thesis with her supervisor. She is asked on a date and hinted that she may regret it if she does not comply.
+]
+
+#ExampleCard6
+[Herocard
+    image = https://gdc.hkust.edu.hk/img/example6.jpg
+    text = At the swimming pool, a male student scans lasciviously over the body of a female student in a swimsuit. She feels embarrassed and offended.
+]

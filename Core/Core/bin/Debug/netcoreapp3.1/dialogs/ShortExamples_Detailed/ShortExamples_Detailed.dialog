@@ -15,7 +15,15 @@
         "description": "",
         "id": "KTbrWr"
       },
-      "actions": []
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "6B7XP2"
+          },
+          "activity": "${SendActivity_6B7XP2()}"
+        }
+      ]
     }
   ],
   "generator": "ShortExamples_Detailed.lg",
