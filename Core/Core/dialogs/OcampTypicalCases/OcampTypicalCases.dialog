@@ -7,17 +7,7 @@
   },
   "autoEndDialog": true,
   "defaultResultProperty": "dialog.result",
-  "triggers": [
-    {
-      "$kind": "Microsoft.OnBeginDialog",
-      "$designer": {
-        "name": "BeginDialog",
-        "description": "",
-        "id": "9rtvhi"
-      },
-      "actions": []
-    }
-  ],
+  "triggers": [],
   "generator": "OcampTypicalCases.lg",
   "recognizer": "OcampTypicalCases.lu.qna",
   "id": "OcampTypicalCases"
