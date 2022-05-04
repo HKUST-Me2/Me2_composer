@@ -17,68 +17,18 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.ChoiceInput",
+          "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "fTH0XY"
+            "id": "0rWsqs"
           },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${ChoiceInput_Prompt_fTH0XY()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
-          },
-          "property": "$user.bystanderChoice",
-          "choices": [
-            "Yes. Seeing someone who is being sexually harassed",
-            "Yes. Someone asks you for help",
-            "No. "
-          ],
-          "style": "heroCard"
+          "activity": "${SendActivity_0rWsqs()}"
         },
         {
-          "$kind": "Microsoft.SwitchCondition",
+          "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "8nH3Wr"
+            "id": "wub4Qv"
           },
-          "condition": "$user.bystanderChoice",
-          "cases": [
-            {
-              "value": "Yes. Seeing someone who is being sexually harassed",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "dNh1my"
-                  },
-                  "activity": "${SendActivity_dNh1my()}"
-                }
-              ]
-            },
-            {
-              "value": "Yes. Someone asks you for help",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "i6BKOe"
-                  },
-                  "activity": "${SendActivity_i6BKOe()}"
-                }
-              ]
-            },
-            {
-              "value": "No. "
-            }
-          ]
+          "activity": "${SendActivity_wub4Qv()}"
         }
       ]
     }

@@ -1,43 +1,16 @@
 [import](cardlist.lg)
 
-# ChoiceInput_Prompt_fTH0XY()
-[Activity
-    Text = ${ChoiceInput_Prompt_fTH0XY_text()}
-]
+# SendActivity_wub4Qv()
+- ${HeroCard1()}
+- ${HeroCard2()}
+- ${HeroCard3()}
+- ${HeroCard4()}
+- ${HeroCard5()}
+- ${HeroCard6()}
+- ${HeroCard7()}
+- ${HeroCard8()}
+- ${HeroCard9()}
+- ${HeroCard10()}
 
-# ChoiceInput_Prompt_fTH0XY_text()
-- Are you seeing someone who is being sexually harassed or is there someone who asks you for help?
-# SendActivity_dNh1my()
-[Activity
-    Text = ${SendActivity_dNh1my_text()}
-]
-
-# SendActivity_dNh1my_text()
--  Confront the harasser if circumstances allow, and point out what he/she is doing is inappropriate and may amount to sexual harassment.
-# SendActivity_i6BKOe()
-[Activity
-    Text = ${SendActivity_i6BKOe_text()}
-]
-
-# SendActivity_i6BKOe_text()
-- Listen to what he/she has to say and, when appropriate, suggest how to lodge a complaint. Show your support, for example by accompanying the victim when he/she lodges a complaint or giving a witness statement if you saw what happened.
-- ```Reassure him/her. Sexual assault is NEVER the survivor’s fault. No one asks to be sexually assaulted by what they wear, say or do. Let the survivor know that only the perpetrator is to blame;
-The survivor needs to hear that fears, anxieties, guilt, and anger are normal, understandable and acceptable emotions;
-Remember, no one ever deserves to be abused or harassed.```
-- ```Be Patient.
-Don’t press for details – let your friend decide how much they want to share. Ask them how you can help;
-Survivors have to struggle with complex decisions and feelings of powerlessness, trying to make decisions for them may only increase that sense of powerlessness.
-You can be supportive by helping your friend to identify all the available options and then help by supporting their decision\-making process.
-The survivor can’t just “forget it” or just move on. Recovery is a long term process and each individual moves at their own pace.```
-- ```Things you can say:
-It’s not your fault
-I’m sorry this happened
-I believe you
-How can I help you?
-I am glad you told me
-I’ll support your choices
-You’re not alone```
-- ```Believe Your Friend
-The most common reason people choose not to tell anyone about sexual abuse is the fear that the listener won’t believe them. People rarely lie or exaggerate about abuse; if someone tells you, it’s because they trust you and needs someone to talk to.
-People rarely make up stories of abuse. It is not necessary for you to decide if they were “really hurt.” If the survivor says they were hurt, that should be enough;
-Believe what your friend tells you. It may have been difficult for them to talk to you and trust you.```
+# SendActivity_0rWsqs()
+- ${AdaptiveCard()}
