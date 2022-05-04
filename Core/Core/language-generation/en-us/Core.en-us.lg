@@ -98,3 +98,52 @@
 [Activity
     Text = ${SendActivity_6AnRaD_text()}
 ]
+
+# ChoiceInput_Prompt_g0Ogkk()
+[Activity
+    Text = ${ChoiceInput_Prompt_g0Ogkk_text()}
+]
+
+# ChoiceInput_Prompt_g0Ogkk_text()
+- What may I help you?
+# SendActivity_4i3JMk()
+[Activity
+    Text = ${SendActivity_4i3JMk_text()}
+]
+
+# SendActivity_4i3JMk_text()
+- 1
+# SendActivity_rzLzs6_text()
+- 2
+# SendActivity_rzLzs6()
+[Activity
+    Text = ${SendActivity_rzLzs6_text()}
+]
+
+# SendActivity_hEs0In_text()
+- 3
+# SendActivity_hEs0In()
+[Activity
+    Text = ${SendActivity_hEs0In_text()}
+]
+
+# SendActivity_AycRSb_text()
+- 4
+# SendActivity_AycRSb()
+[Activity
+    Text = ${SendActivity_AycRSb_text()}
+]
+
+# SendActivity_IMF3Dt_text()
+- 5
+# SendActivity_IMF3Dt()
+[Activity
+    Text = ${SendActivity_IMF3Dt_text()}
+]
+
+# SendActivity_Acx9D0_text()
+- 6
+# SendActivity_Acx9D0()
+[Activity
+    Text = ${SendActivity_Acx9D0_text()}
+]

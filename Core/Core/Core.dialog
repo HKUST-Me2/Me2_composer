@@ -136,6 +136,39 @@
                   "activity": "${SendActivity_6AnRaD()}"
                 },
                 {
+                  "$kind": "Microsoft.ChoiceInput",
+                  "$designer": {
+                    "id": "g0Ogkk"
+                  },
+                  "defaultLocale": "en-us",
+                  "disabled": false,
+                  "maxTurnCount": 3,
+                  "alwaysPrompt": false,
+                  "allowInterruptions": false,
+                  "unrecognizedPrompt": "",
+                  "invalidPrompt": "",
+                  "prompt": "${ChoiceInput_Prompt_g0Ogkk()}",
+                  "choiceOptions": {
+                    "includeNumbers": true,
+                    "inlineOrMore": ", or ",
+                    "inlineOr": " or ",
+                    "inlineSeparator": ", "
+                  },
+                  "choices": [
+                    "I want to know others' stories",
+                    "Can you give me some examples of sexual harassment?",
+                    "What can I do if I think I'm sexually harassed?",
+                    "What can I do if I think I've witnessed sexual harassment?",
+                    "I want to know more about issues related to Orientation camps",
+                    "I think I am an expert of sexual harassment. Test me!"
+                  ],
+                  "recognizerOptions": {
+                    "recognizeOrdinals": true
+                  },
+                  "style": "heroCard",
+                  "property": "user.choice"
+                },
+                {
                   "$kind": "Microsoft.SwitchCondition",
                   "$designer": {
                     "id": "g2VbAb"
@@ -143,8 +176,15 @@
                   "condition": "=user.choice",
                   "cases": [
                     {
-                      "value": "1. I want to know others' stories",
+                      "value": "I want to know others' stories",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "4i3JMk"
+                          },
+                          "activity": "${SendActivity_4i3JMk()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -156,8 +196,15 @@
                       ]
                     },
                     {
-                      "value": "2. Can you give me some examples of sexual harassment?",
+                      "value": "Can you give me some examples of sexual harassment?",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "rzLzs6"
+                          },
+                          "activity": "${SendActivity_rzLzs6()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -169,8 +216,15 @@
                       ]
                     },
                     {
-                      "value": "3. What can I do if I think I'm sexually harassed?",
+                      "value": "What can I do if I think I'm sexually harassed?",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "hEs0In"
+                          },
+                          "activity": "${SendActivity_hEs0In()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -182,8 +236,15 @@
                       ]
                     },
                     {
-                      "value": "4. What can I do if I think I've witnessed sexual harassment?",
+                      "value": "What can I do if I think I've witnessed sexual harassment?",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "AycRSb"
+                          },
+                          "activity": "${SendActivity_AycRSb()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -195,8 +256,15 @@
                       ]
                     },
                     {
-                      "value": "5. I want to know more about issues related to Orientation camps",
+                      "value": "I want to know more about issues related to Orientation camps",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "IMF3Dt"
+                          },
+                          "activity": "${SendActivity_IMF3Dt()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -208,8 +276,15 @@
                       ]
                     },
                     {
-                      "value": "6. I think I am an expert of sexual harassment. Test me!",
+                      "value": "I think I am an expert of sexual harassment. Test me!",
                       "actions": [
+                        {
+                          "$kind": "Microsoft.SendActivity",
+                          "$designer": {
+                            "id": "Acx9D0"
+                          },
+                          "activity": "${SendActivity_Acx9D0()}"
+                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
