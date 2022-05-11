@@ -98,22 +98,6 @@
         {
           "$kind": "Microsoft.SendActivity",
           "$designer": {
-            "id": "BsJacn"
-          },
-          "activity": "${SendActivity_BsJacn()}"
-        },
-        {
-          "$kind": "Microsoft.EmitEvent",
-          "$designer": {
-            "id": "uzD8kX"
-          },
-          "handledProperty": "turn.eventHandled",
-          "bubbleEvent": true,
-          "eventName": "6Question"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
             "id": "6dAHTg"
           },
           "activity": "${SendActivity_6dAHTg()}"

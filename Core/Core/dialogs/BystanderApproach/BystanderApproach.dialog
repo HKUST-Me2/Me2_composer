@@ -17,11 +17,80 @@
       },
       "actions": [
         {
-          "$kind": "Microsoft.SendActivity",
+          "$kind": "Microsoft.ChoiceInput",
           "$designer": {
-            "id": "GHwJLS"
+            "id": "q9MEE5"
           },
-          "activity": "${SendActivity_GHwJLS()}"
+          "defaultLocale": "en-us",
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${ChoiceInput_Prompt_q9MEE5()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "choiceOptions": {
+            "includeNumbers": true,
+            "inlineOrMore": ", or ",
+            "inlineOr": " or ",
+            "inlineSeparator": ", "
+          },
+          "style": "heroCard",
+          "choices": [
+            "Seeing someone who is being sexually harassed",
+            "Someone asks you for help"
+          ],
+          "property": "$user.bystanderchoice"
+        },
+        {
+          "$kind": "Microsoft.SwitchCondition",
+          "$designer": {
+            "id": "CYY3zQ"
+          },
+          "condition": "$user.bystanderchoice",
+          "cases": [
+            {
+              "value": "Seeing someone who is being sexually harassed",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "fVjlYd"
+                  },
+                  "activity": "${SendActivity_fVjlYd()}"
+                }
+              ]
+            },
+            {
+              "value": "Someone asks you for help",
+              "actions": [
+                {
+                  "$kind": "Microsoft.SendActivity",
+                  "$designer": {
+                    "id": "e1Mr5v"
+                  },
+                  "activity": "${SendActivity_e1Mr5v()}"
+                }
+              ]
+            }
+          ],
+          "default": [
+            {
+              "$kind": "Microsoft.SendActivity",
+              "$designer": {
+                "id": "6DNVs8"
+              },
+              "activity": "${SendActivity_6DNVs8()}"
+            }
+          ]
+        },
+        {
+          "$kind": "Microsoft.DeleteProperty",
+          "$designer": {
+            "id": "2sshp3"
+          },
+          "property": "$user.bystanderchoice"
         }
       ]
     }

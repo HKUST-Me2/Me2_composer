@@ -471,13 +471,6 @@ An act can constitute sexual harassment even if it happened only once.```
 
 # SendActivity_78dewY_text()
 - Add oil!
-# SendActivity_BsJacn()
-[Activity
-    Text = ${SendActivity_BsJacn_text()}
-]
-
-# SendActivity_BsJacn_text()
-- next!
 # SendActivity_6dAHTg()
 [Activity
     Text = ${SendActivity_6dAHTg_text()}

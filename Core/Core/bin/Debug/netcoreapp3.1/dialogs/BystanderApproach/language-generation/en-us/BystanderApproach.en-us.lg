@@ -1,5 +1,26 @@
 [import](cardlist.lg)
 
 
-# SendActivity_GHwJLS()
+# ChoiceInput_Prompt_q9MEE5()
+[Activity
+    Text = ${ChoiceInput_Prompt_q9MEE5_text()}
+]
+
+# ChoiceInput_Prompt_q9MEE5_text()
+- Are you seeing someone who is being sexually harassed or is there someone who asks you for help ?
+# SendActivity_e1Mr5v()
 - ${ByStanderALL()}
+# SendActivity_fVjlYd()
+[Activity
+    Text = ${SendActivity_fVjlYd_text()}
+]
+
+# SendActivity_fVjlYd_text()
+-  Confront the harasser if circumstances allow, and point out what he/she is doing is inappropriate and may amount to sexual harassment.
+# SendActivity_6DNVs8()
+[Activity
+    Text = ${SendActivity_6DNVs8_text()}
+]
+
+# SendActivity_6DNVs8_text()
+- Glad that you are not experiencing either one!
