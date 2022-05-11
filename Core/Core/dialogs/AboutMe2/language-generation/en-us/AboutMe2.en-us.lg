@@ -31,13 +31,6 @@ If you want to know more about sexual harassment, Me2 Chatbot acts as a platform
 
 # SendActivity_pbpYif_text()
 - Your information is safe with us. Me2 Chatbot has built the system so that the developers cannot see what information you input. Only the school will know your documentation details when you decide to report it.
-# SendActivity_rAa9BO()
-[Activity
-    Text = ${SendActivity_rAa9BO_text()}
-]
-
-# SendActivity_rAa9BO_text()
-- Me2 Chatbot is affiliated and supported by HKUST.
 # SendActivity_KpUhaM()
 [Activity
     Text = ${SendActivity_KpUhaM_text()}
