@@ -1759,3 +1759,12 @@ C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\obj\Debug\netc
 C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.dll
 C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.pdb
 C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\Ocamp.dialog
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\recognizers\Ocamp.en-us.lu.dialog
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\recognizers\Ocamp.lu.dialog
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\recognizers\Ocamp.lu.qna.dialog
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\language-generation\en-us\Ocamp.en-us.lg
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\language-understanding\en-us\Ocamp.en-us.lu
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\Ocamp.en-us.lu
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\dialogs\Ocamp\knowledge-base\en-us\Ocamp.en-us.qna
+C:\Users\Lenovo S540 FSIN\Documents\GitHub\Me2\Core\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\Ocamp.en-us.qna

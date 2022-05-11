@@ -1,0 +1,20 @@
+[import](common.lg)
+
+# SendActivity_PY73dj()
+[Activity
+    Text = ${SendActivity_PY73dj_text()}
+]
+
+# SendActivity_PY73dj_text()
+- If you encounter such situation, please SAY NO directly. Make it clear to the harasser that you do not welcome the behaviour and it must stop, for example by yelling at him/her to stop, pushing him/her away, or sending a text message to voice your objection to such behaviour
+# SendActivity_v7Hnzp()
+[Activity
+    Text = ${SendActivity_v7Hnzp_text()}
+]
+
+# SendActivity_v7Hnzp_text()
+- ```Examples of sexual harassment occurring in orientation activities include 
+1. Spot particular girls who are "good\-looking" and "sexy" and ask for room to stay alone
+2. Be guided to take off their clothes
+3. Punishment of games involve sexual nature
+4. Take advantage of group members by having close physical contact```
