@@ -8,18 +8,17 @@
 
 # ChoiceInput_Prompt_0M6TEf_text()
 - What kind of stories do you want to know? Note that these stories are all from the research of Equal Opportunity Committee.
-# SendActivity_L6LT2F()
--${AllCardo2()}
-
 # SendActivity_L6LT2F_text()
 - test222
-# SendActivity_vBxgGn()
--${AllCardo1()}
 # SendActivity_OhR74l()
--${AllCardo3()}
-# SendActivity_rxnAxB()
--${AllCardo4()}
-# SendActivity_bj99gH()
 -${AllCardo5()}
-# SendActivity_iN0Tma()
+# SendActivity_rxnAxB()
 -${AllCardo6()}
+# SendActivity_bj99gH()
+-${AllCardo3()}
+# SendActivity_iN0Tma()
+-${AllCardo1()}
+# SendActivity_vBxgGn()
+-${AllCardo2()}
+# SendActivity_L6LT2F()
+-${AllCardo4()}

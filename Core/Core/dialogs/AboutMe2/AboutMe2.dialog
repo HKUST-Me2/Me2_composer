@@ -38,10 +38,7 @@
           "choices": [
             "What does Me2 Chatbot do?",
             "How can Me2 Chatbot help me?",
-            "Who is Me2 Chatbot for?",
-            "Can I trust Me2 Chatbot with my private information?",
-            "Is Me2 Chatbot affiliated with HKUST?",
-            "What can I do if I want to report to the school immediately?"
+            "Can I trust Me2 Chatbot with my private information?"
           ],
           "style": "heroCard",
           "recognizerOptions": {
@@ -80,18 +77,6 @@
               ]
             },
             {
-              "value": "Who is Me2 Chatbot for?",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "udZk4S"
-                  },
-                  "activity": "${SendActivity_udZk4S()}"
-                }
-              ]
-            },
-            {
               "value": "Can I trust Me2 Chatbot with my private information?",
               "actions": [
                 {
@@ -100,30 +85,6 @@
                     "id": "pbpYif"
                   },
                   "activity": "${SendActivity_pbpYif()}"
-                }
-              ]
-            },
-            {
-              "value": "Is Me2 Chatbot affiliated with HKUST?",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "rAa9BO"
-                  },
-                  "activity": "${SendActivity_rAa9BO()}"
-                }
-              ]
-            },
-            {
-              "value": "What can I do if I want to report to the school immediately?",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "KpUhaM"
-                  },
-                  "activity": "${SendActivity_KpUhaM()}"
                 }
               ]
             }
