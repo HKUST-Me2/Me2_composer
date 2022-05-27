@@ -133,13 +133,6 @@
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "rR9Um5"
-                  },
-                  "activity": "${SendActivity_rR9Um5()}"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
                     "id": "6AnRaD"
                   },
                   "activity": "${SendActivity_6AnRaD()}"
@@ -188,13 +181,6 @@
                       "value": "I want to know others' stories",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "4i3JMk"
-                          },
-                          "activity": "${SendActivity_4i3JMk()}"
-                        },
-                        {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
                             "id": "9mx1z6"
@@ -207,13 +193,6 @@
                     {
                       "value": "Can you give me some examples of sexual harassment?",
                       "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "rzLzs6"
-                          },
-                          "activity": "${SendActivity_rzLzs6()}"
-                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -228,13 +207,6 @@
                       "value": "What can I do if I think I'm sexually harassed?",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "hEs0In"
-                          },
-                          "activity": "${SendActivity_hEs0In()}"
-                        },
-                        {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
                             "id": "TyrT4w"
@@ -247,13 +219,6 @@
                     {
                       "value": "What can I do if I think I've witnessed sexual harassment?",
                       "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "AycRSb"
-                          },
-                          "activity": "${SendActivity_AycRSb()}"
-                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -268,13 +233,6 @@
                       "value": "I want to know more about issues related to Orientation camps",
                       "actions": [
                         {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "IMF3Dt"
-                          },
-                          "activity": "${SendActivity_IMF3Dt()}"
-                        },
-                        {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
                             "id": "BvrP6t"
@@ -287,13 +245,6 @@
                     {
                       "value": "I think I am an expert of sexual harassment. Test me!",
                       "actions": [
-                        {
-                          "$kind": "Microsoft.SendActivity",
-                          "$designer": {
-                            "id": "Acx9D0"
-                          },
-                          "activity": "${SendActivity_Acx9D0()}"
-                        },
                         {
                           "$kind": "Microsoft.BeginDialog",
                           "$designer": {
@@ -312,13 +263,6 @@
               "value": "I want to know more about you",
               "actions": [
                 {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "xVeKrJ"
-                  },
-                  "activity": "${SendActivity_xVeKrJ()}"
-                },
-                {
                   "$kind": "Microsoft.BeginDialog",
                   "$designer": {
                     "id": "pGqZQW"
@@ -330,27 +274,11 @@
             },
             {
               "value": "I want to record a case",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "5P1Hf4"
-                  },
-                  "activity": "${SendActivity_5P1Hf4()}"
-                }
-              ]
+              "actions": []
             },
             {
               "value": "I just want to play with you",
-              "actions": [
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
-                    "id": "WAJmFY"
-                  },
-                  "activity": "${SendActivity_WAJmFY()}"
-                }
-              ]
+              "actions": []
             }
           ],
           "default": [
@@ -363,13 +291,6 @@
             }
           ],
           "condition": "=user.choice"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "ZaaQIp"
-          },
-          "activity": "${SendActivity_ZaaQIp()}"
         },
         {
           "$kind": "Microsoft.SendActivity",

@@ -6,14 +6,17 @@
 ]
 
 # SendActivity_Greeting_text()
-- Hi, I'm Me2. I'm here to help you with any issues related to sexual harassment.
+- ```👋Hi, I'm Me2. 
+I'm here to help you with any issues related to sexual harassment.```
+- ```👋Hello, I'm Me2. 
+I'm here to help you with any issues related to sexual harassment.```
 # SendActivity_DidNotUnderstand()
 [Activity
     Text = ${SendActivity_DidNotUnderstand_text()}
 ]
 
 # SendActivity_DidNotUnderstand_text()
-- Sorry, I didn't get that.
+- Sorry, I didn't get that. 😔😔
 # ChoiceInput_Prompt_M4QGFV()
 [Activity
     Text = ${ChoiceInput_Prompt_M4QGFV_text()}
@@ -27,14 +30,7 @@
 ]
 
 # SendActivity_1YIrzU_text()
-- default 
-# SendActivity_rR9Um5()
-[Activity
-    Text = ${SendActivity_rR9Um5_text()}
-]
-
-# SendActivity_rR9Um5_text()
-- 1
+- I'm sorry, I am not sure what you want.
 # SendActivity_TSYpF6()
 [Activity
     Text = ${SendActivity_TSYpF6_text()}
@@ -42,20 +38,6 @@
 
 # SendActivity_TSYpF6_text()
 - 3
-# SendActivity_5P1Hf4()
-[Activity
-    Text = ${SendActivity_5P1Hf4_text()}
-]
-
-# SendActivity_5P1Hf4_text()
-- 3
-# SendActivity_WAJmFY()
-[Activity
-    Text = ${SendActivity_WAJmFY_text()}
-]
-
-# SendActivity_WAJmFY_text()
-- 4
 # SendActivity_SKinw3()
 [Activity
     Text = ${SendActivity_SKinw3_text()}
@@ -63,13 +45,6 @@
 
 # SendActivity_SKinw3_text()
 - 5
-# SendActivity_xVeKrJ()
-[Activity
-    Text = ${SendActivity_xVeKrJ_text()}
-]
-
-# SendActivity_xVeKrJ_text()
-- 2
 # ChoiceInput_Prompt_cLtVzZ()
 [Activity
     Text = ${ChoiceInput_Prompt_cLtVzZ_text()}
@@ -77,13 +52,6 @@
 
 # ChoiceInput_Prompt_cLtVzZ_text()
 - Which kind of examples you want to check out?
-# SendActivity_ZaaQIp()
-[Activity
-    Text = ${SendActivity_ZaaQIp_text()}
-]
-
-# SendActivity_ZaaQIp_text()
-- ⚠️Debug: End of Edu
 # SendActivity_Yl4NFe_text()
 - We care a lot about confidentiality. ONLY you can access the chats unless you choose to connect with the University. Please also note that the information I provide is for informational purpose only. Consult an attorny for legal advice.
 # SendActivity_Yl4NFe()
@@ -106,48 +74,6 @@
 
 # ChoiceInput_Prompt_g0Ogkk_text()
 - What may I help you?
-# SendActivity_4i3JMk()
-[Activity
-    Text = ${SendActivity_4i3JMk_text()}
-]
-
-# SendActivity_4i3JMk_text()
-- 1
-# SendActivity_rzLzs6_text()
-- 2
-# SendActivity_rzLzs6()
-[Activity
-    Text = ${SendActivity_rzLzs6_text()}
-]
-
-# SendActivity_hEs0In_text()
-- 3
-# SendActivity_hEs0In()
-[Activity
-    Text = ${SendActivity_hEs0In_text()}
-]
-
-# SendActivity_AycRSb_text()
-- 4
-# SendActivity_AycRSb()
-[Activity
-    Text = ${SendActivity_AycRSb_text()}
-]
-
-# SendActivity_IMF3Dt_text()
-- 5
-# SendActivity_IMF3Dt()
-[Activity
-    Text = ${SendActivity_IMF3Dt_text()}
-]
-
-# SendActivity_Acx9D0_text()
-- 6
-# SendActivity_Acx9D0()
-[Activity
-    Text = ${SendActivity_Acx9D0_text()}
-]
-
 # SendActivity_zmfFox()
 [Activity
     Text = ${SendActivity_zmfFox_text()}

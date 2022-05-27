@@ -663,7 +663,7 @@ What are the potential risks?
 
 # ByStanderCard1
 [Herocard
-    title= LISTEN!
+    title= 👂LISTEN!
     text= ${ByStanderText1()}
 ]
 
@@ -672,7 +672,7 @@ What are the potential risks?
 
 # ByStanderCard2
 [Herocard
-    title= REASSURE him/her!
+    title= 💬REASSURE him/her!
     text= ${ByStanderText2()}
 ]
 
@@ -682,7 +682,7 @@ What are the potential risks?
 
 # ByStanderCard3
 [Herocard
-    title= be PATIENT!
+    title= 🙌be PATIENT!
     text= ${ByStanderText3()}
 ]
 
@@ -692,7 +692,7 @@ What are the potential risks?
 
 # ByStanderCard4
 [Herocard
-    title= SAY!
+    title= 📢SAY!
     text= ${ByStanderText4()}
 ]
 
@@ -710,7 +710,7 @@ Things you can say:
 
 # ByStanderCard5
 [Herocard
-    title= believe your Friend
+    title= 🧑‍🤝‍🧑BELIEVE your Friend
     text= ${ByStanderText5()}
 ]
 

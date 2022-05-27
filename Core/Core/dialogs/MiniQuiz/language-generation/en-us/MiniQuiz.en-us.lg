@@ -191,6 +191,8 @@ Have a nice day!```
 
 # SendActivity_7QG27B_text()
 - You are wrong
+- I'm afarid that's not quite right.
+- I'm afraid you're mistaken.
 # SendActivity_PHOh1l()
 [Activity
     Text = ${SendActivity_PHOh1l_text()}
@@ -229,6 +231,8 @@ An act can constitute sexual harassment even if it happened only once.```
 
 # SendActivity_0ds2jn_text()
 - You are wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_0ds2jn()
 [Activity
     Text = ${SendActivity_0ds2jn_text()}
@@ -263,7 +267,9 @@ An act can constitute sexual harassment even if it happened only once.```
 ]
 
 # SendActivity_x7cMHE_text()
-- You are wrong
+- You're wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_x7cMHE()
 [Activity
     Text = ${SendActivity_x7cMHE_text()}
@@ -299,6 +305,8 @@ An act can constitute sexual harassment even if it happened only once.```
 
 # SendActivity_5JMtFr_text()
 - You are wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_5JMtFr()
 [Activity
     Text = ${SendActivity_5JMtFr_text()}
@@ -334,6 +342,8 @@ An act can constitute sexual harassment even if it happened only once.```
 
 # SendActivity_QZFF3i_text()
 - You are wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_QZFF3i()
 [Activity
     Text = ${SendActivity_QZFF3i_text()}
@@ -369,6 +379,8 @@ An act can constitute sexual harassment even if it happened only once.```
 
 # SendActivity_rwyGHN_text()
 - You are wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_rwyGHN()
 [Activity
     Text = ${SendActivity_rwyGHN_text()}
@@ -404,7 +416,9 @@ An act can constitute sexual harassment even if it happened only once.```
 ]
 
 # SendActivity_uR5EkW_text()
-- You are wrong
+- You're wrong
+- I'm afraid you're mistaken.
+- I'm afarid that's not quite right.
 # SendActivity_uR5EkW()
 [Activity
     Text = ${SendActivity_uR5EkW_text()}
@@ -430,7 +444,7 @@ An act can constitute sexual harassment even if it happened only once.```
 ]
 
 # SendActivity_L0vPzV_text()
-- 😸Thanks for playing our mini quiz!
+- 😸Thanks for playing our mini quiz!😸
 # SendActivity_kzPbFO()
 [Activity
     Attachments = ${SendActivity_kzPbFO_attachment_2URPzP()}
@@ -449,32 +463,32 @@ An act can constitute sexual harassment even if it happened only once.```
 ]
 
 # SendActivity_p11kdm_text()
-- the Next one!
+- ✨the Next one! 👇
 # SendActivity_zNERfM()
 [Activity
     Text = ${SendActivity_zNERfM_text()}
 ]
 
 # SendActivity_zNERfM_text()
-- Here come the nxt!
+- ✨Here comes the next! 👇
 # SendActivity_RfItNb()
 [Activity
     Text = ${SendActivity_RfItNb_text()}
 ]
 
 # SendActivity_RfItNb_text()
-- next!
+- ✨Let's Continue! 👇
 # SendActivity_78dewY()
 [Activity
     Text = ${SendActivity_78dewY_text()}
 ]
 
 # SendActivity_78dewY_text()
-- Add oil!
+- ✨Keep it up! And the next is ... 👇
 # SendActivity_6dAHTg()
 [Activity
     Text = ${SendActivity_6dAHTg_text()}
 ]
 
 # SendActivity_6dAHTg_text()
-- Next!
+- ✨The Last one! 👇
