@@ -1,4 +1,5 @@
 > source: https://static1.squarespace.com/static/5ff5d891409193661a0718c0/t/6143c3c598215b66462b087c/1631830987649/Callisto_AlliesGuide.pdf
+[import](common.lg)
 
 # cardActionTemplate(type, title, value)
 [CardAction
@@ -407,7 +408,7 @@
 
 # VictimAll
 [Activity     
-    Attachments = ${VictimCard1()} | ${VictimCard2()} | ${VictimCard3()} | ${VictimCard4()} | ${VictimCard5()} | ${VictimCard6()} | ${VictimCard7()} |  ${VictimCard8()} | ${VictimCard9()} | ${VictimCard10()} | ${VictimCard11()} | ${VictimCard12()} | ${VictimCard13()} |  ${VictimCard14()}
+    Attachments = ${json(Victimadapt1())} | ${json(Victimadapt2())} | ${json(Victimadapt3())} | ${json(Victimadapt4())} | ${VictimCard4()} | ${json(Victimadapt5())} | ${json(Victimadapt6())} | ${json(Victimadapt7())} |  ${json(Victimadapt8())} | ${json(Victimadapt9())} | ${json(Victimadapt10())} | ${json(Victimadapt11())} | ${json(Victimadapt12())} | ${json(Victimadapt13())} |  ${json(Victimadapt14())}
     AttachmentLayout = carousel
 ]
 
@@ -758,3 +759,603 @@ Things you can say:
     image = https://gdc.hkust.edu.hk/img/example6.jpg
     text = At the swimming pool, a male student scans lasciviously over the body of a female student in a swimsuit. She feels embarrassed and offended.
 ]
+
+#Victimadapt1()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Say No",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Make it clear to the harasser that you do not welcome the behaviour and it must stop, forexample by yelling at him/her to stop, pushing him/her away, or sending a text message to voice your objection to such behaviour. ", 
+            "isVisible": true,
+            "wrap": true
+        }
+    ]
+}```
+
+#Victimadapt2()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Jot down what happened",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Record the details of the incident as soon as you can, including the date, time and place, the events that took place (e.g. what the harasser did, how you reacted), and whether there were other people around. These notes may come in handy when you lodge a complaint, locate witnesses or decide to take legal action.", 
+            "isVisible": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "isVisible": false,
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Writing can help you make sure you don’t forget certain details.\r - Writing can be a way to process trauma.\r - It can help you share what happened later with an attorney, therapist, friend, or your school.\r - It can be a helpful starting point for a declaration or other legal statement, including a Victim Impact Statement, Restraining Orders, or a Title IX closing or opening statement. \r - It can help you report to police, if you decide to move forward with a criminal complaint.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- It may get into the wrong hands - someone you don’t trust may see it.\r - You may risk weakening a legal argument down the road.\r - If you admit to alcohol or drug use in writing, it could potentially be used against you.\r - If you decided to proceed with a legal action, your writing could be subpoenaed (and ultimately viewed by the perpetrator and their attorney).\r - It could be triggering if you are going back and forth and challenging your own versions. Remember that the point of writing down the incident is to get it out of your memory and not to question or relive it.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle2",
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt3()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Lodge a complaint",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Make a complaint to your employer, school or the relevant organisation (e.g. a service provider) and ask that they handle it in a fair and impartial manner. If needed, seek assistance from the EOC, social workers, trade unions, NGOs, your friends or family. ", 
+            "isVisible": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "isVisible": false,
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You may receive school accommodations like changes to your schedule, where you live, a leave of absence, or a no contact order to keep the offender away.\r - It might help prevent the same thing from happening to other students.\r - It creates a papertrail to show that you reported what happened (sometimes helpful in a future legal case).\r - If the school decides not to take action or doesn’t follow proper procedure, you have a right to file a grievance against the school.\r - Possible accommodation will help you access your right to education and will provide you time to heal without worrying about your performance at the school.\r - It is your right to cooperate with the investigation at school, in case you decide not to pursue any actions.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Title IX has a duty to both you and the offender (if they are also a student at your school).\r - Every school’s Title IX process is different - check with your school to learn more about what their process includes, and what standard of evidence they use.\r - Once you report, the process & outcome may be out of your control.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle2",
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt4()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Get help from the Equal Opportunity Committee",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Contact the EOC within 12 months of the incident and lodge a complaint in writing by post or fax, or by using the online form on the EOC website.", 
+            "isVisible": true,
+            "wrap": true
+        }
+    ]
+}```
+
+#Victimadapt5()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "File a lawsuit at the District Court",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Issue civil proceedings at the District Court within 24 months of the incident. If you previously lodged a complaint with the EOC and were unable to settle the dispute through conciliation, then the period that elapsed between the date you lodged your complaint and the date the relevant conciliation failed would be disregarded in the calculation of the 24-month limitation period.", 
+            "isVisible": true,
+            "wrap": true
+        }
+    ]
+}```
+
+#Victimadapt6()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Make a report to the police",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Some acts of sexual harassment may amount to criminal offences. You may report the incident to the police and lodge a complaint with the EOC concurrently.", 
+            "isVisible": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "isVisible": false,
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Reporting to the police can provide an immediate sense of action.\r - The police can help you obtain a criminal protective order.\r - This can be useful for any legal action you take later - including a civil lawsuit, a claim for crime victims assistance funds, or even your immigration case (U Visa).\r - If you report within 72 hours, a rape kit collects vital evidence from your body that you won’t have access to later if you don’t .\r - You could potentially help protect your community by putting the police on notice, or creating a trail of evidence of repeated allegations against an offender.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- The officer you talk to may not be trained in responding to people in your circumstances.\r - A police officer’s role is to investigate what happened - so they may ask you questions that make you feel like you are not believed and could potentially be retraumatizing.\r - You may not trust police based on past experience.\r - You may not have control over what legal proceedings come next.\r - While preserving forensic evidence of the crime can be important to building a case against your assailant, these exams can be difficult experiences. Survivors have described forensic exams as retraumatizing and intrusive. If you can, please consider asking a friend to take you to the hospital and home afterwards so you feel more comfortable.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle2",
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt7()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Don't take action",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Limits who knows about what happened.\r - Gives you time to figure out what you want to do.\r - Allows you to process trauma in your own time.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You may be risking your own safety - especially if this person is still a threat to you.\r - You may be going without help from your school that you are legally entitled to - like changes to your schedule, dorm location, or a no contact order to protect you from the perpetrator and allow you time to process trauma and continue your education. If your school does not know, they can’t help you.\r - You may worry that it could happen to someone else.\r - You may not be able to access supportive services or therapy.\r - Some legal options are time sensitive, and you might run out of time depending on how long you wait.\r - You may be risking your health if you have hidden injuries or want to explore options for unwanted pregnancy or STDs.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt8()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Find other victims",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You could coordinate a plan of action together.\r - It could be meaningful to learn you are not the only one.\r - It could be beneficial to put your campus on notice that you are not the only victim, which might lead to more reasonable measures if the campus is not taking actions to protect other students against the repeat offender.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You may be putting yourself at risk by sharing intimate details or by relying on someone who may have different motivations than you.\r - You have no control over what the other person will do or who they might tell.\r - It could be futile and may be more frustrating if they decide not to take action and you don't have more support for your case.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt9()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Confront your perpetrator",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You can get out what you want to say - which potentially can provide emotional relief.\r - Depending on your relationship and the circumstances, they could be receptive to the harm they’ve caused and the need to change their ways",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Emotional risk - you have no idea what the person will say or what they will do with the information.\r - Safety risk - if you suffered violence or do not feel safe around this person, confrontation, even over email or text, can aggravate a dangerous situation.\r - What you say to them may be used against you if you do choose to tell your school or the police, etc.\r - This might be encouraging for some perpetrators who desire to cause harm and may enjoy hearing that they have done so..",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+
+#Victimadapt10()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Post on social media",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Social media is an accessible platform, making it an easy option.\r - It can allow you to get things off your chest.\r - It might potentially protect your community.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You could be sued for defamation - which could cost you a lot of money and time to defend. Suing survivors for defamation is a tool offenders use to get the survivor to recant what they have said.\r - You could ruin your own reputation if you are not believed.\r - You could face consequences at school, leading to a disruption in your education.\r - Social media posts last forever - you do not have control over who views them - even if you restrict your settings or later delete the post. Future bosses, partners, friends, teachers, may all have access to your post.",
+            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt11()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Talk to an attorney",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Attorneys have a duty of confidentiality.\r - They can help you think through your legal options and figure out what you want to do next.\r - They can help you explore whether and how to achieve what you want: whether that is punishment for the offender, protection for yourself, immigration relief, educational benefits, financial compensation, etc.\r - Attorneys can prepare you for reporting to police or to Title IX, etc., and can help you feel less alone in the process.\r - They can provide you additional information on time limits for filing cases.\r - They can help you write a victim impact statement, and assist with filing for Victim Compensation.\r - If the attorney takes your case, they can represent you in legal proceedings.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt12()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Tell a whisper network",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the benefits?",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Warning your friends or community may help keep them safe.\r - By sharing the information with others, you may learn that you are not the first person harmed by your offender.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "What are the potential risks?",
+            "isVisible": false,
+            "id": "textToToggle4",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "- You don’t have control over what whispers are shared, who is believed, or how what you say is interpreted.\r - If the whispers get loud enough (i.e., published on social media), you may get sued for defamation.\r- It could impact your Title IX claim on campus.\r - It might impact the experience and support you get on campus from other friends or acquaintances.\r - You could risk your reputation.",            "isVisible": false,
+            "id": "textToToggle5",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3",
+                "textToToggle4",
+                "textToToggle5"
+            ]
+        }
+    ]
+}```
+
+#Victimadapt13()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "send email to HKUST Gender Equity Officer",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Email: gdc@ust.hk",
+            "wrap": true
+        }
+    ]
+}```
+
+#Victimadapt14()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Meeting with counsellors",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "- Counseling and Wellness Center: https://counsel.hkust.edu.hk/\r - Make appointment: https://counsel.hkust.edu.hk/make_an_appointment.php\r - Psychological Assessment: https://counsel.hkust.edu.hk/page.php?section=Resources&subsection=20&anchor=selfassessment",
+            "wrap": true
+        }
+    ]
+}```
+
+
+
+
+
+
+
+
+
+
