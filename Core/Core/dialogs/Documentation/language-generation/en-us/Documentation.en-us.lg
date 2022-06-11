@@ -1,0 +1,115 @@
+[import](common.lg)
+[import](cardlist.lg)
+
+# SendActivity_Mgk6QO()
+[Activity
+    Text = ${SendActivity_Mgk6QO_text()}
+]
+
+# SendActivity_Mgk6QO_text()
+- I’m going to ask you some questions about what happened. You can edit your responses later if you like.  And no one will see what we discuss unless you decide to submit a report after we finish chatting.
+# SendActivity_OgupNX()
+[Activity
+    Text = ${SendActivity_OgupNX_text()}
+]
+
+# SendActivity_OgupNX_text()
+- Let's get started.
+# ChoiceInput_Prompt_7x8Gy3()
+[Activity
+    Text = ${ChoiceInput_Prompt_7x8Gy3_text()}
+]
+
+# ChoiceInput_Prompt_7x8Gy3_text()
+- This record is **optional** and for informational purposes only. Nothing in the form is legal advice.
+# SendActivity_bIKDE5()
+- ${DocumentationAdapt1()}
+# SendActivity_sKiCVM()
+ - ${DocumentationAdapt2()}
+# ChoiceInput_Prompt_9KmemP()
+[Activity
+    Text = ${ChoiceInput_Prompt_9KmemP_text()}
+]
+
+# ChoiceInput_Prompt_9KmemP_text()
+- 👇Press the button to continue:👇
+# SendActivity_keq3rA()
+[Activity
+    Text = ${SendActivity_keq3rA_text()}
+]
+
+# SendActivity_keq3rA_text()
+- ```Before I ask you to describe what happened, we’ll go through 
+(1) when this happened, 
+(2) where it happened, and 
+(3) who was involved.```
+# SendActivity_GUMF5i()
+[Activity
+    Text = ${SendActivity_GUMF5i_text()}
+]
+
+# SendActivity_GUMF5i_text()
+- You can always choose “Skip” or “I’d rather not say” in response to specific questions.
+# ChoiceInput_Prompt_bmOh5N_text()
+- 👇Press the button to continue:👇
+# ChoiceInput_Prompt_bmOh5N()
+[Activity
+    Text = ${ChoiceInput_Prompt_bmOh5N_text()}
+]
+
+# ChoiceInput_Prompt_W462eT()
+[Activity
+    Text = ${ChoiceInput_Prompt_W462eT_text()}
+]
+
+# ChoiceInput_Prompt_W462eT_text()
+- ```Now let's start with the time. 🕑
+What year did this happen?```
+- ```Now let's start with the time. 🕘
+What year did this happen?```
+- ```Now let's start with the time. 🕝
+What year did this happen?```
+# ChoiceInput_Prompt_V1jcbn()
+[Activity
+    Text = ${ChoiceInput_Prompt_V1jcbn_text()}
+]
+
+# ChoiceInput_Prompt_V1jcbn_text()
+- What season was it?
+# ChoiceInput_Prompt_MTbKyP()
+[Activity
+    Text = ${ChoiceInput_Prompt_MTbKyP_text()}
+]
+
+# ChoiceInput_Prompt_MTbKyP_text()
+- Do you know the exact date 📆? 
+- Do you know the exact date ? 
+# DateTimeInput_Prompt_uHoQdl()
+[Activity
+    Text = ${DateTimeInput_Prompt_uHoQdl_text()}
+]
+
+# DateTimeInput_Prompt_uHoQdl_text()
+- Please type the date in the chat
+# ChoiceInput_Prompt_acJDIV()
+[Activity
+    Text = ${ChoiceInput_Prompt_acJDIV_text()}
+]
+
+# ChoiceInput_Prompt_acJDIV_text()
+- What time of day was it?
+# DateTimeInput_Prompt_i23k1d()
+[Activity
+    Text = ${DateTimeInput_Prompt_i23k1d_text()}
+]
+
+# DateTimeInput_Prompt_i23k1d_text()
+- Please type the exact time of day.
+# TextInput_Prompt_J46VnC()
+[Activity
+    Text = ${TextInput_Prompt_J46VnC_text()}
+]
+
+# TextInput_Prompt_J46VnC_text()
+- ```Is there anything else you remember about the date?
+Examples: holidays, day of the week, games, school or social events around that time, etc.```

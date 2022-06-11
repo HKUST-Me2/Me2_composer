@@ -54,7 +54,7 @@ I'm here to help you with any issues related to sexual harassment.```
 # ChoiceInput_Prompt_cLtVzZ_text()
 - Which kind of examples you want to check out?
 # SendActivity_Yl4NFe_text()
-- We care a lot about confidentiality. ONLY you can access the chats unless you choose to connect with the University. Please also note that the information I provide is for informational purpose only. Consult an attorny for legal advice.
+- We care a lot about confidentiality. **ONLY** you can access the chats unless you choose to connect with the University. Please also note that the information I provide is for informational purpose only. Consult an attorny for legal advice.
 # SendActivity_Yl4NFe()
 [Activity
     Text = ${SendActivity_Yl4NFe_text()}
@@ -83,5 +83,3 @@ I'm here to help you with any issues related to sexual harassment.```
 
 # SendActivity_zmfFox_text()
 - Press the button to restart
-# SendActivity_Bs2C8N()
-- ${VictimAll()}

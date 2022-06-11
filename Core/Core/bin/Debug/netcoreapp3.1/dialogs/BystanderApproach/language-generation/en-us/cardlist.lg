@@ -1350,8 +1350,91 @@ Things you can say:
     ]
 }```
 
+# DocumentationAdapt1
+[Activity
+    Attachments = ${json(DocumentationKnowAll1())}
+]
+
+# DocumentationAdapt2
+[Activity
+    Attachments = ${json(DocumentationKnowAll2())}
+]
+
+#DocumentationKnowAll1()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "🎯Purpose",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "There are many reasons you might choose to record the case through me. ",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "You might want to record what happened as a way to process it, or because it may feel less difficult to share a written document than recount your story verbally. You might also choose to record because you want to help protect yourself from any possible allegations of false accusations. What you do with this record is up to you. You can keep it for yourself, show this record to the University, or the police, or provide it to your therapist, an attorney, or another provider.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3"
+            ]
+        }
+    ]
+}```
 
 
+
+#DocumentationKnowAll2()
+-```
+{
+    "type": "AdaptiveCard",
+    "version": "1.3",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "🤔Who can see this and what to write?",
+            "wrap": true,
+            "size": "large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Without your permission, you are the only one who can access the record.",
+            "id": "textToToggle2",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "No one, including the university and whoever manages me, can access our chats. If you are uncomfortable answering any of my questions, skip it. Leave as many questions as you’d like blank. I can just be a guide for what you might be asked in the future if you choose to report.",
+            "isVisible": false,
+            "id": "textToToggle3",
+            "wrap": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ToggleVisibility",
+            "title": "Toggle",
+            "targetElements": [
+                "textToToggle3"
+            ]
+        }
+    ]
+}```
 
 
 
