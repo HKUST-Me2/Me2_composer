@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {}
+    "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj": {
+    "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\obj\\",
+        "projectPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\yoyom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\Documents\\GitHub\\Me2\\Core\\Core\\NuGet.Config",
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\NuGet.Config",
+          "C:\\Users\\yoyom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
           "https://botbuilder.myget.org/F/botbuilder-v4-dotnet-daily/api/v3/index.json": {}
         },

@@ -90,7 +90,7 @@ What year did this happen?```
 ]
 
 # DateTimeInput_Prompt_uHoQdl_text()
-- Please type the date in the chat (dd/mm/yyyy)
+- Please type the date in the chat
 # ChoiceInput_Prompt_acJDIV()
 [Activity
     Text = ${ChoiceInput_Prompt_acJDIV_text()}
@@ -104,7 +104,7 @@ What year did this happen?```
 ]
 
 # DateTimeInput_Prompt_i23k1d_text()
-- Please type the exact time of day. (hh:mm)
+- Please type the exact time of day.
 # TextInput_Prompt_J46VnC()
 [Activity
     Text = ${TextInput_Prompt_J46VnC_text()}
@@ -113,84 +113,3 @@ What year did this happen?```
 # TextInput_Prompt_J46VnC_text()
 - ```Is there anything else you remember about the date?
 Examples: holidays, day of the week, games, school or social events around that time, etc.```
-# ChoiceInput_Prompt_FsgJBn()
-[Activity
-    Text = ${ChoiceInput_Prompt_FsgJBn_text()}
-]
-
-# ChoiceInput_Prompt_FsgJBn_text()
-- Where did it happen?
-# TextInput_Prompt_zUPqMX()
-[Activity
-    Text = ${TextInput_Prompt_zUPqMX_text()}
-]
-
-# TextInput_Prompt_zUPqMX_text()
-- Please type the location.
-# TextInput_Prompt_tR9QzX()
-[Activity
-    Text = ${TextInput_Prompt_tR9QzX_text()}
-]
-
-# TextInput_Prompt_tR9QzX_text()
-- ```Are there any other details you remember about the location?
-Examples: exact address, area of campus, intersection, building number, neighborhood, buildings or trees nearby, colors you remember, etc.```
-# ChoiceInput_Prompt_ostbMS()
-[Activity
-    Text = ${ChoiceInput_Prompt_ostbMS_text()}
-]
-
-# ChoiceInput_Prompt_ostbMS_text()
-- Did anyone else see or hear either all or any part of what happened?
-# ChoiceInput_Prompt_YlULT2()
-[Activity
-    Text = ${ChoiceInput_Prompt_YlULT2_text()}
-]
-
-# ChoiceInput_Prompt_YlULT2_text()
-- ```Did you interact with anyone right before or after the incident?
-This could be people who were at the scene of the incident or nearby, who saw you or the offender leave, or who helped you call for help. ```
-# ChoiceInput_Prompt_1T5xNC()
-[Activity
-    Text = ${ChoiceInput_Prompt_1T5xNC_text()}
-]
-
-# ChoiceInput_Prompt_1T5xNC_text()
-- Do you know if the offender told anyone about the incident?
-# SendActivity_gc15wR()
-[Activity
-    Text = ${SendActivity_gc15wR_text()}
-]
-
-# SendActivity_gc15wR_text()
-- Nonconsensual sexual contact is never okay. 🙅‍♀️🙅‍♂️ Just because you didn’t say no, doesn’t mean you gave consent. You can consent to one thing without consenting to another thing, and you can withdraw consent at any time.
-# SendActivity_FYOUrC()
-[Activity
-    Text = ${SendActivity_FYOUrC_text()}
-]
-
-# SendActivity_FYOUrC_text()
-- <use adaptive card with the question and can choose multiple mc?>
-# ChoiceInput_Prompt_o4JrbF()
-[Activity
-    Text = ${ChoiceInput_Prompt_o4JrbF_text()}
-]
-
-# ChoiceInput_Prompt_o4JrbF_text()
-- Did you tell anyone about the incident?
-# TextInput_Prompt_BHqNZv_text()
-- ```What information do you know about the people you told? 
-Who you told, what you told them, when you told them, how you told them (on the phone, in person, over text, etc), their relationship to you or the offender, etc.```
-# TextInput_Prompt_BHqNZv()
-[Activity
-    Text = ${TextInput_Prompt_BHqNZv_text()}
-]
-
-# TextInput_Prompt_Y6a1dJ()
-[Activity
-    Text = ${TextInput_Prompt_Y6a1dJ_text()}
-]
-
-# TextInput_Prompt_Y6a1dJ_text()
-- ```What information do you know about the people you told? 
-Who you told, what you told them, when you told them, how you told them (on the phone, in person, over text, etc), their relationship to you or the offender, etc.```

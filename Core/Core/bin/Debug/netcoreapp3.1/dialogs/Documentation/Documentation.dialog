@@ -14,7 +14,7 @@
         "name": "BeginDialog",
         "description": "",
         "id": "5qoOxe",
-        "comment": "Properties used: \nuser.DocChoice # declare understand of the bot\nuser.DocTime # the time of occurence\nuser.DocSeason # Season of occurence\nuser.DocDate # Date of occurence\nuser.DocTimeOfDay # Time of day of  occurence\nuser.DocAdditionalInfo # Additional information\nuser.DocPlace #Place of occurence\nuser.DocAdditionalPlace #additional info of place\nuser.DocWitness #is there eyewitness\nuser.DocInteract #did user interact with others\nuser.DocAddtionalInteract #Additional info of people interact or witness\nuser.DocTellOthers #if user tell others\nuser.DocAddtionalTold #additional info of the person told\nuser.DocOffender #if offender told others\n"
+        "comment": "Properties used: \nuser.DocChoice # declare understand of the bot\nuser.DocTime # the time of occurence\nuser.DocSeason # Season of occurence\nuser.DocDate # Date of occurence\nuser.DocTimeOfDay # Time of day of  occurence\nuser.DocAdditionalInfo # Additional information"
       },
       "actions": [
         {
@@ -168,9 +168,7 @@
           "defaultValueResponse": "",
           "prompt": "${ChoiceInput_Prompt_W462eT()}",
           "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or "
+            "includeNumbers": true
           },
           "choices": [
             "This Year",
@@ -199,8 +197,7 @@
           "choiceOptions": {
             "includeNumbers": true,
             "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
+            "inlineOr": " or "
           },
           "property": "user.DocSeason",
           "style": "heroCard",
@@ -297,11 +294,10 @@
           "choiceOptions": {
             "includeNumbers": true,
             "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
+            "inlineOr": " or "
           },
           "property": "user.DocTimeOfDay",
-          "style": "heroCard",
+          "style": "suggestedAction",
           "choices": [
             "Morning",
             "Afternoon",
@@ -373,288 +369,6 @@
           "properties": [
             "user.DocChoice"
           ]
-        },
-        {
-          "$kind": "Microsoft.ChoiceInput",
-          "$designer": {
-            "id": "FsgJBn"
-          },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${ChoiceInput_Prompt_FsgJBn()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
-          },
-          "choices": [
-            "On Campus",
-            "Off Campus, locally (local bar, local housing complex, etc)",
-            "I'm not sure",
-            "Other: you can directly type in the chat",
-            "I'd rather not say",
-            "Skip"
-          ],
-          "property": "user.DocPlace",
-          "style": "heroCard"
-        },
-        {
-          "$kind": "Microsoft.SwitchCondition",
-          "$designer": {
-            "id": "azSRYX"
-          },
-          "cases": [
-            {
-              "value": "Other: You can directly type in the chat",
-              "actions": [
-                {
-                  "$kind": "Microsoft.DeleteProperty",
-                  "$designer": {
-                    "id": "PBcuYj"
-                  },
-                  "property": "user.DocPlace"
-                },
-                {
-                  "$kind": "Microsoft.TextInput",
-                  "$designer": {
-                    "id": "zUPqMX"
-                  },
-                  "disabled": false,
-                  "maxTurnCount": 3,
-                  "alwaysPrompt": false,
-                  "allowInterruptions": false,
-                  "prompt": "${TextInput_Prompt_zUPqMX()}",
-                  "unrecognizedPrompt": "",
-                  "invalidPrompt": "",
-                  "defaultValueResponse": "",
-                  "property": "user.DocPlace"
-                }
-              ]
-            }
-          ],
-          "condition": "user.DocPlace"
-        },
-        {
-          "$kind": "Microsoft.TextInput",
-          "$designer": {
-            "id": "tR9QzX"
-          },
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${TextInput_Prompt_tR9QzX()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "property": "user.DocAdditionalPlace"
-        },
-        {
-          "$kind": "Microsoft.ChoiceInput",
-          "$designer": {
-            "id": "ostbMS"
-          },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${ChoiceInput_Prompt_ostbMS()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
-          },
-          "property": "user.DocWitness",
-          "choices": [
-            "Yes",
-            "No",
-            "I'm not sure",
-            "I'd rather not say",
-            "Skip"
-          ],
-          "style": "heroCard"
-        },
-        {
-          "$kind": "Microsoft.ChoiceInput",
-          "$designer": {
-            "id": "YlULT2"
-          },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
-          },
-          "prompt": "${ChoiceInput_Prompt_YlULT2()}",
-          "property": "user.DocInteract",
-          "style": "heroCard",
-          "choices": [
-            "Yes",
-            "No",
-            "I'm not sure",
-            "I'd rather not say",
-            "Skip"
-          ]
-        },
-        {
-          "$kind": "Microsoft.IfCondition",
-          "$designer": {
-            "id": "YIGKm5"
-          },
-          "condition": "user.DocWitness == \"Yes\" || user.DocWitness == \"I'm not sure\" || user.DocTellOthers == \"Yes\"",
-          "actions": [
-            {
-              "$kind": "Microsoft.TextInput",
-              "$designer": {
-                "id": "BHqNZv"
-              },
-              "disabled": false,
-              "maxTurnCount": 3,
-              "alwaysPrompt": false,
-              "allowInterruptions": false,
-              "prompt": "${TextInput_Prompt_BHqNZv()}",
-              "unrecognizedPrompt": "",
-              "invalidPrompt": "",
-              "defaultValueResponse": "",
-              "property": "user.DocAdditionalInteract"
-            }
-          ],
-          "elseActions": [
-            {
-              "$kind": "Microsoft.SetProperty",
-              "$designer": {
-                "id": "vpVtK4"
-              },
-              "property": "user.DocAdditionalInteract",
-              "value": "= \"Not applicable\""
-            }
-          ]
-        },
-        {
-          "$kind": "Microsoft.ChoiceInput",
-          "$designer": {
-            "id": "o4JrbF"
-          },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${ChoiceInput_Prompt_o4JrbF()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or ",
-            "inlineSeparator": ", "
-          },
-          "property": "user.DocTellOthers",
-          "style": "heroCard",
-          "choices": [
-            "Yes",
-            "No",
-            "I'd rather not say",
-            "Skip"
-          ]
-        },
-        {
-          "$kind": "Microsoft.IfCondition",
-          "$designer": {
-            "id": "LZRGoO"
-          },
-          "condition": "=user.DocTellOthers == \"Yes\" || user.DocTellOthers == \"I'd rather not say\"",
-          "actions": [
-            {
-              "$kind": "Microsoft.TextInput",
-              "$designer": {
-                "id": "Y6a1dJ"
-              },
-              "disabled": false,
-              "maxTurnCount": 3,
-              "alwaysPrompt": false,
-              "allowInterruptions": false,
-              "prompt": "${TextInput_Prompt_Y6a1dJ()}",
-              "unrecognizedPrompt": "",
-              "invalidPrompt": "",
-              "defaultValueResponse": "",
-              "property": "user.DocAdditionalTold"
-            }
-          ],
-          "elseActions": [
-            {
-              "$kind": "Microsoft.SetProperty",
-              "$designer": {
-                "id": "bQdDCu"
-              },
-              "property": "user.DocAdditionalTold",
-              "value": "=\"not applicable\""
-            }
-          ]
-        },
-        {
-          "$kind": "Microsoft.ChoiceInput",
-          "$designer": {
-            "id": "1T5xNC"
-          },
-          "defaultLocale": "en-us",
-          "disabled": false,
-          "maxTurnCount": 3,
-          "alwaysPrompt": false,
-          "allowInterruptions": false,
-          "prompt": "${ChoiceInput_Prompt_1T5xNC()}",
-          "unrecognizedPrompt": "",
-          "invalidPrompt": "",
-          "defaultValueResponse": "",
-          "choiceOptions": {
-            "includeNumbers": true,
-            "inlineOrMore": ", or ",
-            "inlineOr": " or "
-          },
-          "property": "user.DocOffender",
-          "style": "heroCard",
-          "choices": [
-            "Yes",
-            "No",
-            "I'm not sure",
-            "I'd rather not say",
-            "Skip"
-          ]
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "gc15wR"
-          },
-          "activity": "${SendActivity_gc15wR()}"
-        },
-        {
-          "$kind": "Microsoft.SendActivity",
-          "$designer": {
-            "id": "FYOUrC"
-          },
-          "activity": "${SendActivity_FYOUrC()}"
         }
       ]
     }
