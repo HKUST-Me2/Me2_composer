@@ -1,0 +1,196 @@
+[import](common.lg)
+[import](cardlist.lg)
+
+# SendActivity_Mgk6QO()
+[Activity
+    Text = ${SendActivity_Mgk6QO_text()}
+]
+
+# SendActivity_Mgk6QO_text()
+- I’m going to ask you some questions about what happened. You can edit your responses later if you like.  And no one will see what we discuss unless you decide to submit a report after we finish chatting.
+# SendActivity_OgupNX()
+[Activity
+    Text = ${SendActivity_OgupNX_text()}
+]
+
+# SendActivity_OgupNX_text()
+- Let's get started.
+# ChoiceInput_Prompt_7x8Gy3()
+[Activity
+    Text = ${ChoiceInput_Prompt_7x8Gy3_text()}
+]
+
+# ChoiceInput_Prompt_7x8Gy3_text()
+- This record is **optional** and for informational purposes only. Nothing in the form is legal advice.
+# SendActivity_bIKDE5()
+- ${DocumentationAdapt1()}
+# SendActivity_sKiCVM()
+ - ${DocumentationAdapt2()}
+# ChoiceInput_Prompt_9KmemP()
+[Activity
+    Text = ${ChoiceInput_Prompt_9KmemP_text()}
+]
+
+# ChoiceInput_Prompt_9KmemP_text()
+- 👇Press the button to continue:👇
+# SendActivity_keq3rA()
+[Activity
+    Text = ${SendActivity_keq3rA_text()}
+]
+
+# SendActivity_keq3rA_text()
+- ```Before I ask you to describe what happened, we’ll go through 
+(1) when this happened, 
+(2) where it happened, and 
+(3) who was involved.```
+# SendActivity_GUMF5i()
+[Activity
+    Text = ${SendActivity_GUMF5i_text()}
+]
+
+# SendActivity_GUMF5i_text()
+- You can always choose “Skip” or “I’d rather not say” in response to specific questions.
+# ChoiceInput_Prompt_bmOh5N_text()
+- 👇Press the button to continue:👇
+# ChoiceInput_Prompt_bmOh5N()
+[Activity
+    Text = ${ChoiceInput_Prompt_bmOh5N_text()}
+]
+
+# ChoiceInput_Prompt_W462eT()
+[Activity
+    Text = ${ChoiceInput_Prompt_W462eT_text()}
+]
+
+# ChoiceInput_Prompt_W462eT_text()
+- ```Now let's start with the time. 🕑
+What year did this happen?```
+- ```Now let's start with the time. 🕘
+What year did this happen?```
+- ```Now let's start with the time. 🕝
+What year did this happen?```
+# ChoiceInput_Prompt_V1jcbn()
+[Activity
+    Text = ${ChoiceInput_Prompt_V1jcbn_text()}
+]
+
+# ChoiceInput_Prompt_V1jcbn_text()
+- What season was it?
+# ChoiceInput_Prompt_MTbKyP()
+[Activity
+    Text = ${ChoiceInput_Prompt_MTbKyP_text()}
+]
+
+# ChoiceInput_Prompt_MTbKyP_text()
+- Do you know the exact date 📆? 
+- Do you know the exact date ? 
+# DateTimeInput_Prompt_uHoQdl()
+[Activity
+    Text = ${DateTimeInput_Prompt_uHoQdl_text()}
+]
+
+# DateTimeInput_Prompt_uHoQdl_text()
+- Please type the date in the chat (dd/mm/yy)
+# ChoiceInput_Prompt_acJDIV()
+[Activity
+    Text = ${ChoiceInput_Prompt_acJDIV_text()}
+]
+
+# ChoiceInput_Prompt_acJDIV_text()
+- What time of day was it?
+# DateTimeInput_Prompt_i23k1d()
+[Activity
+    Text = ${DateTimeInput_Prompt_i23k1d_text()}
+]
+
+# DateTimeInput_Prompt_i23k1d_text()
+- Please type the exact time of day. (hh:mm)
+# TextInput_Prompt_J46VnC()
+[Activity
+    Text = ${TextInput_Prompt_J46VnC_text()}
+]
+
+# TextInput_Prompt_J46VnC_text()
+- ```Is there anything else you remember about the date?
+Examples: holidays, day of the week, games, school or social events around that time, etc.```
+# ChoiceInput_Prompt_FsgJBn()
+[Activity
+    Text = ${ChoiceInput_Prompt_FsgJBn_text()}
+]
+
+# ChoiceInput_Prompt_FsgJBn_text()
+- Where did it happen?
+# TextInput_Prompt_zUPqMX()
+[Activity
+    Text = ${TextInput_Prompt_zUPqMX_text()}
+]
+
+# TextInput_Prompt_zUPqMX_text()
+- Please type the location.
+# TextInput_Prompt_tR9QzX()
+[Activity
+    Text = ${TextInput_Prompt_tR9QzX_text()}
+]
+
+# TextInput_Prompt_tR9QzX_text()
+- ```Are there any other details you remember about the location?
+Examples: exact address, area of campus, intersection, building number, neighborhood, buildings or trees nearby, colors you remember, etc.```
+# ChoiceInput_Prompt_ostbMS()
+[Activity
+    Text = ${ChoiceInput_Prompt_ostbMS_text()}
+]
+
+# ChoiceInput_Prompt_ostbMS_text()
+- Did anyone else see or hear either all or any part of what happened?
+# ChoiceInput_Prompt_YlULT2()
+[Activity
+    Text = ${ChoiceInput_Prompt_YlULT2_text()}
+]
+
+# ChoiceInput_Prompt_YlULT2_text()
+- ```Did you interact with anyone right before or after the incident?
+This could be people who were at the scene of the incident or nearby, who saw you or the offender leave, or who helped you call for help. ```
+# ChoiceInput_Prompt_1T5xNC()
+[Activity
+    Text = ${ChoiceInput_Prompt_1T5xNC_text()}
+]
+
+# ChoiceInput_Prompt_1T5xNC_text()
+- Do you know if the offender told anyone about the incident?
+# SendActivity_gc15wR()
+[Activity
+    Text = ${SendActivity_gc15wR_text()}
+]
+
+# SendActivity_gc15wR_text()
+- Nonconsensual sexual contact is never okay. 🙅‍♀️🙅‍♂️ Just because you didn’t say no, doesn’t mean you gave consent. You can consent to one thing without consenting to another thing, and you can withdraw consent at any time.
+# SendActivity_FYOUrC()
+[Activity
+    Text = ${SendActivity_FYOUrC_text()}
+]
+
+# SendActivity_FYOUrC_text()
+- <use adaptive card with the question and can choose multiple mc?>
+# ChoiceInput_Prompt_o4JrbF()
+[Activity
+    Text = ${ChoiceInput_Prompt_o4JrbF_text()}
+]
+
+# ChoiceInput_Prompt_o4JrbF_text()
+- Did you tell anyone about the incident?
+# TextInput_Prompt_BHqNZv_text()
+- ```What information do you know about the people you told? 
+Who you told, what you told them, when you told them, how you told them (on the phone, in person, over text, etc), their relationship to you or the offender, etc.```
+# TextInput_Prompt_BHqNZv()
+[Activity
+    Text = ${TextInput_Prompt_BHqNZv_text()}
+]
+
+# TextInput_Prompt_Y6a1dJ()
+[Activity
+    Text = ${TextInput_Prompt_Y6a1dJ_text()}
+]
+
+# TextInput_Prompt_Y6a1dJ_text()
+- ```What information do you know about the people you told? 
+Who you told, what you told them, when you told them, how you told them (on the phone, in person, over text, etc), their relationship to you or the offender, etc.```

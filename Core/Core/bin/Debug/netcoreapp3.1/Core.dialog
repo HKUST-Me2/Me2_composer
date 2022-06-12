@@ -36,13 +36,6 @@
                 {
                   "$kind": "Microsoft.SendActivity",
                   "$designer": {
-                    "id": "Bs2C8N"
-                  },
-                  "activity": "${SendActivity_Bs2C8N()}"
-                },
-                {
-                  "$kind": "Microsoft.SendActivity",
-                  "$designer": {
                     "id": "859266",
                     "name": "Send a response"
                   },
@@ -281,7 +274,16 @@
             },
             {
               "value": "I want to record a case",
-              "actions": []
+              "actions": [
+                {
+                  "$kind": "Microsoft.BeginDialog",
+                  "$designer": {
+                    "id": "hD9TRN"
+                  },
+                  "activityProcessed": true,
+                  "dialog": "Documentation"
+                }
+              ]
             },
             {
               "value": "I just want to play with you",
