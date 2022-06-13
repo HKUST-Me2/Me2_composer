@@ -366,15 +366,6 @@
           "property": "user.DocAdditionalInfo"
         },
         {
-          "$kind": "Microsoft.DeleteProperties",
-          "$designer": {
-            "id": "eNA4v0"
-          },
-          "properties": [
-            "user.DocChoice"
-          ]
-        },
-        {
           "$kind": "Microsoft.ChoiceInput",
           "$designer": {
             "id": "FsgJBn"
@@ -655,6 +646,15 @@
             "id": "FYOUrC"
           },
           "activity": "${SendActivity_FYOUrC()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "GqpJnB"
+          },
+          "properties": [
+            "user.DocChoice"
+          ]
         }
       ]
     }

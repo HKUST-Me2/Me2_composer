@@ -1847,7 +1847,6 @@ C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\ShortExamples_Detailed.en-us.qna
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\ShortExamples_Situational.en-us.qna
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\generated\interruption\VictimApproach.en-us.qna
-C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\Core.StaticWebAssets.xml
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\Core.exe
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\Core.deps.json
 C:\Users\yoyom\OneDrive\桌面\ME2\Me2-merged\Me2\Core\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
