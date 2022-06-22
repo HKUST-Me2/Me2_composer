@@ -273,7 +273,6 @@
                   "prompt": "${DateTimeInput_Prompt_uHoQdl()}",
                   "unrecognizedPrompt": "",
                   "invalidPrompt": "",
-                  "defaultValueResponse": "",
                   "property": "user.DocDate"
                 }
               ]

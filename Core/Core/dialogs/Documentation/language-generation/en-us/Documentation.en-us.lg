@@ -90,7 +90,8 @@ What year did this happen?```
 ]
 
 # DateTimeInput_Prompt_uHoQdl_text()
-- Please type the date in the chat (dd/mm/yyyy)
+- ```Please type the date in the chat (dd/mm/yyyy)
+E.g. 22/06/2022```
 # ChoiceInput_Prompt_acJDIV()
 [Activity
     Text = ${ChoiceInput_Prompt_acJDIV_text()}

@@ -267,13 +267,12 @@
                     "id": "uHoQdl"
                   },
                   "disabled": false,
-                  "maxTurnCount": 3,
+                  "maxTurnCount": 9999,
                   "alwaysPrompt": false,
                   "allowInterruptions": false,
                   "prompt": "${DateTimeInput_Prompt_uHoQdl()}",
                   "unrecognizedPrompt": "",
                   "invalidPrompt": "",
-                  "defaultValueResponse": "",
                   "property": "user.DocDate"
                 }
               ]
@@ -364,15 +363,6 @@
           "invalidPrompt": "",
           "defaultValueResponse": "",
           "property": "user.DocAdditionalInfo"
-        },
-        {
-          "$kind": "Microsoft.DeleteProperties",
-          "$designer": {
-            "id": "eNA4v0"
-          },
-          "properties": [
-            "user.DocChoice"
-          ]
         },
         {
           "$kind": "Microsoft.ChoiceInput",
@@ -655,6 +645,15 @@
             "id": "FYOUrC"
           },
           "activity": "${SendActivity_FYOUrC()}"
+        },
+        {
+          "$kind": "Microsoft.DeleteProperties",
+          "$designer": {
+            "id": "GqpJnB"
+          },
+          "properties": [
+            "user.DocChoice"
+          ]
         }
       ]
     }
