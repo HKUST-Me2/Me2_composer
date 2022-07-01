@@ -315,13 +315,6 @@ Who you told, what you told them, when you told them, how you told them (on the 
 
 # Ask_Activity_ODVmcm_text()
 - ${turn.activity.value.myColour}
-# Ask_Activity_3WIEkq()
-[Activity
-    Text = ${Ask_Activity_3WIEkq_text()}
-]
-
-# Ask_Activity_3WIEkq_text()
-- ${turn.activity.value.commitment}
 # TextInput_Prompt_ynkkEK()
 [Activity
     Text = ${TextInput_Prompt_ynkkEK_text()}
@@ -414,15 +407,10 @@ Who you told, what you told them, when you told them, how you told them (on the 
         },
         {
             "type": "TextBlock",
-            "text":  "Save copies of electronic evidence on a USB drive that only you have access to, including screenshots of any relevant electronic communication or interaction. 
-                     Don’t delete any messages, even if you have a screenshot. Take screenshots in a way that they show the flow of the conversation (repeating the last line on the top of the next screenshot). ",
+            "text":  "Save copies of electronic evidence on a USB drive that only you have access to, including screenshots of any relevant electronic communication or interaction. Don’t delete any messages, even if you have a screenshot. Take screenshots in a way that they show the flow of the conversation (repeating the last line on the top of the next screenshot). ",
             "wrap": true
         },
-        {
-            "type": "TextBlock",
-            "text":  "**Physical Evidence**",
-            "wrap": true
-        },
+       
          {
             "type": "TextBlock",
             "text":  "**Physical Evidence**",
@@ -448,3 +436,17 @@ Who you told, what you told them, when you told them, how you told them (on the 
     "version": "1.0"
 
 }```
+# SendActivity_R3ofyU()
+[Activity
+    Text = ${SendActivity_R3ofyU_text()}
+]
+
+# SendActivity_R3ofyU_text()
+- ${turn.activity.value.myColour}
+# SendActivity_Bi0l7X()
+[Activity
+    Text = ${SendActivity_Bi0l7X_text()}
+]
+
+# SendActivity_Bi0l7X_text()
+- ${turn.activity.value.commitment}

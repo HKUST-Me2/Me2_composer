@@ -267,7 +267,7 @@
                     "id": "uHoQdl"
                   },
                   "disabled": false,
-                  "maxTurnCount": 9999,
+                  "maxTurnCount": 3,
                   "alwaysPrompt": false,
                   "allowInterruptions": false,
                   "prompt": "${DateTimeInput_Prompt_uHoQdl()}",
@@ -647,13 +647,144 @@
           "activity": "${SendActivity_FYOUrC()}"
         },
         {
-          "$kind": "Microsoft.DeleteProperties",
+          "$kind": "Microsoft.Ask",
           "$designer": {
-            "id": "GqpJnB"
+            "id": "ODUq53"
           },
-          "properties": [
-            "user.DocChoice"
-          ]
+          "activity": "${Ask_Activity_ODUq53()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.Bot.Components.OnActionSubmit",
+      "$designer": {
+        "id": "hhdxRX",
+        "name": "Action.Submit (message activity)"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "R3ofyU"
+          },
+          "activity": "${SendActivity_R3ofyU()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Bi0l7X"
+          },
+          "activity": "${SendActivity_Bi0l7X()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "ynkkEK"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_ynkkEK()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.doc"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "S0J1PN"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_S0J1PN()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.numoffender"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "24h48Y"
+          },
+          "activity": "${SendActivity_24h48Y()}"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "nHShIW"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_nHShIW()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.offender_info"
+        },
+        {
+          "$kind": "Microsoft.TextInput",
+          "$designer": {
+            "id": "9Kmm4V"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${TextInput_Prompt_9Kmm4V()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.info_offend"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "drDbYl"
+          },
+          "activity": "${SendActivity_drDbYl()}"
+        },
+        {
+          "$kind": "Microsoft.Ask",
+          "$designer": {
+            "id": "RQOnPd"
+          },
+          "activity": "${Ask_Activity_RQOnPd()}"
+        },
+        {
+          "$kind": "Microsoft.AttachmentInput",
+          "$designer": {
+            "id": "UGiIsq"
+          },
+          "disabled": false,
+          "maxTurnCount": 3,
+          "alwaysPrompt": false,
+          "allowInterruptions": false,
+          "prompt": "${AttachmentInput_Prompt_UGiIsq()}",
+          "unrecognizedPrompt": "",
+          "invalidPrompt": "",
+          "defaultValueResponse": "",
+          "property": "user.attach"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "Yv8mCe"
+          },
+          "activity": "${SendActivity_Yv8mCe()}"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "gBSDpO"
+          },
+          "activity": "${SendActivity_gBSDpO()}"
         }
       ]
     }
