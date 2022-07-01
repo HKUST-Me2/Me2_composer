@@ -199,6 +199,296 @@
       ]
     }
   },
+  "Microsoft.Bot.Components.CreateAdaptiveCard": {
+    "flow": {
+      "body": "=if(isObject(action.template), '(Custom Template)', action.template)",
+      "footer": {
+        "description": "= (Card)",
+        "property": "=action.resultProperty",
+        "widget": "PropertyDescription"
+      },
+      "widget": "ActionCard"
+    },
+    "form": {
+      "helpLink": "https://adaptivecards.io/designer/",
+      "label": "Create an Adaptive Card",
+      "order": [
+        "template",
+        "data",
+        "resultProperty",
+        "*"
+      ],
+      "properties": {
+        "data": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "resultProperty": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "template": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Create Adaptive Card"
+    },
+    "menu": {
+      "label": "Create an Adaptive Card",
+      "order": 2,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
+  "Microsoft.Bot.Components.GetAdaptiveCardTemplate": {
+    "flow": {
+      "body": "=action.location",
+      "footer": {
+        "description": "= (Template)",
+        "property": "=action.resultProperty",
+        "widget": "PropertyDescription"
+      },
+      "widget": "ActionCard"
+    },
+    "form": {
+      "label": "Get an Adaptive Card Template",
+      "order": [
+        "location",
+        "resultProperty",
+        "cacheTemplate",
+        "cacheExpiration",
+        "*"
+      ],
+      "properties": {
+        "location": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "resultProperty": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Get Adaptive Card Template"
+    },
+    "menu": {
+      "label": "Get an Adaptive Card Template",
+      "order": 3,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
+  "Microsoft.Bot.Components.OnActionExecute": {
+    "form": {
+      "hidden": [
+        "actions"
+      ],
+      "label": "Action.Execute (invoke activity)",
+      "order": [
+        "verb",
+        "condition",
+        "*"
+      ],
+      "subtitle": "Handle Action.Execute"
+    },
+    "trigger": {
+      "label": "Action.Execute (invoke activity)",
+      "submenu": {
+        "label": "Adaptive Cards",
+        "placeholder": "Select an action type",
+        "prompt": "Which action type?"
+      }
+    }
+  },
+  "Microsoft.Bot.Components.OnActionSubmit": {
+    "form": {
+      "hidden": [
+        "actions"
+      ],
+      "label": "Action.Submit (message activity)",
+      "order": [
+        "condition",
+        "*"
+      ],
+      "subtitle": "Handle Action.Submit"
+    },
+    "trigger": {
+      "label": "Action.Submit (message activity)",
+      "submenu": "Adaptive Cards"
+    }
+  },
+  "Microsoft.Bot.Components.OnDataQuery": {
+    "form": {
+      "hidden": [
+        "actions"
+      ],
+      "label": "Data.Query (invoke activity)",
+      "order": [
+        "dataset",
+        "condition",
+        "*"
+      ],
+      "subtitle": "Handle Data.Query"
+    },
+    "trigger": {
+      "label": "Data.Query (invoke activity)",
+      "submenu": "Adaptive Cards"
+    }
+  },
+  "Microsoft.Bot.Components.SendActionExecuteResponse": {
+    "flow": {
+      "body": "=action.value",
+      "widget": "ActionCard"
+    },
+    "form": {
+      "label": "Respond to an Action.Execute",
+      "order": [
+        "type",
+        "value",
+        "statusCode",
+        "*"
+      ],
+      "properties": {
+        "value": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Send Action.Execute Response"
+    },
+    "menu": {
+      "label": "Respond to an Action.Execute",
+      "order": 4,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
+  "Microsoft.Bot.Components.SendAdaptiveCard": {
+    "flow": {
+      "body": "=if(isObject(action.template), '(Custom Template)', action.template)",
+      "footer": {
+        "description": "= (Activity ID)",
+        "property": "=action.activityIdProperty",
+        "widget": "PropertyDescription"
+      },
+      "hideFooter": "=!action.activityIdProperty",
+      "widget": "ActionCard"
+    },
+    "form": {
+      "helpLink": "https://adaptivecards.io/designer/",
+      "label": "Send an Adaptive Card",
+      "order": [
+        "template",
+        "data",
+        "activityIdProperty",
+        "*"
+      ],
+      "properties": {
+        "activityIdProperty": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "data": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "template": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Send Adaptive Card"
+    },
+    "menu": {
+      "label": "Send an Adaptive Card",
+      "order": 0,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
+  "Microsoft.Bot.Components.SendDataQueryResponse": {
+    "flow": {
+      "body": "=action.results",
+      "widget": "ActionCard"
+    },
+    "form": {
+      "label": "Respond to Data.Query",
+      "order": [
+        "results",
+        "*"
+      ],
+      "properties": {
+        "results": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Send Data.Query Response"
+    },
+    "menu": {
+      "label": "Respond to a Data.Query",
+      "order": 5,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
+  "Microsoft.Bot.Components.UpdateAdaptiveCard": {
+    "flow": {
+      "body": "=if(isObject(action.template), '(Custom Template)', action.template)",
+      "widget": "ActionCard"
+    },
+    "form": {
+      "helpLink": "https://adaptivecards.io/designer/",
+      "label": "Update an existing Adaptive Card",
+      "order": [
+        "template",
+        "data",
+        "activityId",
+        "*"
+      ],
+      "properties": {
+        "activityId": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "data": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        },
+        "template": {
+          "intellisenseScopes": [
+            "variable-scopes"
+          ]
+        }
+      },
+      "subtitle": "Update Adaptive Card"
+    },
+    "menu": {
+      "label": "Update an existing Adaptive Card",
+      "order": 1,
+      "submenu": [
+        "Adaptive Cards"
+      ]
+    }
+  },
   "Microsoft.BreakLoop": {
     "form": {
       "label": "Break out of loop",

@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "AdaptiveCards.Templating/1.2.1": {
+        "type": "package",
+        "dependencies": {
+          "AdaptiveExpressions": "4.11.1",
+          "Antlr4.Runtime.Standard": "4.8.0",
+          "Newtonsoft.Json": "[11.0.2, 12.0.3]"
+        },
+        "compile": {
+          "lib/netstandard2.0/AdaptiveCards.Templating.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AdaptiveCards.Templating.dll": {}
+        }
+      },
       "AdaptiveExpressions/4.15.2": {
         "type": "package",
         "dependencies": {
@@ -787,6 +801,19 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Bot.Builder.LanguageGeneration.dll": {}
+        }
+      },
+      "Microsoft.Bot.Components.AdaptiveCards/1.3.0": {
+        "type": "package",
+        "dependencies": {
+          "AdaptiveCards.Templating": "1.2.1",
+          "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": "4.16.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Bot.Components.AdaptiveCards.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bot.Components.AdaptiveCards.dll": {}
         }
       },
       "Microsoft.Bot.Configuration/4.15.2": {
@@ -3869,6 +3896,19 @@
     }
   },
   "libraries": {
+    "AdaptiveCards.Templating/1.2.1": {
+      "sha512": "pDO9tlEJOba52NzQ5ZrcH1jYzZJaBwvL2OA4duydNsbf/pYMhUBCddfnTskHXOApgDQD+/l3L/ebczzFVJtk/Q==",
+      "type": "package",
+      "path": "adaptivecards.templating/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-Windows.txt",
+        "adaptivecards.templating.1.2.1.nupkg.sha512",
+        "adaptivecards.templating.nuspec",
+        "lib/netstandard2.0/AdaptiveCards.Templating.dll"
+      ]
+    },
     "AdaptiveExpressions/4.15.2": {
       "sha512": "8SmlvAuJyr/HKH7D0D3OPZ3zGEW6gbrtVmXA/pzk2FSvohAo4AoSwl2mzdzrS0DwdC3VB6779l2SsxXTjydQZw==",
       "type": "package",
@@ -4835,6 +4875,37 @@
         "lib/netstandard2.0/Microsoft.Bot.Builder.LanguageGeneration.xml",
         "microsoft.bot.builder.languagegeneration.4.15.2.nupkg.sha512",
         "microsoft.bot.builder.languagegeneration.nuspec"
+      ]
+    },
+    "Microsoft.Bot.Components.AdaptiveCards/1.3.0": {
+      "sha512": "AWxH2TPfrtVz8XNkGZYkHBW07PRBO0+eR1SYvsQREtaBWRRGHjvzlAOEbot0MN8Xaky1+IwePCbo7wSNuCOcfg==",
+      "type": "package",
+      "path": "microsoft.bot.components.adaptivecards/1.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/README.md",
+        "content/Schemas/Microsoft.Bot.Components.CreateAdaptiveCard.schema",
+        "content/Schemas/Microsoft.Bot.Components.CreateAdaptiveCard.uischema",
+        "content/Schemas/Microsoft.Bot.Components.GetAdaptiveCardTemplate.schema",
+        "content/Schemas/Microsoft.Bot.Components.GetAdaptiveCardTemplate.uischema",
+        "content/Schemas/Microsoft.Bot.Components.OnActionExecute.schema",
+        "content/Schemas/Microsoft.Bot.Components.OnActionExecute.uischema",
+        "content/Schemas/Microsoft.Bot.Components.OnActionSubmit.schema",
+        "content/Schemas/Microsoft.Bot.Components.OnActionSubmit.uischema",
+        "content/Schemas/Microsoft.Bot.Components.OnDataQuery.schema",
+        "content/Schemas/Microsoft.Bot.Components.OnDataQuery.uischema",
+        "content/Schemas/Microsoft.Bot.Components.SendActionExecuteResponse.schema",
+        "content/Schemas/Microsoft.Bot.Components.SendActionExecuteResponse.uischema",
+        "content/Schemas/Microsoft.Bot.Components.SendAdaptiveCard.schema",
+        "content/Schemas/Microsoft.Bot.Components.SendAdaptiveCard.uischema",
+        "content/Schemas/Microsoft.Bot.Components.SendDataQueryResponse.schema",
+        "content/Schemas/Microsoft.Bot.Components.SendDataQueryResponse.uischema",
+        "content/Schemas/Microsoft.Bot.Components.UpdateAdaptiveCard.schema",
+        "content/Schemas/Microsoft.Bot.Components.UpdateAdaptiveCard.uischema",
+        "lib/netstandard2.0/Microsoft.Bot.Components.AdaptiveCards.dll",
+        "microsoft.bot.components.adaptivecards.1.3.0.nupkg.sha512",
+        "microsoft.bot.components.adaptivecards.nuspec"
       ]
     },
     "Microsoft.Bot.Configuration/4.15.2": {
@@ -11316,24 +11387,25 @@
       "Microsoft.Bot.Builder.AI.Luis >= 4.15.2",
       "Microsoft.Bot.Builder.AI.Orchestrator >= 4.15.2",
       "Microsoft.Bot.Builder.AI.QnA >= 4.15.2",
-      "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime >= 4.15.2"
+      "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime >= 4.15.2",
+      "Microsoft.Bot.Components.AdaptiveCards >= 1.3.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yoyom\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo S540 FSIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo S540 FSIN\\Documents\\GitHub\\Me2\\Core\\Me2\\Core\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\yoyom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Lenovo S540 FSIN\\Documents\\GitHub\\Me2\\Core\\Me2\\Core\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Lenovo S540 FSIN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo S540 FSIN\\Documents\\GitHub\\Me2\\Core\\Me2\\Core\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yoyom\\OneDrive\\桌面\\ME2\\Me2-merged\\Me2\\Core\\Core\\NuGet.Config",
-        "C:\\Users\\yoyom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo S540 FSIN\\Documents\\GitHub\\Me2\\Core\\Me2\\Core\\Core\\NuGet.Config",
+        "C:\\Users\\Lenovo S540 FSIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11379,6 +11451,10 @@
           "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime": {
             "target": "Package",
             "version": "[4.15.2, )"
+          },
+          "Microsoft.Bot.Components.AdaptiveCards": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           }
         },
         "imports": [
@@ -11394,7 +11470,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.25, 3.1.25]"
+            "version": "[3.1.26, 3.1.26]"
           }
         ],
         "frameworkReferences": {
@@ -11405,7 +11481,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -11416,6 +11492,15 @@
       "warningLevel": 1,
       "message": "Package 'Microsoft.Azure.KeyVault.Core 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "Microsoft.Azure.KeyVault.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime from 4.16.0 to 4.15.2. Reference the package directly from the project to select a different version. \r\n Core -> Microsoft.Bot.Components.AdaptiveCards 1.3.0 -> Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime (>= 4.16.0) \r\n Core -> Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime (>= 4.15.2)",
+      "libraryId": "Microsoft.Bot.Builder.Dialogs.Adaptive.Runtime",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
